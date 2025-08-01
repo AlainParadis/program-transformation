@@ -79,7 +79,6 @@ aside
 
 main
 {
-	border: solid 1px white;
 	grid-area: main;
 	margin: 0 1rem;
 }

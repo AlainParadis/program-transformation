@@ -7,12 +7,12 @@ This document contains high-level blue-sky ideas to address the falling registra
 	Low Registrations: Possible Causes
 </h3>
 <ol>
-	<li>Proximal</li>
+	<li><em>Proximal</em></li>
 	<ul>
 		<li>Broader societal trends may be at play. Concerns about job security, automation, and AI in creative industries could be discouraging students from pursuing a career in graphic design.</li>
 		<li>Parents and students may be opting for programs perceived as more *future-proof* or directly tied to high-demand sectors like tech or healthcare.</li>
 	</ul>
-	<li>Distal</li>
+	<li><em>Distal</em></li>
 	<ul>
 		<li><em>Historical prestige and perception.</em> Universities have traditionally been seen as the path to professional careers (law, medicine, academia), while colleges have been associated with trades and applied skills. This has led to a perception that university education is more *intellectual* or *elite*, while college is more *practical* or *vocational*.</li>
 		<li><em>Parental and societal expectations.</em> Many parents, especially those from immigrant or middle-class backgrounds, view university as a status symbol or a guarantee of upward mobility. Guidance counselors and high school systems often steer high-achieving students toward university, reinforcing the misconception.</li>
@@ -25,14 +25,14 @@ This document contains high-level blue-sky ideas to address the falling registra
 </h2>
 The field of graphic design is fulfilling, profitable career, notwithstanding the perceived challenges posed by automation and artificial intelligence. 
 <ol>
-	<li>Graphic design is a human-centred discipline.</li>
+	<li><em>Graphic design is a human-centred discipline.</em></li>
 	<ul>
 		<li> AI can generate content, but it can’t originate meaningful, strategic, or emotionally resonant design. Graphic designers are the ones who give AI direction, context, and purpose. The future of design is human-led, AI-enhanced.</li>
 		<li> Design is everywhere, from branding and user-experience design to motion graphics and packaging. The demand for visual communication is growing, not shrinking. In fact, companies need designers more than ever to stand out in a noisy, digital world.</li>
 		<li> Design is a tech-adjacent field. Graphic designers work in app development, digital marketing, gaming, and even healthcare communications. It’s not either/or, it’s design + tech.</li>
 		<li> Algonquin’s Graphic Design program is built around hands-on learning, industry partnerships, and portfolio development. Graduates leave with real-world experience and a job-ready portfolio, not just a diploma.</li>
 	</ul>
-	<li> The reality of college experience:</li>
+	<li><em>The reality of college experience.</em></li>
 	<ul>
 		<li> Smaller class sizes</li>
 		<li> Hands-on, industry-relevant training</li>
@@ -47,18 +47,18 @@ The field of graphic design is fulfilling, profitable career, notwithstanding th
 	Audience
 </h3>
 <ol>
-	<li>High Schools</li>
+	<li><em><a href="highschool.html">High Schools</a></em></li>
 	<ul>
 		<li>Large numbers, low-hanging fruit.</li>
 		<li>Attracted by the *cool factor* and creative potential.</li>
 		<li>Motivated by transforming their innate creative talent into a fulfilling, profitable career.</li>
 	</ul>
-	<li>University Arts Grads</li>
+	<li><em><a href="university.html">University Arts Grads</a></em></li>
 	<ul>
 		<li>Motivated by *career readiness* and practical skills.</li>
 		<li>Industry connections gained through mentorship, guest speakers, and fieldwork.</li>
 	</ul>
-	<li>Up-Skilling</li>
+	<li><em><a href="upskilling.html">Up-Skilling</a></em></li>
 	<ul>
 		<li>Create micro-credentials to appeal to professionals who wish to add to their existing skill sets.</li>
 	</ul>
