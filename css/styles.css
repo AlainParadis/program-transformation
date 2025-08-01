@@ -10,6 +10,7 @@
 	--orange50: rgba(255, 147, 0, 0.5);
 	--blue: rgba(0, 150, 255, 1);
 	--blue-light: rgba(179, 223, 255, 1);
+	--sans: "IBM Plex Sans", sans-serif;
 }
 
 *
@@ -35,11 +36,11 @@ body
 	margin: 0 auto 0 auto;
 	padding: 0;
 	overflow-x: hidden;
-    hyphens: auto;
-    hyphenate-limit-chars: 6 3 3;
-    hyphenate-limit-lines: 2;   
-    hyphenate-limit-last: always;
-    hyphenate-limit-zone: 8%;
+	hyphens: auto;
+	hyphenate-limit-chars: 6 3 3;
+	hyphenate-limit-lines: 2;
+	hyphenate-limit-last: always;
+	hyphenate-limit-zone: 8%;
 }
 
 #container
@@ -78,6 +79,7 @@ aside
 
 main
 {
+	border: solid 1px white;
 	grid-area: main;
 	margin: 0 1rem;
 }
@@ -160,9 +162,7 @@ a:hover
 }
 
 p { margin-bottom: 2.0rem; }
-p {
-  font-size: clamp(1rem, 1.2vw, 1.125rem);
-}
+p { font-size: clamp(1rem, 1.2vw, 1.125rem); }
 
 .grad-site-list
 {
@@ -315,6 +315,13 @@ h1 + p,
 	h5 + h6 { margin-top: 0.25rem; }
 p + P { margin-bottom: 1rem; }
 ul + p { margin-top: 2rem; }
+.text-small { font-size: .8rem; }
+
+ol ul
+{
+	padding-left: 0rem;
+	margin-left: 0;
+}
 
 hr
 {
@@ -323,13 +330,12 @@ hr
 	border-top: 1px dashed #8c8c8c;
 }
 
-ul
+ul, ol
 {
 	column-count: 1;
 	font-family: "IBM Plex Sans", sans-serif;
 	list-style: none;
-	margin: 0;
-	margin-left: 1rem;
+	margin: 0 0 0 1.25rem;
 	padding: 0;
 }
 
@@ -337,7 +343,7 @@ ul li
 {
 	position: relative;
 	padding-left: 1.5rem;
-	padding-top: 4px;
+	padding-top: 2px;
 }
 
 ul li::before
@@ -353,11 +359,8 @@ ol
 {
 	counter-reset: li;
 	list-style: decimal;
-	padding: 0;
-	margin: 0 0 1rem 3rem;
 }
 
-ol li { line-height: 2.0rem; }
 
 ul.legend
 {
@@ -438,7 +441,14 @@ code
 }
 
 .alertBox h3 { margin-top: .5rem; }
-aside a { font-weight: 500; }
+aside a { font-weight: 300; }
+
+aside p
+{
+	font-size: 0.8rem;
+	margin: 0.25rem 0;
+}
+
 .text-center, a.text-center { text-align: center; }
 
 dt

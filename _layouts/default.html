@@ -27,16 +27,14 @@
 		<div class="nav-inner">
 			<ul>
 				<li><a href="index.html" class="{% if page.path contains 'index' %}current{% endif %}">Home</a></li>
-				<li><a href="portfolio-development.html" class="{% if page.name contains 'portfolio-development' %}current{% endif %}">Portfolio Dev</a> </li>
-				<li><a href="grad-show.html" class="{% if page.name contains 'grad' %}current{% endif %}">Grad Show</a></li>
-				<li><a href="fieldwork.html" class="{% if page.name contains 'fieldwork' %}current{% endif %}">Fieldwork</a></li>
-				<li><a href="employers.html" class="{% if page.name contains 'employers' %}current{% endif %}">Employers</a> </li>
+				<li><a href="highschool.html" class="{% if page.name contains 'highschool' %}current{% endif %}">High School Outreach</a> </li>
+				<li><a href="university.html" class="{% if page.name contains 'university' %}current{% endif %}">University Outreach</a></li>
 			</ul>
 		</div>
 	</nav>
 	<header>
 		<h1>
-			<a href="index.html" class="nodecoration">{{ site.data.course-info.program-name }}</a> 
+			<a href="index.html" class="nodecoration">{{ site.data.course-info.program-name }} {{ site.data.course-info.title }}</a> 
 		</h1>
 	</header>
 	<main id="main-content">

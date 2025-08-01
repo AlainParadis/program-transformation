@@ -1,4 +1,7 @@
-# High School Outreach
+---
+layout: default
+title: High School Outreach
+---
 
 1. **“Design in Action” High School Workshop Series**
     -   Bring a hands-on, 1-hour design challenge into art or media classes. Students get a taste of real design thinking, and you get to showcase the program’s energy and relevance.
