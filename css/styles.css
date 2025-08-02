@@ -11,6 +11,7 @@
 	--blue: rgba(0, 150, 255, 1);
 	--blue-light: rgba(179, 223, 255, 1);
 	--sans: "IBM Plex Sans", sans-serif;
+	--mono: "IBM Plex Mono", monospace;
 }
 
 *
@@ -24,7 +25,7 @@ html
 {
 	font-family: "IBM Plex Serif", serif;
 	font-style: normal;
-	font-size: clamp(15px, 1.5vw, 18px);
+	font-size: clamp(14px, 1.5vw, 18px);
 	font-weight: 400;
 	line-height: 1.6;
 	color: var(--text-color);
@@ -125,18 +126,63 @@ nav ul li a
 }
 
 /* * * * * * * * * * * * TYPOGRAPHY * * * * * * * *  * * * */
-.sans
+h1, h2, h3, h4, h5, h6
 {
 	font-family: "IBM Plex Sans", sans-serif;
+	font-size: clamp(1.5rem, 2vw, 2rem);
 	font-style: normal;
 }
 
-.mono
+h1
 {
-	font-family: "IBM Plex Mono", sans-serif;
+	font-weight: 700;
 	font-style: normal;
+	color: var(--text-color);
+	margin-top: 1rem;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 0;
 }
 
+h2, h3, h4, h5, h6
+{
+	font-weight: 600;
+	font-style: normal;
+	color: var(--text-color);
+	margin-top: 1rem;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+h1 { font-size: clamp(42px, 3vw, 45px); }
+h2 { font-size: clamp(34px, 2.4vw, 36px); }
+h3 { font-size: clamp(28px, 2vw, 30px); }
+h4 { font-size: clamp(22px, 1.6vw, 24px); }
+h5 { font-size: clamp(18px, 1.35vw, 20px); }
+h6 { font-size: clamp(16px, 1.2vw, 18px); }
+
+:is(h1, h2, h3, h4, h5, h6) a, 
+:is(h1, h2, h3, h4, h5, h6) a:link
+{
+	text-decoration: none;
+	border-bottom: none;
+	text-decoration-color: transparent;
+}
+
+:is(h1, h2, h3, h4, h5, h6) a:hover { color: var(--orange); }
+h1 + p,
+	h2 + p,
+	h3 + p,
+	h4 + p,
+	h5 + p,
+	h6 + p,
+	h1 + h2,
+	h2 + h3,
+	h3 + h4,
+	h4 + h5,
+	h5 + h6 { margin-top: 0.25rem; }
+p + P { margin-bottom: 1rem; }
+ul + p { margin-top: 2rem; }
 .center { text-align: center; }
 
 a, a:link
@@ -162,59 +208,12 @@ a:hover
 	border-bottom: 1px solid var(--orange50);
 }
 
-p { margin-bottom: 2.0rem; }
-p { font-size: clamp(1rem, 1.2vw, 1.125rem); }
-
-h1, h2, h3, h4, h5, h6
+p
 {
-	font-family: "IBM Plex Sans", sans-serif;
-	font-style: normal;
+	margin-bottom: 2.0rem;
+	font-size: clamp(1rem, 1.2vw, 1.125rem);
 }
 
-h1
-{
-	font-weight: 700;
-	font-size: clamp(1.5rem, 2vw, 2rem);
-	font-style: normal;
-	color: var(--text-color);
-	margin-top: 1rem;
-	margin-bottom: 0;
-	padding-bottom: 0;
-	border-bottom: 0;
-}
-
-h2, h3, h4, h5, h6
-{
-	font-weight: 600;
-	font-style: normal;
-	color: var(--text-color);
-	margin-top: 1rem;
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-
-:is(h1, h2, h3, h4, h5, h6) a, 
-:is(h1, h2, h3, h4, h5, h6) a:link
-{
-	text-decoration: none;
-	border-bottom: none;
-	text-decoration-color: transparent;
-}
-
-:is(h1, h2, h3, h4, h5, h6) a:hover { color: var(--orange); }
-h1 + p,
-	h2 + p,
-	h3 + p,
-	h4 + p,
-	h5 + p,
-	h6 + p,
-	h1 + h2,
-	h2 + h3,
-	h3 + h4,
-	h4 + h5,
-	h5 + h6 { margin-top: 0.25rem; }
-p + P { margin-bottom: 1rem; }
-ul + p { margin-top: 2rem; }
 .text-small { font-size: .8rem; }
 
 /* * * * * * * * * * * * * LISTS * * * * * * * * * * * * * */
@@ -237,9 +236,8 @@ ol ul { padding-left: 0; }
 
 ol li
 {
-	font-weight: 600;
+	font-weight: 500;
 	font-style: var(--font_style_normal);
-	color: var(--blue-light);
 }
 
 ol p { margin-bottom: 0.25rem; }
