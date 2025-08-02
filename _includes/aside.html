@@ -1,9 +1,12 @@
-<p>
-	Author: <strong>{{ site.data.sitewide.professor }}</strong> 
-</p>
-<p>
-	<a href="mailto:paradia@algonquincollege.com">{{ site.data.sitewide.email }}</a> 
-</p>
-<p>
-	<a href="tel:613-727-4723,5878">{{ site.data.sitewide.phone }}</a> 
-</p>
+
+<h3>
+	Author Info
+</h3>
+<ul>
+	<li><strong>{{ site.data.sitewide.my-name }}</strong>, {{ site.data.sitewide.credentials }}</li>
+	<li>{{ site.data.sitewide.my-job-title }}</li>
+	<li>Program: <strong>{{ site.data.sitewide.program-name }}</strong></li>
+	<li class="aside-spacer"><a href="mailto:paradia@algonquincollege.com">{{ site.data.sitewide.email }}</a> </li>
+	<li>tel: <a href="tel:{{ site.data.sitewide.phone }}">{{ site.data.sitewide.phone }}</a></li>
+	<li>mobile: <a href="tel:{{ site.data.sitewide.mobile }}">{{ site.data.sitewide.mobile }}</a></li>
+</ul>

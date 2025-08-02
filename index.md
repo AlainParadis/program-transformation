@@ -50,10 +50,12 @@ title: Rationale
 		<li><em>Media and cultural narratives.</em> Popular media often portrays university life as the <em>default</em> post-secondary experience. College programs, especially in the arts, are underrepresented or stereotyped.</li>
 	</ul>
 </ol>
-<h2>
+<h3>
 	Value Proposition 
-</h2>
-The field of graphic design is fulfilling, profitable career, notwithstanding the perceived challenges posed by automation and artificial intelligence. 
+</h3>
+<p>
+	The field of graphic design is fulfilling, profitable career, notwithstanding the perceived challenges posed by automation and artificial intelligence. 
+</p>
 <ol>
 	<li><em>Graphic design is a human-centred discipline.</em></li>
 	<ul>
@@ -70,12 +72,12 @@ The field of graphic design is fulfilling, profitable career, notwithstanding th
 		<li> Pathways to university degrees</li>
 	</ul>
 </ol>
-<h2>
-	Program Promotion 
-</h2>
 <h3>
-	Audience 
+	Program Promotion 
 </h3>
+<h4>
+	Audience 
+</h4>
 <ol>
 	<li><em><a href="highschool.html">High Schools</a></em></li>
 	<ul>
@@ -93,9 +95,9 @@ The field of graphic design is fulfilling, profitable career, notwithstanding th
 		<li>Create micro-credentials to appeal to professionals who wish to add to their existing skill sets.</li>
 	</ul>
 </ol>
-<h2>
-	New Programs Architecture 
-</h2>
+<h3>
+	New Programs Framework 
+</h3>
 <p>
 	While the current three-year program is successful, this initiative requires that we explore alternatives to attract greater numbers. The following represent ideas for new credentials within the field of graphic design. 
 </p>
@@ -164,10 +166,4 @@ The field of graphic design is fulfilling, profitable career, notwithstanding th
 		</li>
 	</ul>
 	</li>
-	<li>Potential areas of study within the practice of graphic design:</li>
-	<ul>
-		<li>Graphic Design fundamentals (contrast, repetition, alignment, proximity)</li>
-		<li>Build better slide decks</li>
-		<li>…</li>
-	</ul>
 </ol>

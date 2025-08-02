@@ -65,6 +65,7 @@ header
 
 nav
 {
+	font-family: var(--sans);
 	grid-area: nav;
 	padding: 0;
 	width: 100%;
@@ -72,9 +73,10 @@ nav
 
 aside
 {
-	font-family: "IBM Plex Sans", sans-serif;
-	font-style: normal;
 	grid-area: aside;
+	font-family: "IBM Plex Sans", sans-serif;
+	font-size: 0.85rem;
+	font-style: normal;
 	margin: 0 0 0 1rem;
 }
 
@@ -126,6 +128,20 @@ nav ul li a
 }
 
 /* * * * * * * * * * * * TYPOGRAPHY * * * * * * * *  * * * */
+header h2
+{
+	font-size: clamp(2.5rem, 2vw, 2.5rem);
+	margin: 0;
+	padding: 0;
+	line-height: 120%;
+}
+
+header h3
+{
+	font-size: clamp(1.1rem, 1.5vw, 1.75rem);
+	text-transform: uppercase;
+}
+
 h1, h2, h3, h4, h5, h6
 {
 	font-family: "IBM Plex Sans", sans-serif;
@@ -217,7 +233,7 @@ p
 .text-small { font-size: .8rem; }
 
 /* * * * * * * * * * * * * LISTS * * * * * * * * * * * * * */
-ul, ol
+main ul, ol
 {
 	column-count: 1;
 	font-family: var(--sans);
@@ -226,23 +242,23 @@ ul, ol
 	list-style: none;
 }
 
-ol
+main ol
 {
 	counter-reset: li;
 	list-style: decimal;
 }
 
-ol ul { padding-left: 0; }
+main ol ul { padding-left: 0; }
 
-ol li
+main ol li
 {
 	font-weight: 500;
 	font-style: var(--font_style_normal);
 }
 
-ol p { margin-bottom: 0.25rem; }
+main ol p { margin-bottom: 0.25rem; }
 
-ul li
+main ul li
 {
 	font-weight: normal;
 	position: relative;
@@ -251,7 +267,7 @@ ul li
 	color: var(--text-color);
 }
 
-ul li::before
+main ul li::before
 {
 	content: "➜";
 	font-size: 0.9rem;
@@ -259,6 +275,17 @@ ul li::before
 	left: 0;
 	color: var(--medium);
 }
+
+aside h3 { font-size: clamp(1rem, 1.5vw, 1.2rem); }
+
+aside ul
+{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+aside ul li.aside-spacer { margin-top: 1rem; }
 
 dt
 {
@@ -392,30 +419,6 @@ footer div:nth-child(n+1) { margin-top: 1rem; }
 }
 
 .alertBox h3 { margin-top: .5rem; }
-aside a { font-weight: 300; }
-
-aside p, aside ul li
-{
-	font-size: 0.8rem;
-	margin: 0.25rem 0;
-}
-
-aside ul
-{
-	margin-left: .5rem;
-	padding-left: 0;
-}
-
-aside ul li { margin: 0 0; }
-
-aside ul li::before
-{
-	font-size: 0.8rem;
-	position: absolute;
-	left: 0;
-	color: var(--medium);
-}
-
 .text-center, a.text-center { text-align: center; }
 
 .small-caps
@@ -514,7 +517,7 @@ footer span { display: block; }
 	
 	nav
 	{
-		font-family: "IBM Plex mono", sans-serif;
+		font-family: var(--sans);
 		font-style: normal;
 		grid-area: nav;
 		font-size: clamp(1.1rem, 2vw, 1.5rem);
