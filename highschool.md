@@ -2,9 +2,9 @@
 layout: default
 title: High School Outreach
 ---
-<h3>
+<h4>
 	Outreach Activities 
-</h3>
+</h4>
 <p>
 	These are ideas for potential outreach activities in local high schools. 
 </p>
@@ -37,9 +37,9 @@ title: High School Outreach
 		</ul>
 	</ul>
 </ol>
-<h3>
+<h4>
 	Local Arts High Schools 
-</h3>
+</h4>
 <ul class="columns2">
 	<li><a href="https://www.ocdsb.ca/programs-learning/secondary/programs/arts">OCDSB Arts Programs</a></li>
 	<li><a href="https://www.ocdsb.ca/programs-learning/secondary/specialist-high-skills-major/arts-and-culture">OCDSB SHSM Program</a></li>
@@ -58,8 +58,43 @@ title: High School Outreach
 	</ul>
 </ol>
 <h3>
-	Required Resources 
+	Additional Research 
 </h3>
+<h4>
+	Required Resources 
+</h4>
 <p>
 	Resources will be required to develop and produce printed materials to distribute at these activities. Faculty will also require release time to initiate communications with teachers and department heads, to design and produce these materials, and to attend activities at high schools. We can collaborate with the college's marketing department for this work, but we would appreciate input into messaging since we're program stakeholders. 
+</p>
+<h4>Academic Pathways</h4>
+<p>
+	There are areas of interest needing further investigation. Currently, Algonquin College seems to focus primarily on college-to-university rather than high school-to-college agreements. <em>Is it possible to build pathway agreements with local highschools?</em> Conversations with Jessica DeVries, Chair for Academic Development may be in order, as well as with Admissions. 
+</p>
+<h5>
+	School-College-Work Initiative (SCWI) 
+</h5>
+<p>
+	<a href="https://www.ontario.ca/page/dual-credit-programs" target="_blank">SCWI</a> is a province-wide program in Ontario designed to support student success and smooth transitions from high school to college or apprenticeship training. It plays a central role in coordinating <em>dual credit programs</em>, which are a key part of its mandate. 
+</p>
+<p>
+	SCWI aims to encourage students to pursue postsecondary education. It provides meaningful learning experiences that connect classroom learning to real-world careers 
+</p>
+<p>
+	Next Steps: 
+</p>
+<ul>
+	<li>Speak with high school guidance counsellors</li>
+	<li>Explore opportunities through the local school board</li>
+</ul>
+<h5>
+	Dual Credit Programs 
+</h5>
+<p>
+	<a href="https://www.ontario.ca/page/dual-credit-programs" target="_blank">Dual credit programs in Ontario</a> are designed to help high school students transition more smoothly into postsecondary education. They allow eligible high school students to take college courses that count toward both their Ontario Secondary School Diploma (OSSD) and a college diploma. 
+</p>
+<p>
+	Participating in a dual credit program can help students complete their high school diploma, transition successfully to college or apprenticeship programs while exploring career pathways and gaining exposure to college-level expectations and environments. 
+</p>
+<p>
+	Note that students enrolled in a <em>Specialist High Skills Major (SHSM)</em> programs such as Merivale HS and Canterbury HS are eligible. 
 </p>
