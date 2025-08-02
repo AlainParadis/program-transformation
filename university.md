@@ -2,6 +2,7 @@
 layout: default
 title: University Outreach
 ---
+
 <p>
 	University grads bring maturity, focus, and life experience to the classroom. Their presence elevates the learning environment—for themselves and for their peers. 
 </p>
@@ -9,7 +10,7 @@ title: University Outreach
 	“Bring your degree. Bring your drive. Shape the next generation of design.” 
 </blockquote>
 <h3>
-	Motivators
+	Motivators 
 </h3>
 <p>
 	These are motivators for university students to attend the Graphic Design program at Algonquin College. 
@@ -36,3 +37,9 @@ title: University Outreach
 	<li><em>Social Media Groups</em>: Look for unofficial student Facebook groups, Discord servers, or Reddit threads where students share opportunities.</li>
 	<li><em>Alumni Networks</em>: Reach out to recent grads who made the transition and ask them to share their story with peers.</li>
 </ul>
+<h3>
+	Additional Research
+</h3>
+<p>
+	There are areas of interest for further investigation such as articulation agreements and academic pathways. Currently, Algonquin College seems to focus primarily on college-to-university rather than high school-to-college agreements. 
+</p>

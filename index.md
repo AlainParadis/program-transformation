@@ -18,7 +18,7 @@ title: Rationale
 	</p>
 	<li>Prospective students from high schools</li>
 	<p>
-		High school students are drawn to Graphic Design because it offers a vibrant outlet for creative expression and a pathway to exciting careers in branding, US, motion graphics, and digital media. The program’s hands-on, studio-based learning environment makes education feel active and engaging, while industry-standard tools and portfolio development prepare students for real-world opportunities. It’s a chance to join a community of like-minded creatives and turn passion into profession. 
+		High school students are drawn to Graphic Design because it offers a vibrant outlet for creative expression and a pathway to exciting careers in branding, UX Design, motion graphics, and digital media. The program’s hands-on, studio-based learning environment makes education feel active and engaging, while industry-standard tools and portfolio development prepare students for real-world opportunities. It’s a chance to join a community of like-minded creatives and turn passion into profession. 
 	</p>
 	<li>Prospective students from universities</li>
 	<p>
@@ -26,15 +26,15 @@ title: Rationale
 	</p>
 	<li>Prospective students’ parents</li>
 	<p>
-		Parents want to know their child is choosing a path that leads to both personal growth and professional success. The program offers hands-on, career-focused training that prepares students for real opportunities in branding, motion graphics, user experience design, and more. With a strong emphasis on employability, portfolio development, and industry connections, the program helps creative students turn their passion into a stable, fulfilling career.
+		Parents want to know their child is choosing a path that leads to both personal growth and professional success. The program offers hands-on, career-focused training that prepares students for real opportunities in branding, motion graphics, user experience design, and more. With a strong emphasis on employability, portfolio development, and industry connections, the program helps creative students turn their passion into a stable, fulfilling career. 
 	</p>
 	<li>Algonquin Graphic Design faculty</li>
 	<p>
-		Faculty benefit directly from a healthy and growing enrollment. It ensures program sustainability, protects teaching resources, and supports a vibrant learning environment. More students mean more diverse perspectives, stronger classroom engagement, and greater opportunities to showcase the program’s impact. A well-supported initiative also reinforces the value of design education and boosts morale across the department.
+		Faculty benefit directly from a healthy and growing enrollment. It ensures program sustainability, protects teaching resources, and supports a vibrant learning environment. More students mean more diverse perspectives, stronger classroom engagement, and greater opportunities to showcase the program’s impact. A well-supported initiative also reinforces the value of design education and boosts morale across the department. 
 	</p>
 </ol>
 <h3>
-	Low Registrations: Possible Causes 
+	Low Enrollment: Possible Causes 
 </h3>
 <ol>
 	<li>Proximal</li>
