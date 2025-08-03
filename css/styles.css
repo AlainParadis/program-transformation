@@ -10,6 +10,7 @@
 	--orange50: rgba(255, 147, 0, 0.5);
 	--blue: rgba(0, 150, 255, 1);
 	--blue-light: rgba(179, 223, 255, 1);
+	--serif: "IBM Plex Serif", serif;
 	--sans: "IBM Plex Sans", sans-serif;
 	--mono: "IBM Plex Mono", monospace;
 }
@@ -26,9 +27,9 @@
 
 html
 {
-	font-family: "IBM Plex Serif", serif;
+	font-family: var(--serif);
 	font-style: normal;
-	font-size: clamp(14px, 1.5vw, 18px);
+	font-size: clamp(18px, 1.5vw, 18px);
 	font-weight: 400;
 	line-height: 1.6;
 	color: var(--text-color);
@@ -148,7 +149,7 @@ header h3
 h1, h2, h3, h4, h5, h6
 {
 	font-family: "IBM Plex Sans", sans-serif;
-	font-size: clamp(1.5rem, 2vw, 2rem);
+	font-size: clamp(1.1rem, 2vw, 2.5rem);
 	font-style: normal;
 }
 
@@ -259,7 +260,11 @@ main ol li
 	font-style: var(--font_style_normal);
 }
 
-main ol p { margin-bottom: 0.25rem; }
+main ol p
+{
+	margin-bottom: 0.25rem;
+	font-family: var(--serif);
+}
 
 main ul li
 {
@@ -288,6 +293,7 @@ aside ul, footer ul
 	padding-left: 0;
 }
 
+footer ul.contact { columns: 1; }
 aside ul li.aside-spacer { margin-top: 1rem; }
 
 dt
@@ -366,8 +372,11 @@ blockquote
 	padding-left: 1rem;
 	border-left: solid 6px var(--orange);
 	color: var(--blue-light);
+	font-size: 1.5rem;
 	font-style: italic;
 }
+
+p + blockquote { margin-bottom: 2rem; }
 
 a.current
 {
@@ -494,8 +503,6 @@ strong, bold, .bold
 	cursor: pointer;
 }
 
-footer span { display: block; }
-
 @media only screen and (min-width: 60em) /* 960px, the largest screen */
 {
 	#container
@@ -572,4 +579,5 @@ footer span { display: block; }
 	}
 	
 	.footer-inner { }
+	footer ul.contact { columns: 2 8rem; }
 }
