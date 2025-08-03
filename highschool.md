@@ -1,7 +1,14 @@
 ---
 layout: default
 title: High School Outreach
+order: 1
 ---
+<h4>
+	Motivators 
+</h4>
+<p>
+	High school students are drawn to Graphic Design because it offers a vibrant outlet for creative expression and a pathway to exciting careers in branding, UX Design, motion graphics, and digital media. The program’s hands-on, studio-based learning environment makes education feel active and engaging, while industry-standard tools and portfolio development prepare students for real-world opportunities. It’s a chance to join a community of like-minded creatives and turn passion into profession. 
+</p>
 <h4>
 	Outreach Activities 
 </h4>
@@ -66,7 +73,9 @@ title: High School Outreach
 <p>
 	Resources will be required to develop and produce printed materials to distribute at these activities. Faculty will also require release time to initiate communications with teachers and department heads, to design and produce these materials, and to attend activities at high schools. We can collaborate with the college's marketing department for this work, but we would appreciate input into messaging since we're program stakeholders. 
 </p>
-<h4>Academic Pathways</h4>
+<h4>
+	Academic Pathways 
+</h4>
 <p>
 	There are areas of interest needing further investigation. Currently, Algonquin College seems to focus primarily on college-to-university rather than high school-to-college agreements. <em>Is it possible to build pathway agreements with local highschools?</em> Conversations with Jessica DeVries, Chair for Academic Development may be in order, as well as with Admissions. 
 </p>

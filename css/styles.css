@@ -126,7 +126,7 @@ nav ul li::before
 nav ul li a
 {
 	color: #FF2F92;
-	font-size: clamp(1.5rem, 2vw, 2rem);
+	font-size: 1rem;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -254,11 +254,14 @@ main ol
 
 main ol ul { padding-left: 0; }
 
-main ol li
+main ol > li
 {
 	font-weight: 500;
 	font-style: var(--font_style_normal);
+	color: var(--blue-light);
 }
+
+main ol > li:not(:first-child) { margin-top: 1rem; }
 
 main ol p
 {
@@ -294,7 +297,9 @@ aside ul, footer ul
 }
 
 footer ul.contact { columns: 1; }
+aside ul li { line-height: 180%; }
 aside ul li.aside-spacer { margin-top: 1rem; }
+
 
 dt
 {
@@ -310,6 +315,13 @@ code
 {
 	font-family: "Courier New", Courier, mono;
 	font-weight: bold;
+}
+
+.columns
+{
+	columns: 1;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .columns2
@@ -521,7 +533,7 @@ strong, bold, .bold
 	{
 		font-style: normal;
 		grid-area: nav;
-		font-size: clamp(1.1rem, 2vw, 1.5rem);
+		font-size: 1rem;
 		background-color: var(--dark);
 		width: 100vw;
 		position: relative;
@@ -555,9 +567,17 @@ strong, bold, .bold
 		margin-top: 0;
 	}
 	
-	nav ul li a { font-size: 1.1rem; }
+	nav ul li a { font-size: 1rem; }
+	
 	h1 { font-size: 2rem; }
 	aside h3 { margin-top: 2rem; }
+	
+	.columns
+	{
+		columns: 2;
+		margin: 1rem 0;
+		padding: 0;
+	}
 	
 	.footer-wrapper
 	{

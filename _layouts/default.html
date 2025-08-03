@@ -24,16 +24,7 @@
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a> 
 <div id="container">
-	<nav role="navigation">
-		<div class="nav-inner">
-			<ul>
-				<li><a href="index.html" class="{% if page.path contains 'index' %}current{% endif %}">Home</a></li>
-				<li><a href="highschool.html" class="{% if page.name contains 'highschool' %}current{% endif %}">High School Outreach</a> </li>
-				<li><a href="university.html" class="{% if page.name contains 'university' %}current{% endif %}">University Outreach</a></li>
-				<li><a href="upskilling.html" class="{% if page.name contains 'skill' %}current{% endif %}">Up-Skilling</a></li>
-			</ul>
-		</div>
-	</nav>
+    {% include nav.html %}
 	<header>
 		<h3><a href="index.html" class="nodecoration">{{ site.data.sitewide.program-name }}</a></h3>
 		<h2><a href="index.html" class="nodecoration">{{ site.data.sitewide.site-title }}</a></h2>
@@ -50,7 +41,7 @@
 	<div class="footer-wrapper">
 		<footer>
 			<div class="footer-inner">
-				{% include footer.html %} 
+				{% include footer.html %}
 			</div>
 		</footer>
 	</div>
