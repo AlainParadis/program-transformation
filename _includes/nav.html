@@ -2,9 +2,11 @@
 	<div class="nav-inner">
 		{% assign current_url = page.url %} 
 		<ul>
-			{% assign sorted_pages = site.pages | sort: "order" %} {% for p in sorted_pages %} 
+			{% assign sorted_pages = site.pages | sort: "order" %}
+			    {% for p in sorted_pages %}
+			        {% if p.path contains '.md' %} 
 			<li> <a href="{{ site.baseurl }}{{ p.url }}" class="{% if p.url == current_url %}current{% endif %}">{{ p.title }}</a> </li>
-			{% endfor %} 
+			{% endif %} {% endfor %} 
 		</ul>
 	</div>
 </nav>
