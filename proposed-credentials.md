@@ -40,6 +40,17 @@ order: 4
 		<li>Missing third-year WIL experiences</li>
 		<li>Missing third-year advanced curriculum</li>
 	</ul>
+	<p>
+		These are the stages required to create a two-year Ontario College Diploma Program. 
+	</p>
+	<ul>
+		<li>Alignment with the Ontario Qualifications Framework (OQF)</li>
+		<li>Program Proposal Development</li>
+		<li>Internal College Approval</li>
+		<li>Credential Validation Service (CVS) Submission</li>
+		<li>Ministry Notification and Funding Considerations</li>
+		<li>Program Launch and Ongoing Review</li>
+	</ul>
 	<li>Micro-Credentials</li>
 	<p>
 		Micro-credentials are short, focused learning experiences designed to help learners quickly gain specific skills or knowledge. They may appeal to alumni of our program who wish to update their skills. They can also appeal to professionals not in the field of design who need to add particular skills. i.e. An administrative assistant who needs to make more appealing slide presentations. 
