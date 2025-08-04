@@ -54,7 +54,7 @@ body
 	grid-template-columns: 1fr;
 	grid-template-rows: auto;
 	gap: .5rem 0;
-	grid-template-areas: "header" "nav" "aside" "main" "footer";
+	grid-template-areas: "header" "nav" "main" "footer";
 	max-width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
@@ -79,10 +79,7 @@ nav
 aside
 {
 	grid-area: aside;
-	font-family: var(--sans);
-	font-size: 0.85rem;
-	font-style: normal;
-	margin: 0 0 0 1rem;
+	display: none;
 }
 
 main
@@ -231,8 +228,9 @@ nav ul li
 	border-bottom: 0;
 }
 
-nav ul li a {
-	border-bottom: 1px solid var(--orange); 
+nav ul li a
+{
+	border-bottom: 1px solid var(--orange);
 	font-size: clamp(.8rem, 1vw, 1.25rem);
 	text-decoration: none;
 	text-transform: uppercase;
@@ -521,7 +519,17 @@ strong, bold, .bold
 	
 	header { grid-area: header; }
 	main { grid-area: main; }
-	aside { grid-area: aside; }
+	
+	aside
+	{
+		grid-area: aside;
+		display: block;
+		font-family: var(--sans);
+		font-size: 0.85rem;
+		font-style: normal;
+		margin: 0 0 0 1rem;
+	}
+	
 	footer { grid-area: footer; }
 	aside h3 { margin-top: 2rem; }
 	
@@ -550,5 +558,6 @@ strong, bold, .bold
 		margin-right: auto;
 		max-width: 1100px;
 	}
+	
 	footer ul.contact { columns: 2 8rem; }
 }
