@@ -9,6 +9,32 @@ identification:
   phone: +1 613-727-4723,5878
   mobile: +1 (613) 618-2138
 
+algonquin-contacts:
+  - lastname: "Devries"
+    firstname: "Jessica"
+    title: "Academic Development"
+    email: "devriej1@algonquincollege.com"
+  - lastname: "McDonald"
+    firstname: "Alanna"
+    title: "Academic Development"
+    email: "macdona2@algonquincollege.com"
+  - lastname: "Ryall"
+    firstname: "Heather"
+    title: "Dean"
+    email: "ryallh@algonquincollege.com"
+  - lastname: "Sharma"
+    firstname: "Abhay"
+    title: "Chair, Acting"
+    email: "sharmaa@algonquincollege.com"
+  - lastname: "Paradis"
+    firstname: "Alain"
+    title: "Program Coordinator"
+    email: "paradia@algonquincollege.com"
+  - lastname: "Smeal"
+    firstname: "Steven"
+    title: "Admissions Officer"
+
+ 
 schools:
   - name: "Ridgemont High School"
     mission: "Design and Creation with Sustainability in Mind"

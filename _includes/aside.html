@@ -7,11 +7,21 @@
 	<li>Program: <strong>{{ site.data.sitewide.identification.program-name }}</strong></li>
 	<li class="aside-spacer"><a href="mailto:paradia@algonquincollege.com">{{ site.data.sitewide.identification.email }}</a> </li>
 	<li>tel: <a href="tel:{{ site.data.sitewide.identification.phone }}">{{ site.data.sitewide.identification.phone }}</a></li>
-	<li>mobile: <a href="tel:{{ site.data.sitewide.identification.mobile }}">{{ site.data.sitewide.mobile }}</a></li>
+	<li>mobile: <a href="tel:{{ site.data.sitewide.identification.mobile }}">{{ site.data.sitewide.identification.mobile }}</a></li>
 </ul>
-<h3>Useful Links</h3>
+<h3>College Contacts</h3>
 <ul class="linkslist">
-{% for linkitem in site.data.sitewide.links %}
-	<li><a href="{{linkitem.url}}">{{ linkitem.title }}</a></li>
-{% endfor %}
+	{% assign sorted-contacts = site.data.sitewide.algonquin-contacts | sort: "lastname" %}
+	{% for person in sorted-contacts %} 
+	<li><a href="mailto:{{ person.email }}">{{ person.lastname }}, {{ person.firstname }} </a>, {{ person.title }}</li>
+	{% endfor %} 
+</ul>
+
+<h3>
+	Useful Links
+</h3>
+<ul class="linkslist">
+	{% for linkitem in site.data.sitewide.links %} 
+	<li><a href="{{linkitem.url}}" target="_blank">{{ linkitem.title }}</a></li>
+	{% endfor %} 
 </ul>
