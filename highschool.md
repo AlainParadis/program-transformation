@@ -62,32 +62,19 @@ order: 1
 <h4>
 	Local Arts High Schools 
 </h4>
-<ol>
-	<li>Canterbury High School Arts Program</li>
-	<ul>
-		<li><a href="https://canterburyhs.ocdsb.ca/academics-landing/arts-canterbury">Canterbury Arts</a></li>
-		<li>Canterbury High School is the OCDSB&#39;s flagship arts-focused high school, offering the renowned Arts Canterbury Program with specialized streams in Dance, Drama, Music, Visual Arts, and Literary Arts. Entry is audition-based and the program is nationally recognized for excellence, making it ideal for students dedicated to the arts. Its unique full-time arts curriculum and vibrant creative community set it apart.</li>
-	</ul>
-	<li>Merivale High School Specialist High Skills Major (SHSM) Arts and Culture</li>
-	<ul>
-		<li><a href="https://sites.google.com/ocdsb.ca/merivale-finearts/specialist-high-skills-major">Merivale SHSM Program</a></li>
-		<li>Jaclyn Canas - SHSM Lead Coordinator, <a href="mailto:jaclyn.canas@ocdsb.ca.ca">jaclyn.canas@ocdsb.ca.ca</a></li>
-		<li>Merivale High School offers the SHSM in Arts and Culture, with a focus on communication and design. This program integrates traditional and digital arts, including painting, drawing, photography, graphic design, video, and animation, along with industry certifications and portfolio development. It is tailored for students interested in arts with a professional or design-oriented pathway. Unlike Canterbury, Merivale does not require an audition for the SHSM but focuses on senior students (grade 11-12) and blends arts learning with technical and community projects.</li>
-	</ul>
-</ol>
 <p>
 	These are yet more arts high schools to approach. They all participate in the SHSM Program. 
 </p>
-{% for school in site.data.sitewide.schools %} 
-<ul class="columns">
-	<li style="border-top: 1px solid var(--orange);"><strong>{{ school.name }}</strong></li>
+{% assign sorted-schools = site.data.sitewide.schools | sort: "name" %}
+{% for school in sorted-schools %} 
+<ul>
+	<li style="margin-top: 1rem;"><strong>{{ school.name }}</strong>, {{ school.mission }}</li>
 	<ul>
-		<li>{{ school.mission }}</li>
-		<li>{{ school.contact.name }}</li>
-		&nbsp; 
+		<li>{{ school.contact.name }}, {{ school.contact.title }}</li>
 		<li>{{ school.contact.address }}</li>
-		<li>{{ school.contact.email }}</li>
-		<li>{{ school.contact.phone }}</li>
+		<li><a href="mailto:{{ school.contact.email }}">{{ school.contact.email }}</a></li>
+		<li><a href="tel:{{ school.contact.phone }}">{{ school.contact.phone }}</a></li>
+		<li><a href="{{ school.contact.url }}" target="_blank">{{ school.contact.url }}</a></li>
 	</ul>
 </ul>
 {% endfor %} 
@@ -101,11 +88,12 @@ order: 1
 	<li>“Design in Action” High School Workshop Series</li>
 	<ul>
 		<li>Bring a hands-on, 1-hour design challenge into art or media classes. Students get a taste of real design thinking. We get to showcase the program’s energy and relevance.</li>
-		<li>We could leave behind a mini portfolio zine or QR code to a student gallery.</li>
+		<li>We could leave behind Algonquin branded merch, like a sketch book.</li>
 	</ul>
 	<li>Design Futures Career Fair Booth</li>
 	<ul>
-		<li>Set up a visually striking booth at local and regional high school career fairs. Feature student work, interactive demos, and a “Design Your Future” handout that connects creativity to real careers.</li>
+		<li>Set up a visually striking booth at local and regional high school career fairs.</li>
+		<li>Feature student work, interactive demos, and a “Design Your Future” handout that connects creativity to real careers.</li>
 	</ul>
 	<li>Teacher Partnership Program</li>
 	<ul>
@@ -133,7 +121,7 @@ order: 1
 	Academic Pathways 
 </h5>
 <p>
-	There are areas of interest needing further investigation. Currently, Algonquin College seems to focus primarily on college-to-university rather than high school-to-college agreements. <em>Is it possible to build pathway agreements with local highschools?</em> Conversations with Jessica DeVries, Chair for Academic Development may be in order, as well as with Admissions. 
+	There are areas of interest needing further investigation. Currently, Algonquin College seems to focus primarily on college-to-university rather than high school-to-college agreements. <em>Is it possible to build pathway agreements with local highschools?</em> Conversations with Academic Development may be in order, as well as with Admissions, and others.
 </p>
 <h5>
 	Dual Credit Programs 

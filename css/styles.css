@@ -396,6 +396,8 @@ figcaption
 
 blockquote
 {
+    text-wrap: balance;
+    font-weight: 400;
 	margin-left: 1rem;
 	padding-left: 1.5rem;
     text-indent: -0.5rem;  
