@@ -21,13 +21,3 @@ order: 3
 <p>
 	Organisations also invest in micro-credentials to train staff in specific competencies, utilising them for professional development purposes. Additionally, freelance designers may use micro-credentials to broaden their service offerings. Finally, individuals returning to education after time in the workforce find micro-credentials a flexible and efficient way to re-engage with learning and gain relevant qualifications. 
 </p>
-<!-- 
-<h4>
-	Links 
-</h4>
-<ul>
-	<li><a href="https://news.ontario.ca/en/release/1004681/ontario-supporting-more-industry-focused-training-programs" target="_blank">Ontario Micro-credentials Challenge Fund</a>.</li>
-	<li><a href="https://www.algonquincollege.com/microcredentials/">Algonquin Micro-Credentials</a> </li>
-</ul>
-Market our program to regional employers as a source of new knowledge for their teams. 
- -->

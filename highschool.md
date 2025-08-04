@@ -44,6 +44,9 @@ order: 1
 	<li><em>Social Media Groups</em>: Look for unofficial student Facebook groups, Discord servers, or Reddit threads where students share opportunities.</li>
 	<li><em>Alumni Networks</em>: Reach out to recent grads who made the transition and ask them to share their story with peers.</li>
 </ul>
+<p>
+	We could initiate conversations with high school program heads and explore opportunities through the school board. 
+</p>
 <h4>
 	Key Messaging 
 </h4>
@@ -51,10 +54,10 @@ order: 1
 	Consistent, persuasive and targeted messaging has the power to attract high school grads to our program. 
 </p>
 <blockquote>
-    “Find tools, community, and real-world experience with Algonquin’s Graphic Design program—where creativity meets employability.”
+	“Find tools, community, and real-world experience with Algonquin’s Graphic Design program—where creativity meets employability.” 
 </blockquote>
 <p>
-	The benefits listed above contain the messaging that needs to be communicated in the specified channels.
+	The benefits listed above contain the messaging that needs to be communicated in the specified channels. 
 </p>
 <h4>
 	Local Arts High Schools 
@@ -73,59 +76,21 @@ order: 1
 	</ul>
 </ol>
 <p>
-	These are yet more arts high schools to approach. They all participate in the SHSM Program.
+	These are yet more arts high schools to approach. They all participate in the SHSM Program. 
 </p>
-{% for school in site.data.sitewide.schools %}
-<ul>
-	<li><strong>{{ school.name }}</strong></li>
+{% for school in site.data.sitewide.schools %} 
+<ul class="columns">
+	<li style="border-top: 1px solid var(--orange);"><strong>{{ school.name }}</strong></li>
 	<ul>
-	    <li>{{ school.mission }}</li>
-	    <li>{{ school.contact.name }}</li>
-	    <li>{{ school.contact.address }}</li>
-	    <li>{{ school.contact.email }}</li>
-	    <li>{{ school.contact.phone }}</li>
-    </ul>
+		<li>{{ school.mission }}</li>
+		<li>{{ school.contact.name }}</li>
+		&nbsp; 
+		<li>{{ school.contact.address }}</li>
+		<li>{{ school.contact.email }}</li>
+		<li>{{ school.contact.phone }}</li>
+	</ul>
 </ul>
-{% endfor %}
-
-
-<h3>
-	Additional Research 
-</h3>
-<h4>
-	Academic Pathways 
-</h4>
-<p>
-	There are areas of interest needing further investigation. Currently, Algonquin College seems to focus primarily on college-to-university rather than high school-to-college agreements. <em>Is it possible to build pathway agreements with local highschools?</em> Conversations with Jessica DeVries, Chair for Academic Development may be in order, as well as with Admissions. 
-</p>
-<h5>
-	School-College-Work Initiative (SCWI) 
-</h5>
-<p>
-	<a href="https://www.ontario.ca/page/dual-credit-programs" target="_blank">SCWI</a> is a province-wide program in Ontario designed to support student success and smooth transitions from high school to college or apprenticeship training. It plays a central role in coordinating <em>dual credit programs</em>, which are a key part of its mandate. 
-</p>
-<p>
-	SCWI aims to encourage students to pursue postsecondary education. It provides meaningful learning experiences that connect classroom learning to real-world careers 
-</p>
-<p>
-	Next Steps: 
-</p>
-<ul>
-	<li>Speak with high school guidance counsellors</li>
-	<li>Explore opportunities through the local school board</li>
-</ul>
-<h5>
-	Dual Credit Programs 
-</h5>
-<p>
-	<a href="https://www.ontario.ca/page/dual-credit-programs" target="_blank">Dual credit programs in Ontario</a> are designed to help high school students transition more smoothly into postsecondary education. They allow eligible high school students to take college courses that count toward both their Ontario Secondary School Diploma (OSSD) and a college diploma. 
-</p>
-<p>
-	Participating in a dual credit program can help students complete their high school diploma, transition successfully to college or apprenticeship programs while exploring career pathways and gaining exposure to college-level expectations and environments. 
-</p>
-<p>
-	Note that students enrolled in a <em>Specialist High Skills Major (SHSM)</em> programs such as Merivale HS and Canterbury HS are eligible. 
-</p>
+{% endfor %} 
 <h4>
 	Outreach Activities 
 </h4>
@@ -161,3 +126,30 @@ order: 1
 		</ul>
 	</ul>
 </ol>
+<h4>
+	Additional Research 
+</h4>
+<h5>
+	Academic Pathways 
+</h5>
+<p>
+	There are areas of interest needing further investigation. Currently, Algonquin College seems to focus primarily on college-to-university rather than high school-to-college agreements. <em>Is it possible to build pathway agreements with local highschools?</em> Conversations with Jessica DeVries, Chair for Academic Development may be in order, as well as with Admissions. 
+</p>
+<h5>
+	Dual Credit Programs 
+</h5>
+<p>
+	<a href="https://www.ontario.ca/page/dual-credit-programs" target="_blank">Dual credit programs in Ontario</a> are designed to help high school students transition more smoothly into postsecondary education. They allow eligible high school students to take college courses that count toward both their Ontario Secondary School Diploma (OSSD) and a college diploma. They seem like a natural opportunity to entice and lead high school students into the Graphic Design program.
+</p>
+<p>
+	Participating in a dual credit program can help students complete their high school diploma, transition successfully to college programs while exploring career pathways and gaining exposure to college-level expectations and environments. 
+</p>
+<p>
+	If this were to proceed, high school students should have the opportunity to appreciate the full Graphic Design program college experience by attending the DSN1561 Graphic Design 1 course in person. This is an anchor course in the program. It would give students an authentic experience of enrolling in the program. 
+</p>
+<p>
+	Note that students enrolled in a <em>Specialist High Skills Major (SHSM)</em> programs are eligible. 
+</p>
+<p>
+	<a href="https://files.ontario.ca/edu-dual-credit-programs-policy-program-requirements-2020-en-2021-12-13.pdf">Further reading (PDF)</a> about dual credit course development and delivery. 
+</p>
