@@ -50,6 +50,18 @@ order: 2
 	<li><em>Alumni Networks</em>: Reach out to recent grads who made the transition and ask them to share their story with peers.</li>
 </ul>
 <h4>
+	Key Messaging 
+</h4>
+<p>
+	Consistent, persuasive and targeted messaging has the power to attract university Arts grads to our program. 
+</p>
+<blockquote>
+	Turn your Arts degree into a career with Algonquin’s Graphic Design program—where creativity meets employability. 
+</blockquote>
+<p>
+	The benefits listed above contain the messaging that needs to be communicated in the specified channels.
+</p>
+<h4>
 	Lay Out the Welcome Mat 
 </h4>
 <p>
