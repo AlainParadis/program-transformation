@@ -200,6 +200,20 @@ p
 }
 
 .text-small { font-size: .8rem; }
+.text-center, a.text-center { text-align: center; }
+
+em
+{
+	font-style: italic;
+	color: var(--blue-light);
+}
+
+strong, bold, .bold
+{
+	font-weight: 600;
+	font-style: var(--font_style_normal);
+	color: var(--blue-light);
+}
 
 /* * * * * * * * * *  NAV LAYOUT * * * * * * * * */
 .nav-inner
@@ -217,18 +231,18 @@ nav ul
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 0.5rem;
+	gap: 1rem;
 }
 
 nav ul li
 {
 	text-align: center;
-	flex: 1 1 10rem;
+	flex: 0 1 auto;
 	border: 0;
 	border-bottom: 0;
 }
 
-nav ul li a
+.nav ul li a
 {
 	border-bottom: 1px solid var(--orange);
 	font-size: clamp(.8rem, 1vw, 1.25rem);
@@ -423,89 +437,6 @@ footer
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1rem;
-}
-
-.alertBox
-{
-	border: 1px solid var(--orange);
-	padding: 0 1rem;
-	margin: 2rem;
-}
-
-.alertBox h3 { margin-top: .5rem; }
-.text-center, a.text-center { text-align: center; }
-
-.small-caps
-{
-	font-variant: small-caps;
-	font-weight: 500;
-}
-
-table
-{
-	font-family: "IBM Plex mono", sans-serif;
-	font-style: normal;
-	width: 100%;
-	table-layout: auto;
-	/* Columns adjust to content */
-	border-collapse: collapse;
-	/* Removes space between borders */
-	border-spacing: .25rem;
-	margin-bottom: 2rem;
-	margin-top: 2rem;
-}
-
-th, td
-{
-	padding: 2px;
-	text-align: left;
-}
-
-th
-{
-	font-weight: 600;
-	text-align: left;
-	font-style: normal;
-	padding: .25rem;
-	border-bottom: 2px solid grey;
-}
-
-td
-{
-	width: 33%;
-	border-bottom: 1px solid lightgrey;
-	word-wrap: break-word;
-}
-
-em
-{
-	font-style: italic;
-	color: var(--blue-light);
-}
-
-strong, bold, .bold
-{
-	font-weight: 600;
-	font-style: var(--font_style_normal);
-	color: var(--blue-light);
-}
-
-.copy-container
-{
-	position: relative;
-	border: 1px solid #ccc;
-	padding: 1em;
-	padding-top: 2.5rem;
-	margin-bottom: 2rem;
-}
-
-.copy-button
-{
-	position: absolute;
-	top: 1em;
-	right: 1em;
-	padding: 0.5em 1em;
-	cursor: pointer;
 }
 
 @media only screen and (min-width: 45rem)
