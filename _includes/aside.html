@@ -2,10 +2,16 @@
 	Author Info 
 </h3>
 <ul>
-	<li><strong>{{ site.data.sitewide.my-name }}</strong>, {{ site.data.sitewide.credentials }}</li>
-	<li>{{ site.data.sitewide.my-job-title }}</li>
-	<li>Program: <strong>{{ site.data.sitewide.program-name }}</strong></li>
-	<li class="aside-spacer"><a href="mailto:paradia@algonquincollege.com">{{ site.data.sitewide.email }}</a> </li>
-	<li>tel: <a href="tel:{{ site.data.sitewide.phone }}">{{ site.data.sitewide.phone }}</a></li>
-	<li>mobile: <a href="tel:{{ site.data.sitewide.mobile }}">{{ site.data.sitewide.mobile }}</a></li>
+	<li><strong>{{ site.data.sitewide.identification.my-name }}</strong>, {{ site.data.sitewide.identification.credentials }}</li>
+	<li>{{ site.data.sitewide.identification.my-job-title }}</li>
+	<li>Program: <strong>{{ site.data.sitewide.identification.program-name }}</strong></li>
+	<li class="aside-spacer"><a href="mailto:paradia@algonquincollege.com">{{ site.data.sitewide.identification.email }}</a> </li>
+	<li>tel: <a href="tel:{{ site.data.sitewide.identification.phone }}">{{ site.data.sitewide.identification.phone }}</a></li>
+	<li>mobile: <a href="tel:{{ site.data.sitewide.identification.mobile }}">{{ site.data.sitewide.mobile }}</a></li>
+</ul>
+<h3>Useful Links</h3>
+<ul class="linkslist">
+{% for linkitem in site.data.sitewide.links %}
+	<li><a href="{{linkitem.url}}">{{ linkitem.title }}</a></li>
+{% endfor %}
 </ul>

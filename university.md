@@ -10,7 +10,7 @@ order: 2
 	For university Arts students, the Graphic Design program offers a clear path from academic exploration to creative employment. It’s a chance to apply artistic instincts in real-world contexts, build a professional portfolio, and master industry-standard tools. With hands-on learning, career-focused training, and exposure to design professionals, the program empowers students to turn their degree into a dynamic, job-ready skill set. 
 </p>
 <blockquote>
-	“Bring your degree. Bring your drive. Shape the next generation of design.” 
+	“Bring your degree. Bring your drive. Turn your creativity into a career.” 
 </blockquote>
 <p>
 	Furthermore, university grads bring maturity, focus, and life experience to the our college classrooms. Their presence elevates the learning environment, for themselves and for their peers. 
@@ -56,7 +56,7 @@ order: 2
 	Consistent, persuasive and targeted messaging has the power to attract university Arts grads to our program. 
 </p>
 <blockquote>
-	Turn your Arts degree into a career with Algonquin’s Graphic Design program—where creativity meets employability. 
+	“Turn your Arts degree into a career with Algonquin’s Graphic Design program—where creativity meets employability.” 
 </blockquote>
 <p>
 	The benefits listed above contain the messaging that needs to be communicated in the specified channels.

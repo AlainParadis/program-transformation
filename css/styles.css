@@ -316,7 +316,7 @@ aside ul, footer ul
 footer ul.contact { columns: 1; }
 aside ul li { line-height: 180%; }
 aside ul li.aside-spacer { margin-top: 1rem; }
-
+aside ul.linkslist li { margin-top: 0.25rem; }
 dt
 {
 	font-weight: 500;
@@ -397,11 +397,13 @@ figcaption
 blockquote
 {
 	margin-left: 1rem;
-	padding-left: 1rem;
+	padding-left: 1.5rem;
+    text-indent: -0.5rem;  
 	border-left: solid 6px var(--orange);
 	color: var(--blue-light);
 	font-size: 1.5rem;
 	font-style: italic;
+	hyphens: none;
 }
 
 p + blockquote { margin-bottom: 2rem; }

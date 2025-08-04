@@ -10,13 +10,13 @@ order: 1
 	High school students are drawn to Graphic Design because it offers a vibrant outlet for creative expression and a pathway to exciting careers in branding, UX Design, motion graphics, and digital media. The program’s hands-on, studio-based learning environment makes education feel active and engaging, while industry-standard tools and portfolio development prepare students for real-world opportunities. It’s a chance to join a community of like-minded creatives and turn passion into profession. 
 </p>
 <blockquote>
-    “Turn your creativity into a career.”
+	“Turn your creativity into a career.” 
 </blockquote>
 <h4>
 	Student Benefits 
 </h4>
 <p>
-	These are benefits for university students to attend the Graphic Design program at Algonquin College. 
+	These are benefits for high school students to attend the Graphic Design program at Algonquin College. 
 </p>
 <ul>
 	<li>Transition from expressive art to applied design. Learn how creativity solves real-world communication problems.</li>
@@ -34,47 +34,31 @@ order: 1
 	<li>Fieldwork and client-based projects introduce you to the business side of art—how to work with clients, meet deadlines, and present your work professionally.</li>
 </ul>
 <h4>
-	Outreach Activities 
+	Channels 
 </h4>
 <p>
-	These are ideas for potential outreach activities in local high schools. 
+	Outreach to high schools offers multiple channels both in-person and online. The first high schools to target are those participating in the <a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture">Specialist High Skills Major, Arts and Culture</a> program. 
 </p>
-<ol>
-	<li>“Design in Action” High School Workshop Series</li>
-	<ul>
-		<li>Bring a hands-on, 1-hour design challenge into art or media classes. Students get a taste of real design thinking. We get to showcase the program’s energy and relevance.</li>
-		<li>We could leave behind a mini portfolio zine or QR code to a student gallery.</li>
-	</ul>
-	<li>Design Futures Career Fair Booth</li>
-	<ul>
-		<li>Set up a visually striking booth at local and regional high school career fairs. Feature student work, interactive demos, and a “Design Your Future” handout that connects creativity to real careers.</li>
-	</ul>
-	<li>Teacher Partnership Program</li>
-	<ul>
-		<li>Build relationships with art/media teachers by offering:</li>
-		<ul>
-			<li>Guest lectures or virtual talks from faculty or alumni</li>
-			<li>Free classroom resources (e.g., design challenge kits)</li>
-			<li>Invitations to student showcases or portfolio nights </li>
-		</ul>
-	</ul>
-	<li>“Design Day @ Algonquin”</li>
-	<ul>
-		<li>Host an annual on-campus event for high school students. Include:</li>
-		<ul>
-			<li>Mini workshops</li>
-			<li>Portfolio reviews</li>
-			<li>Swag and snacks to make it memorable</li>
-		</ul>
-	</ul>
-</ol>
+<ul>
+	<li><em>Key individuals in high schools</em>: including department heads and arts faculty.</li>
+	<li><em>Social Media Groups</em>: Look for unofficial student Facebook groups, Discord servers, or Reddit threads where students share opportunities.</li>
+	<li><em>Alumni Networks</em>: Reach out to recent grads who made the transition and ask them to share their story with peers.</li>
+</ul>
+<h4>
+	Key Messaging 
+</h4>
+<p>
+	Consistent, persuasive and targeted messaging has the power to attract high school grads to our program. 
+</p>
+<blockquote>
+    “Find tools, community, and real-world experience with Algonquin’s Graphic Design program—where creativity meets employability.”
+</blockquote>
+<p>
+	The benefits listed above contain the messaging that needs to be communicated in the specified channels.
+</p>
 <h4>
 	Local Arts High Schools 
 </h4>
-<ul class="columns2">
-	<li><a href="https://www.ocdsb.ca/programs-learning/secondary/programs/arts">OCDSB Arts Programs</a></li>
-	<li><a href="https://www.ocdsb.ca/programs-learning/secondary/specialist-high-skills-major/arts-and-culture">OCDSB SHSM Program</a></li>
-</ul>
 <ol>
 	<li>Canterbury High School Arts Program</li>
 	<ul>
@@ -88,6 +72,23 @@ order: 1
 		<li>Merivale High School offers the SHSM in Arts and Culture, with a focus on communication and design. This program integrates traditional and digital arts, including painting, drawing, photography, graphic design, video, and animation, along with industry certifications and portfolio development. It is tailored for students interested in arts with a professional or design-oriented pathway. Unlike Canterbury, Merivale does not require an audition for the SHSM but focuses on senior students (grade 11-12) and blends arts learning with technical and community projects.</li>
 	</ul>
 </ol>
+<p>
+	These are yet more arts high schools to approach. They all participate in the SHSM Program.
+</p>
+{% for school in site.data.sitewide.schools %}
+<ul>
+	<li><strong>{{ school.name }}</strong></li>
+	<ul>
+	    <li>{{ school.mission }}</li>
+	    <li>{{ school.contact.name }}</li>
+	    <li>{{ school.contact.address }}</li>
+	    <li>{{ school.contact.email }}</li>
+	    <li>{{ school.contact.phone }}</li>
+    </ul>
+</ul>
+{% endfor %}
+
+
 <h3>
 	Additional Research 
 </h3>
@@ -125,3 +126,38 @@ order: 1
 <p>
 	Note that students enrolled in a <em>Specialist High Skills Major (SHSM)</em> programs such as Merivale HS and Canterbury HS are eligible. 
 </p>
+<h4>
+	Outreach Activities 
+</h4>
+<p>
+	These are ideas for potential outreach activities in local high schools. 
+</p>
+<ol>
+	<li>“Design in Action” High School Workshop Series</li>
+	<ul>
+		<li>Bring a hands-on, 1-hour design challenge into art or media classes. Students get a taste of real design thinking. We get to showcase the program’s energy and relevance.</li>
+		<li>We could leave behind a mini portfolio zine or QR code to a student gallery.</li>
+	</ul>
+	<li>Design Futures Career Fair Booth</li>
+	<ul>
+		<li>Set up a visually striking booth at local and regional high school career fairs. Feature student work, interactive demos, and a “Design Your Future” handout that connects creativity to real careers.</li>
+	</ul>
+	<li>Teacher Partnership Program</li>
+	<ul>
+		<li>Build relationships with art/media teachers by offering:</li>
+		<ul>
+			<li>Guest lectures or virtual talks from faculty or alumni</li>
+			<li>Free classroom resources (e.g., design challenge kits)</li>
+			<li>Invitations to student showcases or portfolio nights </li>
+		</ul>
+	</ul>
+	<li>“Design Day @ Algonquin”</li>
+	<ul>
+		<li>Host an annual on-campus event for high school students. Include:</li>
+		<ul>
+			<li>Mini workshops</li>
+			<li>Portfolio reviews</li>
+			<li>Swag and snacks to make it memorable</li>
+		</ul>
+	</ul>
+</ol>

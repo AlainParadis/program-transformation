@@ -1,9 +1,61 @@
-program-name: Graphic Design
-site-title: Program Transformation
-my-name: Alain Paradis
-my-job-title: Coordinator, Professor
-credentials: M.A., R.G.D.
-prof-short-name: Alain
-email: paradia@algonquincollege.com
-phone: +1 613-727-4723,5878
-mobile: +1 (613) 618-2138
+identification:
+  program-name: Graphic Design
+  site-title: Program Transformation
+  my-name: Alain Paradis
+  my-job-title: Coordinator, Professor
+  credentials: M.A., R.G.D.
+  prof-short-name: Alain
+  email: paradia@algonquincollege.com
+  phone: +1 613-727-4723,5878
+  mobile: +1 (613) 618-2138
+
+schools:
+  - name: "Ridgemont High School"
+    mission: "Design and Creation with Sustainability in Mind"
+    contact:
+      name: "Johnny Appleseed"
+      address: "123 Any Street"
+      email: "johnny@apple.com"
+      phone: "012-345-6789"
+  - name: "Colonel By Secondary School"
+    mission: "Digital & Media Production"
+    contact:
+      name: "Johnny Appleseed"
+      address: "123 Any Street"
+      email: "johnny@apple.com"
+      phone: "012-345-6789"
+  - name: "Hillcrest High School"
+    mission: "School Through a Creative Lens"
+    contact:
+      name: "Johnny Appleseed"
+      address: "123 Any Street"
+      email: "johnny@apple.com"
+      phone: "012-345-6789"
+  - name: "Sir Wilfrid Laurier Secondary School"
+    mission: "Television Production & Filmmaking"
+    contact:
+      name: "Johnny Appleseed"
+      address: "123 Any Street"
+      email: "johnny@apple.com"
+      phone: "012-345-6789"
+  - name: "Gloucester High School"
+    mission: "Youth Voices"
+    contact:
+      name: "Johnny Appleseed"
+      address: "123 Any Street"
+      email: "johnny@apple.com"
+      phone: "012-345-6789"
+
+links:
+  - title: "OCDSB Arts Programs"
+    url: "https://www.ocdsb.ca/programs-learning/secondary/programs/arts"
+  - title: "Specialist High Skills Major, Arts and Culture (SHSM)"
+    url: "https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture"
+  - title: "School-College-Work Initiative (SCWI)"
+    url: "https://www.ontario.ca/page/dual-credit-programs"
+  - title: "Ontario Dual Credit Programs"
+    url: "https://www.ontario.ca/page/dual-credit-programs"
+  - title: ""
+    url: ""
+  - title: ""
+    url: ""
