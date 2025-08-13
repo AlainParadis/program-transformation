@@ -1,5 +1,6 @@
 ---
 layout: default
+role: nav
 title: Proposed Credentials
 order: 4
 ---

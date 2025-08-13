@@ -1,5 +1,6 @@
 ---
 layout: default
+role: nav
 title: High School Outreach
 order: 1
 ---

@@ -1,5 +1,6 @@
 ---
 layout: default
+role: nav
 title: University Outreach
 order: 2
 ---
