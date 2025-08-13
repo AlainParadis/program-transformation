@@ -9,14 +9,6 @@
 	<li>tel: <a itemprop="telephone" href="tel:{{ site.data.sitewide.identification.phone }}">{{ site.data.sitewide.identification.phone }}</a></li>
 	<li>mobile: <a itemprop="telephone" href="tel:{{ site.data.sitewide.identification.mobile }}">{{ site.data.sitewide.identification.mobile }}</a></li>
 </ul>
-<h3>College Contacts</h3>
-<ul class="linkslist">
-	{% assign sorted-contacts = site.data.sitewide.algonquin-contacts | sort: "lastname" %}
-	{% for person in sorted-contacts %} 
-	<li><a href="mailto:{{ person.email }}">{{ person.lastname }}, {{ person.firstname }} </a>, {{ person.title }}</li>
-	{% endfor %} 
-</ul>
-
 <h3>
 	Useful Links
 </h3>
