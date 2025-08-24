@@ -33,7 +33,7 @@ order: 4
 	<ul>
 		<li>Shorter time to graduation, workforce</li>
 		<li>Lower cost</li>
-		<li>Appeal to international students?</li>
+		<li>Appeal to international students? Moot point?</li>
 	</ul>
 	<strong>Cons</strong> 
 	<ul>
