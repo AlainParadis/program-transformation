@@ -1,4 +1,9 @@
---- layout: default role: notes title: Notes order: --- 
+---
+layout: default
+role: notes
+title: Notes
+order:
+--- 
 <h4>
 	Useful Contacts 
 </h4>
@@ -37,6 +42,10 @@
 		<li>--</li>
 	</ul>
 	<li>Do you think the program implementation process could be shortened because the content is from the current program?</li>
+	<ul>
+		<li>--</li>
+	</ul>
+	<li>Do you have anything else to suggest as I research this?</li>
 	<ul>
 		<li>--</li>
 	</ul>
