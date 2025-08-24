@@ -29,6 +29,9 @@ order: 4
 	<p>
 		This diploma would offer students in the three-year Advanced Diploma program an exit option after two years. This may require revision to college policies. The current curriculum may also need minor modifications to ensure it aligns with diploma program requirements. It does not represent a new, separate program with all the resourcing that would represent. 
 	</p>
+	<p>
+	Frankly, I hope this option will entice new enrolments. Once students have enrolled, that they'd <em>stay for three years</em>.
+	</p>
 	<strong>Pros</strong> 
 	<ul>
 		<li>Shorter time to graduation, workforce</li>
