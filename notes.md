@@ -17,7 +17,7 @@
 	Exploratory Stage 
 </h3>
 <p>
-	Meet with Alanna MacDonald to show her the site and explore ideas. 
+	Share the site and explore ideas. 
 </p>
 <ul>
 	<li>What do you know about micro-credentials at Algonquin?</li>
