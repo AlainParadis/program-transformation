@@ -45,31 +45,5 @@
 			</div>
 		</footer>
 	</div>
-	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-		  const legendItems = document.querySelectorAll('.legend li');
-		  const employers = document.querySelectorAll('.employers li');
-		
-		  legendItems.forEach(item => {
-		    item.addEventListener('click', function() {
-		      const selectedModality = this.getAttribute('data-modality');
-		      
-		      // Update active state
-		      legendItems.forEach(li => li.classList.remove('active'));
-		      this.classList.add('active');
-		
-		      // Filter employers
-		      employers.forEach(employer => {
-		        const modality = employer.querySelector('img').alt;
-		        if (selectedModality === 'all' || modality === selectedModality) {
-		          employer.style.display = '';
-		        } else {
-		          employer.style.display = 'none';
-		        }
-		      });
-		    });
-		  });
-		});
-</script>
 </body>
 </html>
