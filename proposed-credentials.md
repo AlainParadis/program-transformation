@@ -55,25 +55,25 @@ order: 4
 		<li>Ministry Notification and Funding Considerations</li>
 		<li>Program Launch and Ongoing Review</li>
 	</ul>
-	<li>Micro-Credentials</li>
+	<li>College Certificate</li>
 	<p>
-		Micro-credentials are short, focused learning experiences designed to help learners quickly gain specific skills or knowledge. They may appeal to alumni of our program who wish to update their skills. They can also appeal to professionals not in the field of design who need to add particular skills. i.e. An administrative assistant who needs to make more appealing slide presentations. 
+		A college certificate is a short, focused learning experience designed to help learners quickly gain specific skills or knowledge. It may appeal to alumni of our program who wish to update their skills. It can also appeal to professionals not in the field of design who need to add particular skills.
 	</p>
+	<ul>
+	<li><a href="https://www.algonquincollege.com/academic-development/new-program-development/">Algonquin's credential types</a></li>
+</ul>
+
 	<strong>Pros</strong> 
 	<ul>
 		<li>Flexible: Often self-paced or part-time.</li>
-		<li>Stackable: Can be combined with other micro-credentials or formal education.</li>
+		<li>Stackable: Can be combined with other credentials or formal education.</li>
 		<li>Industry-Aligned: Developed in collaboration with employers to meet current job market needs.</li>
 		<li>Verifiable: Usually come with a digital badge or certificate.</li>
 	</ul>
 	<strong>Cons</strong> 
 	<ul>
-		<li>Micro-credentials often teach specific skills, which may not provide the broader context or critical thinking that full programs offer.</li>
-		<li>They may not prepare learners for career shifts or leadership roles.</li>
-		<li>Some micro-credentials are not publicly funded, making them less accessible to low-income learners.</li>
-		<li>As more micro-credentials flood the market, their value may diminish unless rigour and quality are maintained.</li>
-		<li>Micro-credentials may not transfer easily between institutions or count toward formal qualifications. This limits their usefulness for learners seeking to ladder up to diplomas or degrees.</li>
-		<li>The focus on immediate employability can sideline foundational learning, creativity, and exploration.</li>
-		<li>This may not serve students well in evolving industries like design, where adaptability and conceptual thinking are key.</li>
+		<li>A college certificate may teach specific skills, which may not provide the broader context or critical thinking that full programs offer.</li>
+		<li>They are not publicly funded, making it less accessible to low-income learners.</li>
+		<li>A college certificate may not transfer easily between institutions or count toward formal qualifications. This limits its usefulness for learners seeking to ladder up to diplomas or degrees.</li>
 	</ul>
 </ol>
