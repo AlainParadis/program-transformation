@@ -12,7 +12,7 @@ order: 4
 	<p>
 		This is the existing three-year program. 
 	</p>
-	<strong>Pros</strong> 
+	<h5>Pros</h5> 
 	<ul>
 		<li>Well established</li>
 		<li>Huge alumni population working in local industry who are program champions</li>
@@ -20,25 +20,25 @@ order: 4
 		<li>Deep learning of the craft</li>
 		<li>Record of ever-evolving curriculum</li>
 	</ul>
-	<strong>Cons</strong> 
+	<h5>Cons</h5> 
 	<ul>
 		<li>Significant time commitment—three years</li>
 		<li>Significant financial commitment</li>
 	</ul>
 	<li>Ontario Colleges Two Year Diploma</li>
 	<p>
-		This diploma would offer students in the three-year Advanced Diploma program an exit option after two years. This may require revision to college policies. The current curriculum may also need minor modifications to ensure it aligns with diploma program requirements. It does not represent a new, separate program with all the resourcing that would represent. 
+		This diploma would offer students in the three-year Advanced Diploma program an exit option after two years. The current curriculum may also need minor modifications to ensure it aligns with diploma program requirements. It does not represent a new, separate program, no new faculty, no new classrooms, etc… 
 	</p>
 	<p>
-	Frankly, I hope this option will entice new enrolments. Once students have enrolled, that they'd <em>stay for three years</em>.
+		Frankly, I hope this option will entice new enrolments. Once students have enrolled, that they'd <em>stay for three years</em>. 
 	</p>
-	<strong>Pros</strong> 
+	<h5>Pros</h5>
 	<ul>
 		<li>Shorter time to graduation, workforce</li>
 		<li>Lower cost</li>
 		<li>Appeal to international students? Moot point?</li>
 	</ul>
-	<strong>Cons</strong> 
+	<h5>Cons</h5> 
 	<ul>
 		<li>Time to implementation</li>
 		<li>Missing third-year WIL experiences</li>
@@ -57,20 +57,19 @@ order: 4
 	</ul>
 	<li>College Certificate</li>
 	<p>
-		A college certificate is a short, focused learning experience designed to help learners quickly gain specific skills or knowledge. It may appeal to alumni of our program who wish to update their skills. It can also appeal to professionals not in the field of design who need to add particular skills.
+		A college certificate is a short, focused learning experience designed to help learners quickly gain specific skills or knowledge. It may appeal to alumni of our program who wish to update their skills. It can also appeal to professionals not in the field of design who need to add particular skills. 
 	</p>
-	<ul>
-	<li><a href="https://www.algonquincollege.com/academic-development/new-program-development/">Algonquin's credential types</a></li>
-</ul>
-
-	<strong>Pros</strong> 
+	<p>
+		A college certificate is a credential <a href="https://www.algonquincollege.com/academic-development/new-program-development/">already offered at the college</a>. It can be designed without provincial approval, completely within the college. 
+	</p>
+	<h5>Pros</h5> 
 	<ul>
 		<li>Flexible: Often self-paced or part-time.</li>
 		<li>Stackable: Can be combined with other credentials or formal education.</li>
 		<li>Industry-Aligned: Developed in collaboration with employers to meet current job market needs.</li>
 		<li>Verifiable: Usually come with a digital badge or certificate.</li>
 	</ul>
-	<strong>Cons</strong> 
+	<h5>Cons</h5>
 	<ul>
 		<li>A college certificate may teach specific skills, which may not provide the broader context or critical thinking that full programs offer.</li>
 		<li>They are not publicly funded, making it less accessible to low-income learners.</li>

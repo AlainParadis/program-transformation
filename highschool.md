@@ -119,12 +119,6 @@ order: 1
 	Additional Research 
 </h4>
 <h5>
-	Academic Pathways 
-</h5>
-<p>
-	There are areas of interest needing further investigation. Currently, Algonquin College seems to focus primarily on college-to-university rather than high school-to-college agreements. <em>Is it possible to build pathway agreements with local highschools?</em> Conversations with Academic Development may be in order, as well as with Admissions, and others.
-</p>
-<h5>
 	Dual Credit Programs 
 </h5>
 <p>
@@ -134,10 +128,16 @@ order: 1
 	Participating in a dual credit program can help students complete their high school diploma, transition successfully to college programs while exploring career pathways and gaining exposure to college-level expectations and environments. 
 </p>
 <p>
+    Research is required to find courses at local arts high schools that align well with those in the Graphic Design program. This would be part of the outreach efforts.
+</p>
+<p>
 	If this were to proceed, high school students should have the opportunity to appreciate the full Graphic Design program college experience by attending the DSN1561 Graphic Design 1 course in person. This is an anchor course in the program. It would give students an authentic experience of enrolling in the program. 
 </p>
 <p>
-	Note that students enrolled in a <em>Specialist High Skills Major (SHSM)</em> programs are eligible. 
+    The initiative could also begin with an Algonquin College Graphic Design program faculty member teaching at a high school.
+</p>
+<p>
+	Note that students enrolled in a <em>Specialist High Skills Major (SHSM)</em> programs are eligible for dual credits.
 </p>
 <p>
 	<a href="https://files.ontario.ca/edu-dual-credit-programs-policy-program-requirements-2020-en-2021-12-13.pdf">Further reading (PDF)</a> about dual credit course development and delivery. 
