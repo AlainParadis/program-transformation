@@ -9,12 +9,15 @@
 	<li>tel: <a itemprop="telephone" href="tel:{{ site.data.sitewide.identification.phone }}">{{ site.data.sitewide.identification.phone }}</a></li>
 	<li>mobile: <a itemprop="telephone" href="tel:{{ site.data.sitewide.identification.mobile }}">{{ site.data.sitewide.identification.mobile }}</a></li>
 </ul>
+{% unless page.url contains "links.html" %} 
 <h3>
-	Useful Links
+	Useful Links 
 </h3>
-	{% assign sorted-links = site.data.sitewide.links | sort: "title" %}
+{% assign sorted-links = site.data.sitewide.links | sort: "title" %} 
 <ul class="linkslist">
-	{% for linkitem in sorted-links %} 
+	{% for linkitem in sorted-links limit: 6 %} 
 	<li><a href="{{linkitem.url}}" target="_blank">{{ linkitem.title }}</a></li>
 	{% endfor %} 
+	<li><a href="links.html"><strong>See more links</strong></a> ➜</li>
 </ul>
+{% endif %}
