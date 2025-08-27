@@ -1,11 +1,11 @@
 ---
 layout: default
-role: nav
+role:
 title: Up-Skilling
 order: 3
 --- 
 <h3>
-	What Are Micro-Credentials? 
+	What Are Micro-Credentials?
 </h3>
 <p>
 	<a href="https://www.ontario.ca/page/micro-credentials-ontarios-postsecondary-schools" target="_blank">Micro-credentials</a> are short, focused training programs offered by Ontario’s colleges. They are designed to take less time than traditional degrees or diplomas. They're flexible, often available online, including on-the-job training or practical components. They can be developed in collaboration with industry partners to ensure relevance. 
