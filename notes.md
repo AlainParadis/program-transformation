@@ -22,38 +22,11 @@ order:
 	Exploratory Stage 
 </h3>
 <p>
-	With a pathway, often 50% advanced entry is preferred. 
-</p>
-<p>
 	Share the site and explore ideas. 
 </p>
 <ul>
-	<li>What do you know about micro-credentials at Algonquin?</li>
-	<li>Investigate **College Credentials** in college policies and on the program dev web site.</li>
+    <li>With a pathway from university, often 50% advanced entry is preferred. This means university students would enter our program half-way through </li>
 	<li>Ensure that our program aligns well with a post-secondary area of study, SIP code.</li>
 	<li>There's no option to change our title because it's a program standard.</li>
 	<li>Talk to Jed.</li>
-	<ul>
-		<li>--</li>
-	</ul>
-	<li>In my opinion, the fourth semester could end as-is. Are there particular requirements for the end of a program that could be missing?</li>
-	<ul>
-		<li>--</li>
-	</ul>
-	<li>Do you know of a program that's created a Diploma from an Advanced Diploma?</li>
-	<ul>
-		<li>Tracy Norris is responsible for Dual Credit.</li>
-	</ul>
-	<li>Who should I talk to about a new two-year program?</li>
-	<ul>
-		<li>--</li>
-	</ul>
-	<li>Do you think the program implementation process could be shortened because the content is from the current program?</li>
-	<ul>
-		<li>--</li>
-	</ul>
-	<li>Do you have anything else to suggest as I research this?</li>
-	<ul>
-		<li>--</li>
-	</ul>
 </ul>
