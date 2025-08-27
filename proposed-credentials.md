@@ -68,7 +68,7 @@ order: 4
 		This level of certification recognizes successful completion of specific courses, prescribed as a package of courses by an academic department of no less than 100 hours, and designated as leading to a College Certificate. These offerings must follow the regular curriculum approval process and be approved by the Senior Vice President, Academic and reported to the Board of Governors. [<a href="https://www.algonquincollege.com/policies/aa15">College Policy AA15</a>] 
 	</p>
 	<p>
-		It is a short, focused learning experience designed to help learners quickly gain specific skills or knowledge. It may appeal to alumni of our program who wish to update their skills. It can also appeal to professionals not in the field of design who need to add particular skills. 
+		It is a short, focused learning experience designed to help learners quickly gain specific skills or knowledge. It can appeal to professionals not in the field of design who need to add particular skills.
 	</p>
 	<p>
 		A college certificate is a credential <a href="https://www.algonquincollege.com/academic-development/new-program-development/">already offered at the college</a>. It can be designed without provincial approval, completely within the college. 
