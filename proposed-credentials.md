@@ -10,7 +10,7 @@ order: 4
 <ol>
 	<li>Ontario Colleges Advanced Diploma</li>
 	<p>
-		This is the existing three-year program. 
+		This is the existing three-year program. The current program is an Ontario Program Standard for Graphic Design [<a href="downloads/mcu-graphic-design-2014-61820-en-2022-03-30.pdf">PDF</a>].
 	</p>
 	<h5>
 		Pros
