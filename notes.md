@@ -4,6 +4,17 @@ role: notes
 title: Notes
 order:
 --- 
+#### Heather
+
+-   What are your thoughts on the current state of the program?
+-   Does the college have a theory to explain the low enrolment numbers?
+-   The cancelled applications are concerning. Do you know what happened?
+    -   No one from the cancelled list ended up in the program.
+-   We're integrating A.I. in our courses.
+-   We'd like Jed back in the program.
+-   The Graphic Design program is an Ontario Colleges Program Standard.
+-   What do you think of our faculty working with Student Recruitment, Marketing to market the program to highschool students?
+
 <h4>
 	Useful Contacts 
 </h4>
