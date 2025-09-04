@@ -116,11 +116,8 @@ order: 1
 	</ul>
 </ol>
 <h4>
-	Additional Research 
+	Dual Credit Opportunities
 </h4>
-<h5>
-	Dual Credit Programs 
-</h5>
 <p>
 	<a href="https://www.ontario.ca/page/dual-credit-programs" target="_blank">Dual credit programs in Ontario</a> are designed to help high school students transition more smoothly into postsecondary education. They allow eligible high school students to take college courses that count toward both their Ontario Secondary School Diploma (OSSD) and a college diploma. They seem like a natural opportunity to entice and lead high school students into the Graphic Design program.
 </p>
