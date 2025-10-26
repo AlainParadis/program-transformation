@@ -122,7 +122,7 @@ title: Weekly Graphic Design Schedule
                 <div class="course-block">
                   <strong>{{ class_here.name }}</strong><br>
                   Level {{ class_here.group | remove: "l" | split: "g" | first }}, Group {{ class_here.group | remove: "l" | split: "g" | last }}<br>
-                  Room: {{ class_here.room | join: ", " }}, {{ class_here.start }}–{{ end_time }}<br>
+                  {{ class_here.room | join: ", " }}, {{ class_here.start }}–{{ end_time }}<br>
                   <a href="mailto:{{ class_here.email }}">{{ class_here.instructor }}</a>
                   {% if class_here.instructor2 %}<br>
                     & <a href="mailto:{{ class_here.email2 }}">{{ class_here.instructor2 }}</a>
