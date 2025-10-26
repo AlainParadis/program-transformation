@@ -56,7 +56,7 @@ title: Weekly Graphic Design Schedule
       <strong>{{ item.name }}</strong><br>
       Modality: {{ item.modality }}<br>
       Level: {{ item.level }}<br>
-      Instructor: mailto:{{ item.email }}{{ item.instructor }}</a>
+      Instructor: <a href="mailto:{{ item.email }}">{{ item.instructor }}</a>
     </li>
   {% endfor %}
 </ul>
