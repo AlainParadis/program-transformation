@@ -35,7 +35,7 @@ order: 1
 	<li>Fieldwork and client-based projects introduce you to the business side of art—how to work with clients, meet deadlines, and present your work professionally.</li>
 </ul>
 <h4>
-	Channels 
+	<a name="channels">Channels </a>
 </h4>
 <p>
 	Outreach to high schools offers multiple channels both in-person and online. The first high schools to target are those participating in the <a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture">Specialist High Skills Major, Arts and Culture</a> program. 
