@@ -3,16 +3,19 @@ layout: default
 role: nav
 title: Home
 order: 0
----
+--- 
 <p>
 	This document contains high-level blue-sky ideas to address the falling registration numbers in the Graphic Design program at Algonquin College. It proposes a new, more nimble posture, with what may be un-traditional approaches to credentialing and program promotion. This plan aims to appeal to a broader audience by proposing new, shorter, less costly credentials to address the challenging time and financial commitment of a three-year Ontario College Advanced Diploma. It also speaks to concerns related to automation and artificial intelligence in the creative design sector. 
 </p>
 <blockquote>
-	“The future of design is human-led, AI-enhanced.”
+	“The future of design is human-led, AI-enhanced.” 
 </blockquote>
 <p>
 	If initiatives included in these pages are implemented in whole or in part, they should be documented to be shared as an open-source type program to benefit the institution as a whole. 
 </p>
+<blockquote>
+	With the increasing integration of A.I. in creative processes, designers will need to elevate their role. We're no longer editors. We're directors.
+</blockquote>
 <h4>
 	Low Enrollment: Possible Causes 
 </h4>
