@@ -103,6 +103,10 @@ schools:
       url: "https://merivalehs.ocdsb.ca"
 
 links:
+  - title: "Ontario Job Bank NOC 52120"
+    url: "https://www.services.labour.gov.on.ca/labourmarket-ui/jobProfile?nocCode=52120"
+  - title: "NOC Code 52120"
+    url: "https://noc.esdc.gc.ca/OaSIS/OaSISOccProfile?code=52120.01&version=2023.0"
   - title: "OCDSB Arts Programs"
     url: "https://www.ocdsb.ca/programs-learning/secondary/programs/arts"
   - title: "Specialist High Skills Major (SHSM)"
