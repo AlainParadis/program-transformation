@@ -1,6 +1,6 @@
 ---
 layout: default
-role: nav
+role: notes
 title: Proposed Credentials
 order: 4
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-role: nav
+role: notes
 title: University Outreach
 order: 2
 ---
