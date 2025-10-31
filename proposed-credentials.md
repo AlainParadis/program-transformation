@@ -5,7 +5,7 @@ title: Proposed Credentials
 order: 4
 ---
 <p>
-	While the current three-year program is successful, this initiative requires that we explore alternatives to attract greater numbers. The following represent ideas for new credentials within the field of graphic design. 
+	While the current three-year program is successful, this initiative requires that we explore alternatives to attract greater numbers. The following represent ideas for new credentials within the field of graphic design. Note that Canestoga has an <a href="https://www.conestogac.on.ca/fulltime/bachelor-of-design-honours/courses?id=28649">Honours Bachelor's of Design</a>.
 </p>
 <ol>
 	<li>Ontario Colleges Advanced Diploma</li>
