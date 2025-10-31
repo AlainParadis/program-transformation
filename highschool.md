@@ -13,6 +13,12 @@ order: 1
 <blockquote>
 	“Turn your creativity into a career.” 
 </blockquote>
+<p>
+    There are a number of highschools that offer a Specialist High Skills Major in Arts and Culture (<a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture" target="_target">SHSM, Arts and Culture</a>).
+</p>
+
+<a href="highschools.html" class="btn-small">Local Arts High Schools&nbsp;➜</a>
+
 <h4>
 	Student Benefits 
 </h4>
@@ -60,25 +66,6 @@ order: 1
 <p>
 	The benefits listed above contain the messaging that needs to be communicated in the specified channels. 
 </p>
-<h4>
-	Local Arts High Schools 
-</h4>
-<p>
-	These are yet more arts high schools to approach. They all participate in the SHSM Program. 
-</p>
-{% assign sorted-schools = site.data.sitewide.schools | sort: "name" %}
-{% for school in sorted-schools %} 
-<ul>
-	<li style="margin-top: 1rem;"><strong>{{ school.name }}</strong>, {{ school.mission }}</li>
-	<ul>
-		<li>{{ school.contact.name }}, {{ school.contact.title }}</li>
-		<li>{{ school.contact.address }}</li>
-		<li><a href="mailto:{{ school.contact.email }}">{{ school.contact.email }}</a></li>
-		<li><a href="tel:{{ school.contact.phone }}">{{ school.contact.phone }}</a></li>
-		<li><a href="{{ school.contact.url }}" target="_blank">{{ school.contact.url }}</a></li>
-	</ul>
-</ul>
-{% endfor %} 
 <h4>
 	Outreach Activities 
 </h4>
