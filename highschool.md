@@ -102,27 +102,3 @@ order: 1
 		</ul>
 	</ul>
 </ol>
-<h4>
-	Dual Credit Opportunities
-</h4>
-<p>
-	<a href="https://www.ontario.ca/page/dual-credit-programs" target="_blank">Dual credit programs in Ontario</a> are designed to help high school students transition more smoothly into postsecondary education. They allow eligible high school students to take college courses that count toward both their Ontario Secondary School Diploma (OSSD) and a college diploma. They seem like a natural opportunity to entice and lead high school students into the Graphic Design program.
-</p>
-<p>
-	Participating in a dual credit program can help students complete their high school diploma, transition successfully to college programs while exploring career pathways and gaining exposure to college-level expectations and environments. 
-</p>
-<p>
-    Research is required to find courses at local arts high schools that align well with those in the Graphic Design program. This would be part of the outreach efforts.
-</p>
-<p>
-	If this were to proceed, high school students should have the opportunity to appreciate the full Graphic Design program college experience by attending the DSN1561 Graphic Design 1 course in person. This is an anchor course in the program. It would give students an authentic experience of enrolling in the program. 
-</p>
-<p>
-    The initiative could also begin with an Algonquin College Graphic Design program faculty member teaching at a high school.
-</p>
-<p>
-	Note that students enrolled in a <em>Specialist High Skills Major (SHSM)</em> programs are eligible for dual credits.
-</p>
-<p>
-	<a href="https://files.ontario.ca/edu-dual-credit-programs-policy-program-requirements-2020-en-2021-12-13.pdf">Further reading (PDF)</a> about dual credit course development and delivery. 
-</p>
