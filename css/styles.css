@@ -271,7 +271,7 @@ a.btn-small
 
 .btn:hover
 {
-	background-color: var(--light);
+	background-color: var(--blue-light);
 	color: var(--dark);
 }
 
@@ -464,7 +464,7 @@ figcaption
 
 blockquote
 {
-	text-wrap: balance;
+    max-width: 40ch;
 	font-weight: 400;
 	margin-left: 1rem;
 	padding-left: 1.5rem;
@@ -477,6 +477,20 @@ blockquote
 }
 
 p + blockquote { margin-bottom: 2rem; }
+
+blockquote.small {
+	font-weight: 400;
+	max-width: 50ch;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	padding-left: 1rem;
+	text-indent: -0.5rem;
+	color: var(--blue-light);
+	font-size: 1rem;
+	font-style: italic;
+	hyphens: none;
+	border: 0;
+}
 
 aside
 {
