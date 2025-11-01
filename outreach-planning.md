@@ -13,7 +13,7 @@ title: Outreach Planning
 	“Find tools, community, and real-world experience with Algonquin’s Graphic Design program—where creativity meets employability.” 
 </blockquote>
 <p>
-	The <a href="highschool.html">listed benefits</a> contain the messaging that needs to be communicated in the specified channels. There's also material that can be used to promote the program such as <em>applicant portfolio pieces</em>, <em>student assignment samples</em>, and <em>alumni industry work</em>. 
+	The <a href="highschool.html#student-benefits">listed benefits</a> contain the messaging that needs to be communicated in the specified channels. There's also material that can be used to promote the program such as <em>applicant portfolio pieces</em>, <em>student assignment samples</em>, and <em>alumni industry work</em>. 
 </p>
 <h4>
 	Outreach Activities 
@@ -74,4 +74,13 @@ title: Outreach Planning
 </blockquote>
 <p>
 	We can encourage brief sharing in pairs or small groups before asking for volunteers to speak out. 
+</p>
+<h4>
+	Lead Capturing and Tracking
+</h4>
+<p>
+    During school visits, we'll need a way to collect key contact information from prospective applicants. Will the college want this information for the CRM, or can we deal with it at a program level?
+</p>
+<p>
+    It would be great to deploy an email campaign with tailored information for each applicant, including key calls to action. We'll need to emphasise prompt follow-up, such as thanking students for participating, reminding them to complete next steps at suitable times, and answering questions quickly.
 </p>
