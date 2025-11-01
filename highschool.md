@@ -14,15 +14,14 @@ order: 1
 	“Turn your creativity into a career.” 
 </blockquote>
 <p>
-    There are a number of highschools that offer a Specialist High Skills Major in Arts and Culture (<a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture" target="_target">SHSM, Arts and Culture</a>).
+	There are a number of highschools that offer a Specialist High Skills Major in Arts and Culture (<a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture" target="_target">SHSM, Arts and Culture</a>). 
 </p>
-<a href="outreach-planning.html" class="btn">Outreach Planning</a>
-
+<a href="outreach-planning.html" class="btn">Outreach Planning</a> 
 <h4>
-	Student Benefits 
+	<a name="student-benefits">Student Benefits</a> 
 </h4>
 <p>
-	These are benefits for high school students to attend the Graphic Design program at Algonquin College. These make up the key messaging that needs to be shared broadly.
+	These are benefits for high school students to attend the Graphic Design program at Algonquin College. These make up the key messaging that needs to be shared broadly. 
 </p>
 <ul>
 	<li>Transition from expressive art to applied design. Learn how creativity solves real-world communication problems.</li>
@@ -39,9 +38,9 @@ order: 1
 	<li>You’ll learn how to monetize your creativity while staying true to your artistic roots.</li>
 	<li>Fieldwork and client-based projects introduce you to the business side of art—how to work with clients, meet deadlines, and present your work professionally.</li>
 </ul>
-<a href="highschools.html" class="btn-small">Local Arts High Schools&nbsp;➜</a>
+<a href="highschools.html" class="btn-small">Local Arts High Schools&nbsp;➜</a> 
 <h4>
-	<a name="channels">Channels </a>
+	<a name="channels">Channels </a> 
 </h4>
 <p>
 	Outreach to high schools offers multiple channels both in-person and online. The first high schools to target are those participating in the <a href="https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture">Specialist High Skills Major, Arts and Culture</a> program. 
