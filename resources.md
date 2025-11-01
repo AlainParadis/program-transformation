@@ -2,7 +2,7 @@
 layout: default
 role: nav
 title: Resources
-order: 3
+order: 4
 ---
 <h3>
 	Useful Links 
