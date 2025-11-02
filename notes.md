@@ -4,7 +4,16 @@ role: notes
 title: Notes
 order:
 --- 
+#### Program Promo Notes
+
+-   During school visits, we'll need a way to collect key contact information from prospective applicants. Will the college want this information for the CRM, or can we deal with it at a program level?
+-   What are the important dates for applying to the 26F semester?
+-   Can we offer these students some type of advantage, since they're already in an arts program?
+
+
 #### Heather
+
+Sep 18, 2025
 
 -   What are your thoughts on the current state of the program?
 -   Does the college have a theory to explain the low enrolment numbers?
