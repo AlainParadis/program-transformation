@@ -233,6 +233,14 @@ strong, bold, .bold
 	color: var(--blue-light);
 }
 
+pre {
+    font-family: var(--mono), "Courier New", Courier, mono;
+    white-space: pre-line;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+
 a.btn
 {
 	background-color: var(--orange);
