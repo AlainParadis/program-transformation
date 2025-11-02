@@ -60,15 +60,12 @@ title: Outreach Planning
 <blockquote class="small">
 	“Everyone has their own reasons for being here. I’d love to hear what made you choose the arts.” 
 </blockquote>
-
 <blockquote class="small">
 	“What do you enjoy most about making art?” 
 </blockquote>
-
 <blockquote class="small">
 	“What made you excited to join this program?” 
 </blockquote>
-
 <blockquote class="small">
 	“Was there a particular project, artist, or experience that made you want to pursue the arts?” 
 </blockquote>
@@ -76,11 +73,28 @@ title: Outreach Planning
 	We can encourage brief sharing in pairs or small groups before asking for volunteers to speak out. 
 </p>
 <h4>
-	Lead Capturing and Tracking
+	Lead Capturing and Tracking 
 </h4>
 <p>
-    During school visits, we'll need a way to collect key contact information from prospective applicants. Will the college want this information for the CRM, or can we deal with it at a program level?
+	During school visits, we'll collect key contact information from prospective applicants so we can follow up with them. 
 </p>
 <p>
-    It would be great to deploy an email campaign with tailored information for each applicant, including key calls to action. We'll need to emphasise prompt follow-up, such as thanking students for participating, reminding them to complete next steps at suitable times, and answering questions quickly.
+	It would be great to deploy an email campaign with tailored information for each applicant, including key calls to action. We'll need to emphasise prompt follow-up, such as thanking students for participating, reminding them to complete next steps at suitable times, and answering questions quickly. 
 </p>
+<h4>
+	Letter To High School Arts Department Heads
+</h4>
+<p>
+	This is an email message to request a meeting with Arts Department leads at local high schools. 
+</p>
+<pre>
+Subject: Meeting Request
+
+Dear [recipient name],
+
+My name is Alain Paradis. I coordinate and teach in the Graphic Design program at Algonquin College. I am reaching out to connect with you as part of our efforts to support students exploring creative post-secondary paths.
+
+I would like to propose a meeting. The agenda would be to discuss a possible classroom visit, where I could share details about our Graphic Design program and answer student questions. Our program develops skills in creative thinking, design methods, and digital tools that we believe are valued by employers.
+
+Please let me know your availability. We can hold this initial meeting virtually, if that's easier for you. I will do my best to fit your schedule. I look forward to meeting and working together to help students consider graphic design as an exciting next step.
+</pre>
