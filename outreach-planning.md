@@ -81,8 +81,11 @@ title: Outreach Planning
 <p>
 	It would be great to deploy an email campaign with tailored information for each applicant, including key calls to action. We'll need to emphasise prompt follow-up, such as thanking students for participating, reminding them to complete next steps at suitable times, and answering questions quickly. 
 </p>
+<p>
+    We can use existing tools included in Microsoft Office to track and share data with college stakeholders. MS Forms can capture lead contact information, saving data to Excel. Outlook can send tailored mail-merged messages. We're open to working with admissions to track leads.
+</p>
 <h4>
-	Letter To High School Arts Department Heads
+Letter To High School Arts Department Heads
 </h4>
 <p>
 	This is an email message to request a meeting with Arts Department leads at local high schools. 
