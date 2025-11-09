@@ -6,7 +6,7 @@ order: 3
 ---
 These are very preliminary ideas about possible program transformation.
 
-The central idea the faculty have agreed upon is de-streaming the curriculum. Currently, our courses are based on distinct disciplines. We have four semesters of typography, and four semesters of user experience design. What we envision is a more multi-disciplinary approach, where courses include some of each discipline. For instance, elements of user experience design and typography would be in a course where assignments include web pages and printed collateral to support a brand. The latest automated production processes would be used rather than tedious, repetitive methods. See what's possible, with this re-imagined <a href="#pos">program of study</a>.
+The central idea the faculty have agreed upon is de-streaming the curriculum. Currently, our courses are based on distinct disciplines. We have four semesters of typography, and four semesters of user experience design. What we envision is a more multi-disciplinary approach, where courses include some of each discipline. For instance, elements of user experience design and typography would be in a course where assignments include web pages and printed collateral to support a brand. The latest automated production processes would be used rather than tedious, repetitive methods. See what's possible, with this <a href="#pos">re-imagined program of study</a>.
 
 That said, we cannot ignore the craft aspect of design. Software training and basic coding, including fundamentals about pixels, vectors, page layout, and HTML/CSS will be necessary for the foreseeable future.
 
