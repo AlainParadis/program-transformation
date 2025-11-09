@@ -24,20 +24,11 @@ order: 1
 	These are benefits for high school students to attend the Graphic Design program at Algonquin College. These make up the key messaging that needs to be shared broadly. 
 </p>
 <ul>
-	<li>Transition from expressive art to applied design. Learn how creativity solves real-world communication problems.</li>
-	<li>Explore visual storytelling, branding, and layout design while maintaining your artistic voice.</li>
-	<li>Classes feel like art studios: project-based, critique-driven, and collaborative.</li>
-	<li>Weekly 3-hour blocks allow for deep focus and experimentation, similar to high school art classes.</li>
-	<li>Learn to use design software as creative instruments, not just technical tools.</li>
-	<li>Typography and layout become forms of artistic composition, building on your understanding of visual balance and rhythm.</li>
-	<li>Create a professional design portfolio that showcases your artistic strengths and design thinking.</li>
-	<li>Projects are diverse, giving you room to explore your style.</li>
-	<li>Join a cohort of students who are also passionate about art and design.</li>
-	<li>Faculty are practicing designers and educators who understand the transition from fine art to graphic design.</li>
-	<li>Graphic design opens doors to careers in design, web design, animation, user experience design, advertising, and publishing.</li>
-	<li>You’ll learn how to monetize your creativity while staying true to your artistic roots.</li>
-	<li>Fieldwork and client-based projects introduce you to the business side of art—how to work with clients, meet deadlines, and present your work professionally.</li>
+  {% for benefit in site.data.sitewide.benefits %}
+    <li>{{ benefit }}</li>
+  {% endfor %}
 </ul>
+
 <a href="highschools.html" class="btn-small">Local Arts High Schools&nbsp;➜</a> 
 <h4>
 	<a name="channels">Channels </a> 
