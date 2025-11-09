@@ -21,3 +21,19 @@ As designers, we'll use A.I. to generate initial concepts, spark inspiration, ex
 If we're to remain relevant and competitive, we'll need to master conceptual thinking, brand strategy, user experience analysis, and creative leadership. The future is going to require a blend of creativity, empathy, and the ability to guide and refine A.I.-generated work.
 
 A.I. levels the technical playing field, but the ability of humans to conjure novel ideas through deep understanding of a client's needs will remain irreplaceable.
+
+<h4>
+	A.I. Generated Program of Study
+</h4>
+
+{% for item in site.data.pos.semesters %}
+  <h5>{{ item.title }}</h5>
+  <ul>
+    {% for course in item.courses %}
+      <li>
+        <strong>{{ course.title }}</strong><br>
+        {{ course.description }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
