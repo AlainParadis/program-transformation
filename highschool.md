@@ -18,14 +18,14 @@ order: 1
 </p>
 <a href="outreach-planning.html" class="btn">Outreach Planning</a> 
 <h4>
-	<a name="student-benefits">Student Benefits</a> 
+	<a name="messaging">Messaging</a> 
 </h4>
 <p>
 	These are benefits for high school students to attend the Graphic Design program at Algonquin College. These make up the key messaging that needs to be shared broadly. 
 </p>
 <ul>
-  {% for benefit in site.data.sitewide.benefits %}
-    <li>{{ benefit }}</li>
+  {% for message in site.data.sitewide.messaging %}
+    <li>{{ message }}</li>
   {% endfor %}
 </ul>
 
