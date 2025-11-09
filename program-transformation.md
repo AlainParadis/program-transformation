@@ -23,8 +23,10 @@ If we're to remain relevant and competitive, we'll need to master conceptual thi
 A.I. levels the technical playing field, but the ability of humans to conjure novel ideas through deep understanding of a client's needs will remain irreplaceable.
 
 <h4>
-	A.I. Generated Program of Study
+	Reimagined Program of Study
 </h4>
+
+This program of study was created (with A.I. assistance). It's not meant for implementation. It's meant to demonstrate what could be possible for our program.
 
 {% for item in site.data.pos.semesters %}
   <h5>{{ item.title }}</h5>
