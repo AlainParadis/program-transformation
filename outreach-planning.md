@@ -13,7 +13,7 @@ title: Outreach Planning
 	“Find tools, community, and real-world experience with Algonquin’s Graphic Design program—where creativity meets employability.” 
 </blockquote>
 <p>
-	The <a href="highschool.html#student-benefits">listed benefits</a> contain the messaging that needs to be communicated in the specified channels. There's also material that can be used to promote the program such as <em>applicant portfolio pieces</em>, <em>student assignment samples</em>, and <em>alumni industry work</em>. 
+	The <a href="highschool.html#messaging">listed benefits</a> contain the messaging that needs to be communicated in the specified channels. There's also material that can be used to promote the program such as <em>applicant portfolio pieces</em>, <em>student assignment samples</em>, and <em>alumni industry work</em>. 
 </p>
 <h4>
 	Outreach Activities 
@@ -85,7 +85,7 @@ title: Outreach Planning
     We can use existing tools included in Microsoft Office to track and share data with college stakeholders. MS Forms can capture lead contact information, saving data to Excel. Outlook can send tailored mail-merged messages. We're open to working with admissions to track leads.
 </p>
 <h4>
-Letter To High School Arts Department Heads
+    Letter To High School Arts Department Heads
 </h4>
 <p>
 	This is an email message to request a meeting with Arts Department leads at local high schools. 
