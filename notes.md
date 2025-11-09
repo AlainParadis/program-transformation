@@ -6,6 +6,8 @@ order:
 --- 
 #### Program Promo Notes
 
+-   Should I be working with Admissions on these visits? Is there anyone else I should be working with?
+-   I need to work with Marketing to have our banners designed.
 -   During school visits, we'll need a way to collect key contact information from prospective applicants. Will the college want this information for the CRM, or can we deal with it at a program level?
 -   What are the important dates for applying to the 26F semester?
 -   Can we offer these students some type of advantage, since they're already in an arts program?
