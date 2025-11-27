@@ -9,13 +9,13 @@ title: Local Arts High Schools
 {% assign sorted-schools = site.data.sitewide.schools | sort: "name" %}
 {% for school in sorted-schools %} 
 <ul>
-	<li style="margin-top: 1rem;"><strong>{{ school.name }}</strong>, {{ school.mission }}</li>
+	{% if school.name %}<li style="margin-top: 1rem;"><strong>{{ school.name }}</strong></li>{% endif %}
 	<ul>
-		<li>{{ school.contact.name }}, {{ school.contact.title }}</li>
-		<li>{{ school.contact.address }}</li>
-		<li><a href="mailto:{{ school.contact.email }}">{{ school.contact.email }}</a></li>
-		<li><a href="tel:{{ school.contact.phone }}">{{ school.contact.phone }}</a></li>
-		<li><a href="{{ school.contact.url }}" target="_blank">{{ school.contact.url }}</a></li>
+		{% if school.contact.name %}<li>{{ school.contact.name }}, {% endif %}{% if school.contact.title %} {{ school.contact.title }}</li>{% endif %}
+		{% if school.contact.address %}<li>{{ school.contact.address }}</li>{% endif %}
+		{% if school.contact.email %}<li><a href="mailto:{{ school.contact.email }}">{{ school.contact.email }}</a></li>{% endif %}
+		{% if school.contact.phone %}<li><a href="tel:{{ school.contact.phone }}">{{ school.contact.phone }}</a></li>{% endif %}
+		{% if school.contact.url %}<li><a href="{{ school.contact.url }}" target="_blank">{{ school.contact.url }}</a></li>{% endif %}
 	</ul>
 </ul>
-{% endfor %} 
+{% endfor %}
