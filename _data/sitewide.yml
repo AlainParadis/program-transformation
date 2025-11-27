@@ -79,34 +79,34 @@ schools:
       url: "https://ndh.ocsb.ca"
   - name: "Ridgemont High School"
     contact:
-      name: "Andrew Cumberland"
-      title: "Principal"
+      name: "Charlotte Granum"
+      title:
       address: "2597 Alta Vista Drive"
-      email: "andrew.cumberland@ocdsb.ca"
+      email: "charlotte.granum@ocdsb.ca"
       phone: "+1 (613)733-4860"
       url: "https://ridgemonths.ocdsb.ca"
   - name: "Colonel By Secondary School"
     contact:
-      name: "Trevor Grills"
-      title: "Principal"
+      name: "Scott Virgo"
+      title:
       address: "2381 Ogilvie Road"
-      email: "trevor.grills@ocdsb.ca"
+      email: "scott.virgo@ocdsb.ca"
       phone: "+1 (613) 745-9411"
       url: "https://colonelbyss.ocdsb.ca"
   - name: "Hillcrest High School"
     contact:
-      name: "Dinu Chande"
-      title: "Principal"
+      name: "Melanie Reeks"
+      title:
       address: "1900 Dauphin Road"
-      email: "dinu.chande@ocdsb.ca"
+      email: "melanie.reeks@ocdsb.ca"
       phone: "+1 (613) 733-1755"
       url: "https://hillcresths.ocdsb.ca"
   - name: "Sir Wilfrid Laurier Secondary School"
     contact:
-      name: "Jamie Bell"
-      title: "Principal"
+      name: "Alex Budgell"
+      title:
       address: "1515 Tenth Line Road"
-      email: "jamie.bell@ocdsb.ca"
+      email: "alexander.budgell@ocdsb.ca"
       phone: "+1 (613) 834-4500"
       url: "https://sirwilfridlaurierss.ocdsb.ca"
   - name: "Gloucester High School"
