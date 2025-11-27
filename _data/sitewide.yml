@@ -7,7 +7,7 @@ identification:
   prof-short-name: Alain
   email: paradia@algonquincollege.com
   phone: +1 613-727-4723,5878
-  mobile: +1 (613) 618-2138
+  mobile: +1 613-618-2138
 
 algonquin-contacts:
   - lastname: Devries
@@ -45,6 +45,14 @@ algonquin-contacts:
     title: Marketing Director
  
 schools:
+  - name: "John McCrae Secondary School"
+    contact:
+      name: "Megan Cameron"
+      title: "Arts Department Head"
+      address: "103 Malvern Dr, Nepean, ON K2J 4T2"
+      email: "johnmccraess@ocdsb.ca"
+      phone: "+1 613-823-0367"
+      url: "103 Malvern Dr, Nepean, ON K2J 4T2"
   - name: "St. Pius High School"
     contact:
       name:
@@ -91,7 +99,7 @@ schools:
       title:
       address: "2381 Ogilvie Road"
       email: "scott.virgo@ocdsb.ca"
-      phone: "+1 (613) 745-9411"
+      phone: "+1 613-745-9411"
       url: "https://colonelbyss.ocdsb.ca"
   - name: "Hillcrest High School"
     contact:
@@ -99,7 +107,7 @@ schools:
       title:
       address: "1900 Dauphin Road"
       email: "melanie.reeks@ocdsb.ca"
-      phone: "+1 (613) 733-1755"
+      phone: "+1 613-733-1755"
       url: "https://hillcresths.ocdsb.ca"
   - name: "Sir Wilfrid Laurier Secondary School"
     contact:
@@ -107,7 +115,7 @@ schools:
       title:
       address: "1515 Tenth Line Road"
       email: "alexander.budgell@ocdsb.ca"
-      phone: "+1 (613) 834-4500"
+      phone: "+1 613-834-4500"
       url: "https://sirwilfridlaurierss.ocdsb.ca"
   - name: "Gloucester High School"
     contact:
@@ -115,7 +123,7 @@ schools:
       title: "Principal"
       address: "2060 Ogilvie Road"
       email: "joe.ross@ocdsb.ca"
-      phone: "+1 (613) 745-7176"
+      phone: "+1 613-745-7176"
       url: "https://gloucesterhs.ocdsb.ca"
   - name: "Canterbury High School Arts Program"
     contact:
@@ -123,7 +131,7 @@ schools:
       title: "Principal"
       address: "900 Canterbury Avenue"
       email: "john.unsworth@ocdsb.ca"
-      phone: "+1 (613) 731-1191"
+      phone: "+1 613-731-1191"
       url: "https://canterburyhs.ocdsb.ca/academics-landing/arts-canterbury"
   - name: "Merivale High School"
     contact:
@@ -131,7 +139,7 @@ schools:
       title: "HSM Lead Coordinator"
       address: "1755 Merivale Road"
       email: "jaclyn.canas@ocdsb.ca"
-      phone: "+1 (613) 224-1807"
+      phone: "+1 613-224-1807"
       url: "https://merivalehs.ocdsb.ca"
 
 links:
