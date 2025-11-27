@@ -8,10 +8,10 @@ title: Local Arts High Schools
 </p>
 {% assign sorted-schools = site.data.sitewide.schools | sort: "name" %}
 {% for school in sorted-schools %}
-<ul>
-	<li>
-		<strong>{{ school.name }}</strong>
-		<ul>
+<div class="employers-list">
+	<div class="employers-list-item">
+		<h4 class="employer-name">{{ school.name }}</h4>
+		<ul class="employer">
 			{% if school.contact.name or school.contact.title %}
 				<li>
 					{% if school.contact.name %}{{ school.contact.name }}{% endif %}{% if school.contact.title %}, {{ school.contact.title }}{% endif %}
@@ -22,6 +22,6 @@ title: Local Arts High Schools
 			{% if school.contact.phone %}<li><a href="tel:{{ school.contact.phone }}">{{ school.contact.phone }}</a></li>{% endif %}
 			{% if school.contact.url %}<li><a href="{{ school.contact.url }}" target="_blank">{{ school.contact.url }}</a></li>{% endif %}
 		</ul>
-	</li>
-</ul>
+	</div>
+</div>
 {% endfor %}
