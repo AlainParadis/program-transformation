@@ -131,6 +131,8 @@ links:
     url: "https://www.algonquincollege.com/academic-development/"
   - title: "FaceBook UOttawa search results"
     url: "https://www.facebook.com/search/pages/?q=uottawa%20arts&sde=AbrggujvjMyXR74p7wCRmi0L_zu0jmOyUZzf8HGUjsoFR3AgjBZh7C6nMHBmYpwZR4RMZiAkOHyu6RQidk6huyHE"
+  - title: "AI in Graphic Design"
+    url: "https://www.bluehost.com/en-ca/blog/ai-in-graphic-design/"
 
 messaging:
 -  "Transition from expressive art to applied design. Learn how creativity solves real-world communication problems."  
@@ -145,3 +147,14 @@ messaging:
 -  "Graphic design opens doors to careers in design, web design, animation, user experience design, advertising, and publishing."  
 -  "You’ll learn how to monetize your creativity while staying true to your artistic roots."  
 -  "Fieldwork and client-based projects introduce you to the business side of art—how to work with clients, meet deadlines, and present your work professionally."
+
+resourcing:
+  - title: "Team Building"
+    description: >
+      A cohesive faculty team, working in sync towards common goals is necessary for change to happen.
+  - title: "Workload"
+    description: >
+      Equitable workload distribution...
+  - title: "IT Resources"
+    description: >
+      We have the key IT resources to begin, with college issued laptops, creative tools and Microsoft cloud apps. We may need to interface with other departments, for which additional technologies may be needed.
