@@ -87,24 +87,3 @@ Please let me know your availability. We can hold this initial meeting virtually
 		</ul>
 	</ul>
 </ol>
-<h4>
-	Eliciting Interest 
-</h4>
-<p>
-	When meeting with high school students, they'll need to be drawn out by centring the discussion on their reasons for joining an arts program to foster engagement. These are some prompts. 
-</p>
-<blockquote class="small">
-	“Everyone has their own reasons for being here. I’d love to hear what made you choose the arts.” 
-</blockquote>
-<blockquote class="small">
-	“What do you enjoy most about making art?” 
-</blockquote>
-<blockquote class="small">
-	“What made you excited to join this program?” 
-</blockquote>
-<blockquote class="small">
-	“Was there a particular project, artist, or experience that made you want to pursue the arts?” 
-</blockquote>
-<p>
-	We can encourage brief sharing in pairs or small groups before asking for volunteers to speak out. 
-</p>
