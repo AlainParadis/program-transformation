@@ -13,3 +13,12 @@ order: 4
 	<li><a href="{{linkitem.url}}" target="_blank">{{ linkitem.title }}</a></li>
 	{% endfor %} 
 </ul>
+
+<h4>
+	Useful Contacts 
+</h4>
+<ul class="linkslist">
+	{% assign sorted-contacts = site.data.sitewide.algonquin-contacts | sort: "lastname" %} {% for person in sorted-contacts %} 
+	<li><a href="mailto:{{ person.email }}">{{ person.lastname }}, {{ person.firstname }} </a>, {{ person.title }}</li>
+	{% endfor %} 
+</ul>
