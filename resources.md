@@ -4,9 +4,9 @@ role: nav
 title: Resources
 order: 4
 ---
-<h3>
+<h4>
 	Useful Links 
-</h3>
+</h4>
 {% assign sorted-links = site.data.sitewide.links | sort: "title" %} 
 <ul class="linkslist">
 	{% for linkitem in sorted-links %} 
