@@ -1,8 +1,8 @@
 ---
 layout: default
 role: nav
-title: Program Transformation
-order: 3
+title: Brainstorming
+order: 2
 ---
 These are very preliminary ideas about possible program transformation.
 
