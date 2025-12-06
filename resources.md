@@ -22,3 +22,11 @@ order: 4
 	<li><a href="mailto:{{ person.email }}">{{ person.lastname }}, {{ person.firstname }} </a>, {{ person.title }}</li>
 	{% endfor %} 
 </ul>
+
+<h4>Degree Programs</h4>
+<ul class="linkslist">
+	{% assign sorted-programs = site.data.sitewide.degree-programs | sort: "title" %}
+	{% for program in sorted-programs %} 
+	<li><a href="{{ program.url }}">{{ program.title }}</a>, {{ program.institution }}</li>
+	{% endfor %} 
+</ul>
