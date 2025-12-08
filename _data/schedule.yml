@@ -12,7 +12,7 @@ times:
   - "10:00am"
   - "10:30am"
   - "11:00am"
-  - "11:30am" 
+  - "11:30am"
   - "12:00pm"
   - "12:30pm"
   - "01:00pm"
@@ -36,348 +36,355 @@ times:
   - "10:00pm"
 
 classes:
-  - room: N214
-    start: "09:00am"
-    duration: 6
-    name: DSN1535 Computer Graphics 3
-    group: l3g1
-    instructor: Travis Gobeil
-    email: gobeilt@algonquincollege.com
-    day: Monday
+  # LEVEL 2
   - room: N216
-    start: "09:00am"
-    duration: 6
-    name: DSN1558 Motion Graphics 1
-    group: l3g2
-    instructor: Andrew Miller
-    email: millera1@algonquincollege.com
-    day: Monday
-  - room: N214
-    start: "12:00pm"
-    duration: 6
-    name: DSN1562 Computer Graphics 1
-    group: l1g2
-    instructor: Travis Gobeil
-    email: gobeilt@algonquincollege.com
-    day: Monday
-  - room: N216
-    start: "01:00pm"
-    duration: 6
-    name: DSN1713 Web Design 2
-    group: l3g2
-    instructor: Wendy Warren
-    instructor2: Steve Lavigne
-    email: warrenw@algonquincollege.com
-    email2: lavigns@algonquincollege.com
-    day: Monday
-  - room: N219
-    start: "09:00am"
-    duration: 6
-    name: DSN1713 Web Design 2
-    group: l3g3
-    instructor: Wendy Warren
-    instructor2: Steve Lavigne
-    email: warrenw@algonquincollege.com
-    email2: lavigns@algonquincollege.com
-    day: Monday
-  - room: [Other, N203]
-    start: "09:30am"
-    duration: 6
-    name: DSN1730 Design Systems
-    group: l5g1
-    instructor: Glenn Gobuyan
-    email: gobuyag@algonquincollege.com
-    day: Monday
-  - room: [Other, N203]
-    start: "01:00pm"
-    duration: 6
-    name: DSN1730 Design Systems
-    group: l5g2
-    instructor: Glenn Gobuyan
-    email: gobuyag@algonquincollege.com
-    day: Monday
-  - room: N214
-    start: "05:00pm"
-    duration: 6
-    name: DSN1728 UX/UI Design 3
-    group: l5g1
-    instructor: Angela Fahlman
-    instructor2: Alyster Mahoney
-    email: fahlmaa@algonquincollege.com
-    email2: mahonea@algonquincollege.com
-    day: Monday
-  - room: N216
-    start: "12:00pm"
-    duration: 6
-    name: DSN1562 Computer Graphics 1
-    group: l1g1
-    instructor: Travis Gobeil
-    email: gobeilt@algonquincollege.com
-    day: Tuesday
-  - room: [Other, N103]
-    start: "10:00am"
-    duration: 4
-    name: DSN1697 Concept Sketching 1
-    group: l1g2
-    instructor: Andrea Emery
-    email: emerya@algonquincollege.com
-    day: Monday
-  - room: N216
-    start: "09:00am"
-    duration: 6
-    name: DSN1713 Web Design 2
-    group: l3g1
-    instructor: Wendy Warren
-    instructor2: Steve Lavigne
-    email: warrenw@algonquincollege.com
-    email2: lavigns@algonquincollege.com
-    day: Tuesday
-  - room: [Other, T130]
-    start: "01:00pm"
-    duration: 6
-    name: DSN1696 Business of Design
-    group: l3g1
-    instructor: Alain Paradis
-    email: paradia@algonquincollege.com
-    day: Tuesday
-  - room: N214
-    start: "09:00am"
-    duration: 6
-    name: DSN1534 Typography 3
-    group: l3g3
-    instructor: Alain Paradis
-    email: paradia@algonquincollege.com
-    day: Tuesday
-  - room: N214
-    start: "06:00pm"
-    duration: 6
-    name: DSN1677 Computer Graphics 5
-    group: l5g1
-    instructor: Anish Parmar
-    email: parmara@algonquincollege.com
-    day: Tuesday
-  - room: N214
-    start: "12:00pm"
-    duration: 6
-    name: DSN1688 Motion Graphics 3
-    group: l5g2
-    instructor: Andrew Miller
-    email: millera1@algonquincollege.com
-    day: Tuesday
-  - room: N216
-    start: "05:00pm"
-    duration: 6
-    name: DSN1728 UX/UI Design 3
-    group: l5g2
-    instructor: Angela Fahlman
-    instructor2: Alyster Mahoney
-    email: fahlmaa@algonquincollege.com
-    email2: mahonea@algonquincollege.com
-    day: Tuesday
-  - room: N219
-    start: "08:00am"
-    duration: 4
-    name: DSN1697 Concept Sketching 1
-    group: l1g1
-    instructor: Andrea Emery
-    email: emerya@algonquincollege.com
-    day: Wednesday
-  - room: N214
-    start: "11:30am"
-    duration: 6
-    name: DSN1560 Typography 1
-    group: l1g1
-    instructor: Andrea Emery
-    email: emerya@algonquincollege.com
-    day: Wednesday
-  - room: N216
-    start: "09:00am"
-    duration: 6
-    name: DSN1558 Motion Graphics 1
-    group: l3g1
-    instructor: Andrew Miller
-    email: millera1@algonquincollege.com
-    day: Wednesday
-  - room: N214
-    start: "08:30am"
-    duration: 6
-    name: DSN1534 Typography 3
-    group: l3g2
-    instructor: Alain Paradis
-    email: paradia@algonquincollege.com
-    day: Wednesday
-  - room: N214
-    start: "03:00pm"
-    duration: 6
-    name: DSN1533 Graphic Design 3
-    group: l3g3
-    instructor: David Bromley
-    mail: bromled@algonquincollege.com
-    day: Wednesday
-  - room: N214
-    start: "06:30pm"
-    duration: 6
-    name: DSN1558 Motion Graphics 1
-    group: l3g3
-    instructor: Bradley Doyle
-    day: Wednesday
-  - room: N216
-    start: "01:00pm"
-    duration: 6
-    name: DSN1688 Motion Graphics 3
-    group: l5g1
-    instructor: Andrew Miller
-    email: millera1@algonquincollege.com
-    day: Wednesday
-  - room: N216
-    start: "06:00pm"
-    duration: 6
-    name: DSN1677 Computer Graphics 5
-    group: l5g2
-    instructor: Anish Parmar
-    email: parmara@algonquincollege.com
-    day: Wednesday
-  - room: N214
-    start: "08:00am"
-    duration: 6
-    name: DSN1561 Graphic Design 1
-    group: l1g1
-    instructor: Meredith Luce
-    email: lucem@algonquincollege.com    
-    day: Thursday
-  - room: [Other, N203]
-    start: "12:00pm"
-    duration: 6
-    name: DSN1561 Graphic Design 1
-    group: l1g2
-    instructor: Meredith Luce
-    email: lucem@algonquincollege.com
-    day: Thursday
-  - room: N214
     start: "03:30pm"
     duration: 6
-    name: DSN1560 Typography 1
-    group: l1g2
+    name: DSN1566 Typography 2 (010)
+    group: l2g1
+    instructor: Andrea Emery
+    email: emerya@algonquincollege.com
+    day: Monday
+
+  - room: N216
+    start: "12:30pm"
+    duration: 6
+    name: DSN1567 Computer Graphics 2 (020)
+    group: l2g2
+    instructor: Travis Gobeil
+    email: gobeilt@algonquincollege.com
+    day: Monday
+
+  - room: N214
+    start: "11:00am"
+    duration: 6
+    name: DSN1565 Graphic Design 2 (020)
+    group: l2g2
+    instructor: Andrea Emery
+    email: emerya@algonquincollege.com
+    day: Tuesday
+
+  - room: N216
+    start: "04:00pm"
+    duration: 6
+    name: DSN1566 Typography 2 (020)
+    group: l2g2
+    instructor: Andrea Emery
+    email: emerya@algonquincollege.com
+    day: Tuesday
+
+  - room: N216
+    start: "12:30pm"
+    duration: 6
+    name: DSN1567 Computer Graphics 2 (010)
+    group: l2g1
+    instructor: Travis Gobeil
+    email: gobeilt@algonquincollege.com
+    day: Wednesday
+
+  - room: N214
+    start: "08:00am"
+    duration: 6
+    name: DSN1712 Web Design 1 (010)
+    group: l2g1
+    instructor: Wendy Warren
+    email: warrenw@algonquincollege.com
+    day: Thursday
+
+  - room: Other
+    start: "08:00am"
+    duration: 4
+    name: DSN1698 Concept Sketching 2 (020) N103
+    group: l2g2
     instructor: Andrea Emery
     email: emerya@algonquincollege.com
     day: Thursday
-  - room: N214
-    start: "12:00pm"
+
+  - room: N216
+    start: "03:00pm"
     duration: 6
-    name: DSN1726 UX/UI Design 1
-    group: l3g1
-    instructor: Angela Fahlman
-    instructor2: Tara Boland
-    email: fahlmaa@algonquincollege.com
-    email2: bolandt@algonquincollege.com
+    name: ENL1950A Communications for Graphic Design (310) A2007
+    group: l2g3
+    instructor: Kate Corsten
+    email: corstek@algonquincollege.com
     day: Thursday
-  - room: N219
-    start: "09:00am"
-    duration: 6
-    name: DSN1535 Computer Graphics 3
-    group: l3g2
-    instructor: Travis Gobeil
-    email: gobeilt@algonquincollege.com
-    day: Thursday
-  - room: N219
-    start: "01:00pm"
-    duration: 6
-    name: DSN1535 Computer Graphics 3
-    group: l3g3
-    instructor: Travis Gobeil
-    email: gobeilt@algonquincollege.com
-    day: Thursday
+
   - room: N216
     start: "08:00am"
     duration: 6
-    name: DSN1715 Web Design 4
-    group: l5g1
+    name: DSN1565 Graphic Design 2 (010)
+    group: l2g1
+    instructor: David Bromley
+    email: bromled@algonquincollege.com
+    day: Friday
+
+  - room: Other
+    start: "12:00pm"
+    duration: 4
+    name: DSN1698 Concept Sketching 2 (010) N103
+    group: l2g1
+    instructor: Andrea Emery
+    email: emerya@algonquincollege.com
+    day: Friday
+
+  - room: N214
+    start: "08:00am"
+    duration: 6
+    name: DSN1712 Web Design 1 (020)
+    group: l2g2
     instructor: Wendy Warren
-    instructor2: Andrew Newby
     email: warrenw@algonquincollege.com
-    email2: newbya@algonquincollege.com
+    day: Friday
+
+  # LEVEL 4
+  - room: N219
+    start: "09:00am"
+    duration: 6
+    name: DSN1541 Computer Graphics 4 (010)
+    group: l4g1
+    instructor: Travis Gobeil
+    email: gobeilt@algonquincollege.com
+    day: Monday
+
+  - room: N219
+    start: "12:30pm"
+    duration: 6
+    name: DSN1727 UX/UI Design 2 (010)
+    group: l4g1
+    instructor: Angela Fahlman
+    email: fahlmaa@algonquincollege.com
+    day: Monday
+
+  - room: N214
+    start: "08:00am"
+    duration: 6
+    name: DSN1539 Graphic Design 4 (020)
+    group: l4g2
+    instructor: David Bromley
+    email: bromled@algonquincollege.com
+    day: Monday
+
+  - room: N214
+    start: "01:00pm"
+    duration: 6
+    name: DSN1669 Motion Graphics 2 (030)
+    group: l4g3
+    instructor: Andrew Miller
+    email: millera1@algonquincollege.com
+    day: Tuesday
+
+  - room: N214
+    start: "08:00am"
+    duration: 6
+    name: DSN1714 Web Design 3 (020)
+    group: l4g2
+    instructor: Wendy Warren
+    email: warrenw@algonquincollege.com
+    day: Tuesday
+
+  - room: N219
+    start: "09:00am"
+    duration: 6
+    name: DSN1541 Computer Graphics 4 (020)
+    group: l4g2
+    instructor: Travis Gobeil
+    email: gobeilt@algonquincollege.com
+    day: Wednesday
+
+  - room: N214
+    start: "08:00am"
+    duration: 6
+    name: DSN1714 Web Design 3 (010)
+    group: l4g1
+    instructor: Wendy Warren
+    email: warrenw@algonquincollege.com
+    day: Wednesday
+
+  - room: N214
+    start: "11:00am"
+    duration: 6
+    name: ENL1950A Communications for Graphic Design (300) B182
+    group: l4g1
+    instructor: Kate Corsten
+    email: corstek@algonquincollege.com
+    day: Wednesday
+
+  - room: N214
+    start: "11:00am"
+    duration: 6
+    name: DSN1540 Typography 4 (010)
+    group: l4g1
+    instructor: Alain Paradis
+    email: paradia@algonquincollege.com
     day: Thursday
+
+  - room: N216
+    start: "09:00am"
+    duration: 6
+    name: DSN1669 Motion Graphics 2 (020)
+    group: l4g2
+    instructor: Andrew Miller
+    email: millera1@algonquincollege.com
+    day: Thursday
+
+  - room: N219
+    start: "08:30am"
+    duration: 6
+    name: DSN1541 Computer Graphics 4 (030)
+    group: l4g3
+    instructor: Angela Fahlman
+    email: fahlmaa@algonquincollege.com
+    day: Thursday
+
   - room: N216
     start: "12:00pm"
     duration: 6
-    name: DSN1715 Web Design 4
-    group: l5g2
-    instructor: Wendy Warren
-    instructor2: Andrew Newby
-    email: warrenw@algonquincollege.com
-    email2: newbya@algonquincollege.com
+    name: DSN1539 Graphic Design 4 (030)
+    group: l4g3
+    instructor: David Bromley
+    email: bromled@algonquincollege.com
     day: Thursday
+
   - room: N219
-    start: "01:00pm"
+    start: "08:00am"
     duration: 6
-    name: DSN1534 Typography 3
-    group: l3g1
+    name: DSN1727 UX/UI Design 2 (020)
+    group: l4g2
+    instructor: Angela Fahlman
+    email: fahlmaa@algonquincollege.com
+    day: Friday
+
+  - room: N214
+    start: "12:00pm"
+    duration: 6
+    name: DSN1540 Typography 4 (020)
+    group: l4g2
     instructor: Alain Paradis
     email: paradia@algonquincollege.com
     day: Friday
+
   - room: N219
-    start: "08:00am"
-    duration: 6
-    name: DSN1726 UX/UI Design 1
-    group: l3g2
-    instructor: Angela Fahlman
-    instructor2: Tara Boland
-    email: fahlmaa@algonquincollege.com
-    email2: bolandt@algonquincollege.com
-    day: Friday
-  - room: [Other, B419]
     start: "12:00pm"
     duration: 6
-    name: DSN1726 UX/UI Design 1
-    group: l3g3
+    name: DSN1727 UX/UI Design 2 (030)
+    group: l4g3
     instructor: Angela Fahlman
-    instructor2: Tara Boland
     email: fahlmaa@algonquincollege.com
-    email2: bolandt@algonquincollege.com
     day: Friday
+
+  - room: N216
+    start: "12:00pm"
+    duration: 6
+    name: DSN1539 Graphic Design 4 (010)
+    group: l4g1
+    instructor: David Bromley
+    email: bromled@algonquincollege.com
+    day: Friday
+
+  - room: N214
+    start: "12:00pm"
+    duration: 6
+    name: DSN1714 Web Design 3 (030)
+    group: l4g3
+    instructor: Wendy Warren
+    email: warrenw@algonquincollege.com
+    day: Monday
+
+  - room: N214
+    start: "04:30pm"
+    duration: 6
+    name: DSN1540 Typography 4 (030)
+    group: l4g3
+    instructor: Alain Paradis
+    email: paradia@algonquincollege.com
+    day: Monday
+
+  # LEVEL 6
+  - room: Other
+    start: "12:30pm"
+    duration: 4
+    name: DSN1690 Fieldwork and Professional Practice (010) T207
+    group: l6g1
+    instructor: Alain Paradis
+    email: paradia@algonquincollege.com
+    day: Monday
+
+  - room: N214
+    start: "06:00pm"
+    duration: 6
+    name: DSN1685 Computer Graphics 6 (010)
+    group: l6g1
+    instructor: Anish Parmar
+    email: parmara@algonquincollege.com
+    day: Tuesday
+
   - room: N214
     start: "09:00am"
     duration: 6
-    name: DSN1545 Graphic Design 5
-    group: l5g1
-    instructor: Jamie McLennan
-    email: mclennj@algonquincollege.com
-    day: Friday
+    name: DSN1689 Motion Graphics 4 (020)
+    group: l6g2
+    instructor: Andrew Miller
+    email: millera1@algonquincollege.com
+    day: Monday
+
   - room: N216
-    start: "09:00am"
+    start: "11:00am"
     duration: 6
-    name: DSN1533 Graphic Design 3
-    group: l3g1
-    instructor: David Bromley
-    mail: bromled@algonquincollege.com
-    day: Friday
+    name: DSN1689 Motion Graphics 4 (010)
+    group: l6g1
+    instructor: Andrew Miller
+    email: millera1@algonquincollege.com
+    day: Wednesday
+
   - room: N216
-    start: "01:00pm"
+    start: "06:00pm"
     duration: 6
-    name: DSN1533 Graphic Design 3
-    group: l3g2
-    instructor: David Bromley
-    mail: bromled@algonquincollege.com
-    day: Friday
+    name: DSN1685 Computer Graphics 6 (020)
+    group: l6g2
+    instructor: Anish Parmar
+    email: parmara@algonquincollege.com
+    day: Wednesday
+
   - room: N214
-    start: "01:00pm"
+    start: "06:00pm"
     duration: 6
-    name: DSN1545 Graphic Design 5
-    group: l5g2
+    name: DSN1729 UX/UI Design 4 (010)
+    group: l6g1
+    instructor: Alyster Mahoney
+    email: mahonea@algonquincollege.com
+    day: Wednesday
+
+  - room: N214
+    start: "06:00pm"
+    duration: 6
+    name: DSN1729 UX/UI Design 4 (020)
+    group: l6g2
+    instructor: Alyster Mahoney
+    email: mahonea@algonquincollege.com
+    day: Thursday
+
+  - room: N216
+    start: "03:00pm"
+    duration: 6
+    name: DSN1684 Graphic Design 6 (010)
+    group: l6g1
     instructor: Jamie McLennan
     email: mclennj@algonquincollege.com
-    day: Friday 
- 
+    day: Thursday
+
+  - room: N214
+    start: "02:00pm"
+    duration: 6
+    name: DSN1684 Graphic Design 6 (020)
+    group: l6g2
+    instructor: Jamie McLennan
+    email: mclennj@algonquincollege.com
+    day: Wednesday
+
 async:
-  - name: DSN1710 Design Strategy
+  - name: DSN1731 Innovative Strategies (350)
     duration: 3
-    level: One
-    instructor: Andrea Emery
-    email: emerya@algonquincollege.com
-    modality: "Online/Asynchronous"
-  - name: DSN1782 Understanding Colour
-    duration: 3
-    level: One
-    instructor: David Bromley
-    mail: bromled@algonquincollege.com
+    level: Six
+    instructor: Michael Ball
+    email: ballm@algonquincollege.com
     modality: "Online/Asynchronous"
