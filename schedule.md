@@ -204,7 +204,7 @@ a:hover { border-bottom: 1px solid #0433FF; }
 </p>
 
 {% for day in days %}
-  <h3><a name="{{ day }}">{{ day }}</a></h3>
+  <h3><a name="{{ day }}" href="{{ '/schedule-' | append: day | downcase | replace: ' ', '-' | append: '/' | relative_url }}">{{ day }}</a></h3>
 
   {% assign day_classes = site.data.schedule.classes | where: "day", day %}
   {% assign classes = day_classes %}
@@ -216,7 +216,6 @@ a:hover { border-bottom: 1px solid #0433FF; }
        class="table-container"
        style="grid-template-columns: auto repeat({{ room_count }}, 1fr); grid-template-rows: auto repeat({{ time_count }}, auto);">
 
-    <!-- Header row -->
     <div class="table-header" style="grid-column: 1; grid-row: 1;"></div>
     {% for room in rooms %}
       {% assign col = forloop.index0 | plus: 2 %}
@@ -225,12 +224,10 @@ a:hover { border-bottom: 1px solid #0433FF; }
       </div>
     {% endfor %}
 
-    <!-- Time rows -->
     {% for time in times %}
       {% assign row = forloop.index0 | plus: 2 %}
       {% assign time_index = forloop.index0 %}
 
-      <!-- Time label -->
       <div class="time-label" style="grid-column: 1; grid-row: {{ row }};">
         {{ time }}
       </div>
@@ -238,69 +235,49 @@ a:hover { border-bottom: 1px solid #0433FF; }
       {% for room in rooms %}
         {% assign col = forloop.index0 | plus: 2 %}
 
-        {% assign classes_here = "" | split: "" %}
+        {% assign class_here = nil %}
         {% for c in classes %}
           {% if c.start == time %}
             {% if c.room == room or c.room contains room %}
-              {% assign classes_here = classes_here | push: c %}
+              {% assign class_here = c %}
+              {% break %}
             {% endif %}
           {% endif %}
         {% endfor %}
 
-        {% if classes_here.size > 0 %}
-
-          {% assign first_class = classes_here[0] %}
-
+        {% if class_here %}
           <div class="table-cell"
                style="
                  grid-column: {{ col }};
-                 grid-row: {{ row }} / span {{ first_class.duration }};
+                 grid-row: {{ row }} / span {{ class_here.duration }};
                ">
+            <div class="class-block {{ class_here.group }}">
+              <div class="class-room">
+                {{ class_here.room }}
+              </div>
 
-            {% for class_here in classes_here %}
-              <div class="class-block {{ class_here.group }}{% if classes_here.size > 1 %} is-overlap{% endif %}">
+              <div class="class-level-group">
+                {% assign parts = class_here.group | remove: "l" | split: "g" %}
+                Level {{ parts[0] }}, Group {{ parts[1] }}
+              </div>
 
-                <div class="class-room">
-                  {% if class_here.room contains ',' %}
-                    {{ class_here.room }}, {{ class_here.start }}
+              <div class="class-name">
+                {{ class_here.name }}
+              </div>
+
+              {% if class_here.instructor %}
+                <div class="instructor-name">
+                  {% if class_here.email %}
+                    <a href="mailto:{{ class_here.email }}">{{ class_here.instructor }}</a>
                   {% else %}
-                    {{ class_here.room }}
+                    {{ class_here.instructor }}
                   {% endif %}
                 </div>
-
-                <div class="class-level-group">
-                  {% assign parts = class_here.group | remove: "l" | split: "g" %}
-                  Level {{ parts[0] }}, Group {{ parts[1] }}
-                </div>
-
-                <div class="class-name">
-                  {{ class_here.name }}
-                </div>
-
-                {% if class_here.instructor %}
-                  <div class="instructor-name">
-                    {% if class_here.email %}
-                      <a href="mailto:{{ class_here.email }}">{{ class_here.instructor }}</a>
-                    {% else %}
-                      {{ class_here.instructor }}
-                    {% endif %}
-                    {% if class_here.instructor2 %}
-                      {% if class_here.email2 %}
-                        &amp; <a href="mailto:{{ class_here.email2 }}">{{ class_here.instructor2 }}</a>
-                      {% else %}
-                        &amp; {{ class_here.instructor2 }}
-                      {% endif %}
-                    {% endif %}
-                  </div>
-                {% endif %}
-
-              </div>
-            {% endfor %}
-
+              {% endif %}
+            </div>
           </div>
 
         {% else %}
-
           {% assign covered = false %}
           {% for c in classes %}
             {% assign room_list = c.room %}
@@ -327,7 +304,6 @@ a:hover { border-bottom: 1px solid #0433FF; }
           {% unless covered %}
             <div class="table-cell" style="grid-column: {{ col }}; grid-row: {{ row }};"></div>
           {% endunless %}
-
         {% endif %}
 
       {% endfor %}
