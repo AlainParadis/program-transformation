@@ -1,0 +1,134 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+	<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/schedule.css"
+</head>
+<body>
+  <h1>{{ page.title }}</h1>
+
+  {% assign day_classes = site.data.schedule | where: "Day", page.day %}
+
+  {% comment %}
+  Collect distinct rooms for this day and sort them.
+  {% endcomment %}
+  {% assign rooms = day_classes | map: "Room" | uniq | sort %}
+
+  <div class="schedule-grid">
+  {% for room in rooms %}
+    {% assign room_classes = day_classes | where: "Room", room %}
+    {% if room_classes and room_classes.size > 0 %}
+      <div class="schedule-room">
+        <h2 class="room-heading">{{ room }}</h2>
+
+        {% assign room_classes = room_classes | sort: "Time" %}
+
+        <div class="schedule-room-column">
+          {% for c in room_classes %}
+            {% assign start = c.Time | split: "-" | first %}
+            {% assign end   = c.Time | split: "-" | last %}
+
+            {% assign level_class = "" %}
+            {% if c.Level contains "10" %}
+              {% assign level_class = "level-one" %}
+            {% elsif c.Level contains "20" %}
+              {% assign level_class = "level-two" %}
+            {% elsif c.Level contains "30" %}
+              {% assign level_class = "level-three" %}
+            {% elsif c.Level contains "40" %}
+              {% assign level_class = "level-four" %}
+            {% elsif c.Level contains "60" %}
+              {% assign level_class = "level-six" %}
+            {% endif %}
+
+            <div class="class-block {{ level_class }}"
+                 data-start="{{ start }}"
+                 data-end="{{ end }}">
+              <div class="class-code">{{ c.Code }}</div>
+              <div class="class-name">{{ c.Courses }}</div>
+              <div class="class-time">{{ c.Time }}</div>
+              <div class="class-instructor">{{ c.Instructor }}</div>
+              <div class="class-level">Level {{ c.Level }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+  <script>
+    // simple overlap handling per column: side-by-side if times overlap
+    document.querySelectorAll('.schedule-room-column').forEach(function(col) {
+      const blocks = Array.from(col.querySelectorAll('.class-block'));
+      blocks.forEach(b => {
+        b.dataset.startMinutes = toMinutes(b.dataset.start);
+        b.dataset.endMinutes   = toMinutes(b.dataset.end);
+      });
+
+      // group overlaps
+      let groups = [];
+      blocks.forEach(function(block) {
+        let placed = false;
+        for (let g of groups) {
+          // overlap if any block in group overlaps in time
+          if (g.some(b => overlaps(b, block))) {
+            g.push(block);
+            placed = true;
+            break;
+          }
+        }
+        if (!placed) groups.push([block]);
+      });
+
+      // within each group, assign columns
+      groups.forEach(function(group) {
+        let columns = [];
+        group.forEach(function(block) {
+          let colIndex = 0;
+          while (true) {
+            if (!columns[colIndex]) {
+              columns[colIndex] = [block];
+              block.style.setProperty('--col-index', colIndex);
+              block.style.setProperty('--col-count', columns.length);
+              break;
+            } else {
+              // check if this block overlaps last block in this column
+              let last = columns[colIndex][columns[colIndex].length - 1];
+              if (!overlaps(last, block)) {
+                columns[colIndex].push(block);
+                block.style.setProperty('--col-index', colIndex);
+                block.style.setProperty('--col-count', columns.length);
+                break;
+              }
+            }
+            colIndex++;
+          }
+        });
+        const count = columns.length;
+        group.forEach(b => b.style.setProperty('--col-count', count));
+      });
+    });
+
+    function toMinutes(str) {
+      // str like "0800" or "1530"
+      if (!str || str.length !== 4) return 0;
+      const h = parseInt(str.slice(0, 2), 10) || 0;
+      const m = parseInt(str.slice(2), 10) || 0;
+      return h * 60 + m;
+    }
+
+    function overlaps(a, b) {
+      const aStart = parseInt(a.dataset.startMinutes, 10);
+      const aEnd   = parseInt(a.dataset.endMinutes, 10);
+      const bStart = parseInt(b.dataset.startMinutes, 10);
+      const bEnd   = parseInt(b.dataset.endMinutes, 10);
+      return aStart < bEnd && bStart < aEnd;
+    }
+  </script>
+</body>
+</html>

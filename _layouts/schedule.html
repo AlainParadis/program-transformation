@@ -12,6 +12,116 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&amp;family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&amp;family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
 	<title>Graphic Design Schedule</title>
+<style>
+* { box-sizing: border-box; }
+
+body
+{
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.4rem);
+  margin: 0.5rem;
+  padding: 0;
+}
+
+.day-section
+{
+  margin-top: 2rem;
+}
+
+.day-section h2
+{
+  margin-bottom: 0.5rem;
+}
+
+.room-section
+{
+  margin-top: 1rem;
+}
+
+.class-list
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.class-item
+{
+  margin-bottom: 0.75rem;
+}
+
+.class-block
+{
+  display: inline-block;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.12);
+  font-weight: bold;
+  color: #001533;
+}
+
+.class-time
+{
+  font-size: 0.85em;
+  font-weight: normal;
+  margin-right: 0.5rem;
+  color: #333333;
+}
+
+.class-level-group
+{
+  font-size: 0.78em;
+  font-weight: normal;
+  margin-right: 0.5rem;
+  color: #333333;
+}
+
+.class-name
+{
+  font-size: 0.9em;
+  margin-right: 0.5rem;
+}
+
+.instructor-name
+{
+  font-weight: normal;
+  font-size: 0.8em;
+  color: #222222;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #003366;
+  border-bottom: 1px solid #003366;
+}
+a:hover { border-bottom: 1px solid #0433FF; }
+
+/* Group-based colour coding (l2/l4/l6 based on schedule.yml) */
+
+/* Level 2 */
+.class-block.l2g1 { background-color: #d0eaff; border-color: #7ab4f0; }
+.class-block.l2g2 { background-color: #ffd7e0; border-color: #f28aa1; }
+.class-block.l2g3 { background-color: #fff0d0; border-color: #f2b46a; }
+
+/* Level 4 */
+.class-block.l4g1 { background-color: #d8ffd8; border-color: #83c783; }
+.class-block.l4g2 { background-color: #fff4c5; border-color: #e0b958; }
+.class-block.l4g3 { background-color: #f0ddff; border-color: #b291f0; }
+
+/* Level 6 */
+.class-block.l6g1 { background-color: #d8f8ff; border-color: #7fc1e0; }
+.class-block.l6g2 { background-color: #ffe9d6; border-color: #e49d68; }
+
+/* Fallback */
+.class-block[class*="l"][class*="g"]
+{
+  background-color: #ececec;
+  border-color: #bbbbbb;
+}
+</style>
 </head>
 <body>
 {{ content }}
