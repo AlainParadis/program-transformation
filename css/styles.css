@@ -212,7 +212,7 @@ p
 
 .text-small { font-size: .8rem; }
 .text-center, a.text-center { text-align: center; }
-
+dt { font-family: var(--sans); }
 em
 {
 	font-style: italic;
