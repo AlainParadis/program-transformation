@@ -1,93 +1,71 @@
 ---
 layout: default
-role: notes
-title: Proposed Credentials
+role: nav
+title: Credential
 order: 4
 ---
 <p>
-	While the current three-year program is successful, this initiative requires that we explore alternatives to attract greater numbers. The following represent ideas for new credentials within the field of graphic design. Note that Canestoga has an <a href="https://www.conestogac.on.ca/fulltime/bachelor-of-design-honours/courses?id=28649">Honours Bachelor's of Design</a>.
+	While the current three-year program is successful, this initiative requires that we explore alternatives to address current and evolving external and internal factors. The following represent ideas for new credentials within the field of graphic design. 
 </p>
-<ol>
-	<li>Ontario Colleges Advanced Diploma</li>
-	<p>
-		This is the existing three-year program. The current program is an Ontario Program Standard for Graphic Design [<a href="downloads/mcu-graphic-design-2014-61820-en-2022-03-30.pdf">PDF</a>].
-	</p>
-	<h5>
-		Pros
-	</h5>
-	<ul>
-		<li>Well established</li>
-		<li>Huge alumni population working in local industry who are program champions</li>
-		<li>Excellent reputation</li>
-		<li>Deep learning of the craft</li>
-		<li>Record of ever-evolving curriculum</li>
-	</ul>
-	<h5>
-		Cons
-	</h5>
-	<ul>
-		<li>Significant time commitment—three years</li>
-		<li>Significant financial commitment</li>
-	</ul>
-	<li>Ontario Colleges Two Year Diploma</li>
-	<p>
-		This diploma would offer students in the three-year Advanced Diploma program an exit option after two years. The current curriculum may also need minor modifications to ensure it aligns with diploma program requirements. It does not represent a new, separate program, no new faculty, no new classrooms, etc… 
-	</p>
-	<p>
-		Frankly, the hope is this option will entice new enrolments. Once students have enrolled, that they'd <em>stay for three years</em>. 
-	</p>
-	<h5>
-		Pros
-	</h5>
-	<ul>
-		<li>Shorter time to graduation, workforce</li>
-		<li>Lower cost</li>
-		<li>Appeal to international students? Moot point?</li>
-	</ul>
-	<h5>
-		Cons
-	</h5>
-	<ul>
-		<li>Time to implementation</li>
-		<li>Missing third-year WIL experiences</li>
-		<li>Missing third-year advanced curriculum</li>
-	</ul>
-	<p>
-		These are the stages required to create a two-year Ontario College Diploma Program. 
-	</p>
-	<ul>
-		<li>Alignment with the Ontario Qualifications Framework (OQF)</li>
-		<li>Program Proposal Development</li>
-		<li>Internal College Approval</li>
-		<li>Credential Validation Service (CVS) Submission</li>
-		<li>Ministry Notification and Funding Considerations</li>
-		<li>Program Launch and Ongoing Review</li>
-	</ul>
-	<li>Certificate (College Approved)</li>
-	<p>
-		This level of certification recognizes successful completion of specific courses, prescribed as a package of courses by an academic department of no less than 100 hours, and designated as leading to a College Certificate. These offerings must follow the regular curriculum approval process and be approved by the Senior Vice President, Academic and reported to the Board of Governors. [<a href="https://www.algonquincollege.com/policies/aa15">College Policy AA15</a>] 
-	</p>
-	<p>
-		It is a short, focused learning experience designed to help learners quickly gain specific skills or knowledge. It can appeal to professionals not in the field of design who need to add particular skills.
-	</p>
-	<p>
-		A college certificate is a credential <a href="https://www.algonquincollege.com/academic-development/new-program-development/">already offered at the college</a>. It can be designed without provincial approval, completely within the college. 
-	</p>
-	<h5>
-		Pros
-	</h5>
-	<ul>
-		<li>Flexible: Often self-paced or part-time.</li>
-		<li>Stackable: Can be combined with other credentials or formal education.</li>
-		<li>Industry-Aligned: Developed in collaboration with employers to meet current job market needs.</li>
-		<li>Verifiable: Usually come with a digital badge or certificate.</li>
-	</ul>
-	<h5>
-		Cons
-	</h5>
-	<ul>
-		<li>A college certificate may teach specific skills, which may not provide the broader context or critical thinking that full programs offer.</li>
-		<li>They are not publicly funded, making it less accessible to low-income learners.</li>
-		<li>A college certificate may not transfer easily between institutions or count toward formal qualifications. This limits its usefulness for learners seeking to ladder up to diplomas or degrees.</li>
-	</ul>
-</ol>
+<dl> 
+	<dt>Decision scope:</dt>
+	<dd>Should the Algonquin College Graphic Design program maintain an Advanced Diploma, pursue 3-year applied degree, or pursue an alternative (e.g., pathways/articulations).</dd>
+</dl>
+<p>
+	Canada’s federal Job Bank states that graphic designers <i>typically</i> need either a university degree in visual arts with a specialization in graphic design or completion of a college diploma in graphic arts/graphic design. 
+</p>
+<h4>
+	Decision Criteria
+</h4>
+<ul>
+	<li>Academic quality and PEQAB feasibility (faculty credentials, scholarship, breadth).</li>
+	<li>Student demand and labour-market outcomes.</li>
+	<li>Financial sustainability and risk.</li>
+	<li>Alignment with Algonquin’s Program Quality Assurance Framework and strategic plan.</li>
+	<li>Impact on faculty workload, culture, and equity.</li>
+</ul>
+<h4>
+	Stakeholders
+</h4>
+<ul class="columns">
+	<li>Current Students</li>
+	<li>Alumni</li>
+	<li>Faculty</li>
+	<li>PAC members</li>
+	<li>Employers</li>
+	<li>Admissions/Recruitment</li>
+	<li>Registrar</li>
+	<li>Academic Development</li>
+	<li>Senior Leadership</li>
+</ul>
+Evidence types: 
+<dl> 
+	<dt>Quantitative:</dt>
+	<dd>enrolment trends, application yield, retention, graduation rates, employment outcomes, salary surveys, transfer rates. </dd>
+	<dt>Qualitative:</dt>
+	<dd>focus groups, interviews, open‑ended survey responses, PAC minutes, faculty consultations. </dd>
+	<dt>External:</dt>
+	<dd>PEQAB manuals and benchmarks, other colleges’ review guidelines, sector studies on new program approvals. </dd>
+	<dt>Internal process evidence:</dt>
+	<dd>Algonquin’s program quality assurance reviews and prior program change cases. </dd>
+</dl>
+<h4>
+	Applied Degree Programs, (3-Year or 4-Year) 
+</h4>
+<p>
+	These are the requirements for faculty teaching in a degree program in an Ontario College of Applied Arts and Technology. 
+</p>
+<dl> 
+	<dt>Minimum Credential Level</dt>
+	<dd>Advanced credential (normally terminal) or minimum one level above bachelor's</dd>
+	<dt>Terminal Credential Requirement</dt>
+	<dd>Doctorate (normally); Master's for studio disciplines*</dd>
+	<dt>% Faculty with Terminal Credential</dt>
+	<dd>Minimum 50% for core courses; Minimum 50% for non-core/breadth courses</dd>
+	<dt>Work Experience</dt>
+	<dd>Minimum 5 years for workplace-related courses</dd>
+	<dt>Research/Scholarship Activity</dt>
+	<dd>Required, must maintain currency in field</dd>
+	<dt>Professional Credentials</dt>
+	<dd>Required where applicable</dd>
+</dl>
