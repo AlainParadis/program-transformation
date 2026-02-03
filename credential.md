@@ -12,20 +12,20 @@ order: 4
 	<dd>Should the Algonquin College Graphic Design program maintain an Advanced Diploma, pursue 3-year applied degree, or pursue an alternative (e.g., pathways/articulations).</dd>
 </dl>
 <p>
-	Canada’s federal Job Bank states that graphic designers <i>typically</i> need either a university degree in visual arts with a specialization in graphic design or completion of a college diploma in graphic arts/graphic design. 
+	For what it's worth, Canada’s federal Job Bank states that graphic designers <i>typically</i> need either a university degree in visual arts with a specialization in graphic design or completion of a college diploma in graphic arts/graphic design. That could simply be because it's the most common credential in the field. A degree could be more attractive and beneficial nonetheless. 
 </p>
 <h4>
-	Decision Criteria
+	Decision Criteria 
 </h4>
 <ul>
-	<li>Academic quality and PEQAB feasibility (faculty credentials, scholarship, breadth).</li>
+	<li>Postsecondary Education Quality Assessment Board (PEQAB) feasibility (faculty credentials, scholarship, breadth).</li>
 	<li>Student demand and labour-market outcomes.</li>
-	<li>Financial sustainability and risk.</li>
+	<li>Financial sustainability.</li>
 	<li>Alignment with Algonquin’s Program Quality Assurance Framework and strategic plan.</li>
 	<li>Impact on faculty workload, culture, and equity.</li>
 </ul>
 <h4>
-	Stakeholders
+	Stakeholders 
 </h4>
 <ul class="columns">
 	<li>Current Students</li>
@@ -50,22 +50,8 @@ Evidence types:
 	<dd>Algonquin’s program quality assurance reviews and prior program change cases. </dd>
 </dl>
 <h4>
-	Applied Degree Programs, (3-Year or 4-Year) 
+	Faculty Credentials 
 </h4>
 <p>
-	These are the requirements for faculty teaching in a degree program in an Ontario College of Applied Arts and Technology. 
+	The minimum credential for faculty teaching in a 3-year applied degree program is the terminal credential, which is a Master's degree. Fifty percent of <i>core courses</i> are taught by Master's holders. There's a minimum of five years' of work experience. All faculty are required to maintain currency in their field. There are no requirements for professional credentials. 
 </p>
-<dl> 
-	<dt>Minimum Credential Level</dt>
-	<dd>Advanced credential (normally terminal) or minimum one level above bachelor's</dd>
-	<dt>Terminal Credential Requirement</dt>
-	<dd>Doctorate (normally); Master's for studio disciplines*</dd>
-	<dt>% Faculty with Terminal Credential</dt>
-	<dd>Minimum 50% for core courses; Minimum 50% for non-core/breadth courses</dd>
-	<dt>Work Experience</dt>
-	<dd>Minimum 5 years for workplace-related courses</dd>
-	<dt>Research/Scholarship Activity</dt>
-	<dd>Required, must maintain currency in field</dd>
-	<dt>Professional Credentials</dt>
-	<dd>Required where applicable</dd>
-</dl>
