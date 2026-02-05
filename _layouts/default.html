@@ -6,7 +6,7 @@
 	<li><a href="#main-content" class="skip-link">Skip to main content</a> </li>
 </ul>
 <div id="container">
-	{% include nav.html %} 
+<!-- 	{% include nav.html %}  -->
 	<header>
 		<h3>
 			<a href="{{ site.baseurl }}/" class="nodecoration">{{ site.data.sitewide.identification.program-name }}</a> 
@@ -23,7 +23,9 @@
 		{{ content }} 
 	</main>
 	<aside>
+	<div class="fixed">
 		{% include aside.html %} 
+		</div>
 	</aside>
 </div>
 <div class="footer-wrapper">

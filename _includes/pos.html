@@ -1,0 +1,16 @@
+<h4>
+	<a name="pos">Reimagined Program of Study</a> 
+</h4>
+<p>
+	This program of study was created (with A.I. assistance). It's not meant for implementation. It's meant to demonstrate what could be possible for our program. 
+</p>
+{% for item in site.data.pos.semesters %} 
+<h5>
+	{{ item.title }} 
+</h5>
+<ul>
+	{% for course in item.courses %} 
+	<li> <strong>{{ course.title }}</strong><br> {{ course.description }} </li>
+	{% endfor %} 
+</ul>
+{% endfor %} 

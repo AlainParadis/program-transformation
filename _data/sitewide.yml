@@ -10,8 +10,6 @@ identification:
   mobile: +1 613-618-2138
 
 asidelinks:
-  - title: "Canestoga's Honours Design Degree"
-    url: "https://www.conestogac.on.ca/fulltime/bachelor-of-design-honours/courses?id=28649"
   - title: "PEQAB 3-Year Degree Manual PDF"
     url: "./downloads/manual-ontario-colleges-3-year-degrees-april-2024-update.pdf"
   - title: "PEQAB Breath, Capacity Review PDF"
@@ -89,6 +87,9 @@ resourcing:
       We have the key IT resources to begin, with college issued laptops, creative tools and Microsoft cloud apps. We may need to interface with other departments, for which additional technologies may be needed.
 
 degree-programs:
+  - title: "Bachelor of Design (Honours)"
+    insitution: "Canestoga"
+    url: "https://www.conestogac.on.ca/fulltime/bachelor-of-design-honours/courses?id=28649"
   - title: "Bachelor of Design, Graphic Design"
     institution: "OCAD University"
     url: "https://admissions.ocadu.ca/program/graphic-design"
@@ -100,7 +101,7 @@ degree-programs:
     url: "https://www.viu.ca/programs/art-design-performing-arts/bachelor-design-graphic-design"
   - title: "Baccalauréat en design graphique"
     institution: "Université du Québec à Montréal (UQAM)"
-    url: "https://uqam.ca" # program listed under design graphique 
+    url: "https://etudier.uqam.ca/programme?code=6659"
   - title: "Interdisciplinary Design, Bachelor of Design"
     institution: "NSCAD University"
     url: "https://nscad.ca" # Interdisciplinary Design program 
