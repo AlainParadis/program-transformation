@@ -95,7 +95,7 @@ degree-programs:
     url: "https://admissions.ocadu.ca/program/graphic-design"
   - title: "Bachelor of Design, Communication Design Major"
     institution: "Emily Carr University of Art + Design"
-    url: "https://www.ecuad.ca/academics/all-programs/undergraduate-programs/communication-design"
+    url: "https://ecuad.ca/degree-programs/undergraduate/communication-design/"
   - title: "Bachelor of Design in Graphic Design"
     institution: "Vancouver Island University"
     url: "https://www.viu.ca/programs/art-design-performing-arts/bachelor-design-graphic-design"
@@ -104,7 +104,7 @@ degree-programs:
     url: "https://etudier.uqam.ca/programme?code=6659"
   - title: "Interdisciplinary Design, Bachelor of Design"
     institution: "NSCAD University"
-    url: "https://nscad.ca" # Interdisciplinary Design program 
+    url: "https://nscad.ca/program/study-interdisciplinary-design/"
   - title: "Design, Bachelor of Fine Arts (BFA)"
     institution: "Concordia University"
     url: "https://www.concordia.ca/academics/undergraduate/design.html"
@@ -116,7 +116,7 @@ degree-programs:
     url: "https://www.macewan.ca/academics/programs/bachelor-of-design/"
   - title: "Bachelor of Design, Graphic and Digital Design"
     institution: "University of the Fraser Valley"
-    url: "https://www.ufv.ca/graphic-and-digital-design/" # degree noted in external listings 
+    url: "https://www.ufv.ca/graphic-design/programs/bfa-graphic-design/"
   - title: "Bachelor of Design, User Experience Design"
     institution: "Humber College"
-    url: "https://mediaarts.humber.ca/programs/user-experience-design.html" # UX-focused with strong communication design content 
+    url: "https://mediaarts.humber.ca/programs/uxdesign.html"
