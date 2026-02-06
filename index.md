@@ -18,12 +18,12 @@ order: 0
 <blockquote>
 	"With the increasing integration of A.I. in creative processes, designers will need to elevate their role. We're no longer editors. We're directors."
 </blockquote>
-{% include pos.html %}
+{% include credential.html %}
 <blockquote>
 	"A.I. is not replacing creativity. It is amplifying it."
 </blockquote>
 <!-- {% include contacts.html %} -->
 {% include top-link.html %}
-{% include credential.html %}
+{% include pos.html %}
 {% include links.html %}
 {% include top-link.html %}
