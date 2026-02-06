@@ -88,7 +88,7 @@ resourcing:
 
 degree-programs:
   - title: "Bachelor of Design (Honours)"
-    insitution: "Canestoga"
+    institution: "Canestoga"
     url: "https://www.conestogac.on.ca/fulltime/bachelor-of-design-honours/courses?id=28649"
   - title: "Bachelor of Design, Graphic Design"
     institution: "OCAD University"
@@ -111,9 +111,6 @@ degree-programs:
   - title: "Bachelor of Design in Visual Communication"
     institution: "Capilano University"
     url: "https://www.capilanou.ca/programs--courses/program-profiles/bachelor-of-design-in-visual-communication/"
-  - title: "Bachelor of Design (Honours)"
-    institution: "Conestoga College"
-    url: "https://www.conestogac.on.ca/fulltime/design" # degree-level design program 
   - title: "Bachelor of Design"
     institution: "MacEwan University"
     url: "https://www.macewan.ca/academics/programs/bachelor-of-design/"
