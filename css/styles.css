@@ -34,6 +34,8 @@ html
 	line-height: 1.6;
 	color: var(--text-color);
 }
+.sans { font-family: var(--sans); }
+.mono { font-family: var(--mono); }
 
 body
 {
