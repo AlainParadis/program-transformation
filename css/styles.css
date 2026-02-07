@@ -384,10 +384,13 @@ main ol p
 	font-family: var(--serif);
 }
 
+main ul { padding-left: 0; }
+
 main ul li
 {
 	font-weight: normal;
 	position: relative;
+	margin-left: 0;
 	padding-left: 1.5rem;
 	padding-top: 2px;
 	color: var(--text-color);
@@ -575,6 +578,7 @@ footer { font-family: var(--sans); }
 		font-style: normal;
 		margin: 0 0 0 1rem;
 	}
+	main ul { padding-left: 1.0rem; }
 	
 	.fixed
 	{
