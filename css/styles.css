@@ -500,7 +500,7 @@ blockquote
 {
 	max-width: 60ch;
 	font-weight: 400;
-	margin: 2rem 0 2rem 1rem;
+	margin: 2rem 0 2rem 0rem;
 	padding-left: 1.5rem;
 	text-indent: -0.5rem;
 	border-left: solid 6px var(--orange);
@@ -578,6 +578,7 @@ footer { font-family: var(--sans); }
 		font-style: normal;
 		margin: 0 0 0 1rem;
 	}
+	
 	main ul { padding-left: 1.0rem; }
 	
 	.fixed
@@ -588,6 +589,7 @@ footer { font-family: var(--sans); }
 	
 	footer { grid-area: footer; }
 	aside h3 { margin-top: 2rem; }
+	blockquote { margin: 2rem 0 2rem 1rem; }
 	
 	.columns
 	{
