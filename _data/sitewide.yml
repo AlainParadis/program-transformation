@@ -52,7 +52,7 @@ links:
     url: "https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1420413&CVD=1420923&CPV=50.0409&CST=15052022&MLV=3&CLV=3"
   - title: "Ontario Job Bank NOC 52120"
     url: "https://www.services.labour.gov.on.ca/labourmarket-ui/jobProfile?nocCode=52120"
-  - title: "NOC Code 52120"
+  - title: "Canada: NOC Code 52120"
     url: "https://noc.esdc.gc.ca/OaSIS/OaSISOccProfile?code=52120.01&version=2023.0"
   - title: "Ontario College Program Standard: Graphic Design"
     url: "https://www.ontario.ca/page/college-program-standard-graphic-design"
@@ -90,7 +90,7 @@ resourcing:
 
 degree-programs:
   - title: "Bachelor of Design (Honours)"
-    institution: "Canestoga"
+    institution: "Conestoga"
     url: "https://www.conestogac.on.ca/fulltime/bachelor-of-design-honours/courses?id=28649"
   - title: "Bachelor of Design, Graphic Design"
     institution: "OCAD University"
