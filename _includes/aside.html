@@ -9,22 +9,25 @@
 	<li>mobile: <a itemprop="telephone" href="tel:{{ site.data.sitewide.identification.mobile }}">{{ site.data.sitewide.identification.mobile }}</a></li>
 </ul>
 <hr>
-<h5>On This Page</h5>
+<h5>
+	On This Page
+</h5>
 <ul>
-    <li><a href="#preamble">Preamble</a></li>
-    <li><a href="#causes">Possible Causes</a></li>
-    <li><a href="#uvp">Unique Value Proposition</a></li>
-    <li><a href="#stakeholders">Stakeholders</a></li>
-    <li><a href="#otherdegreeprograms">Other Degree Programs</a></li>
-    <li><a href="#pos">Imagined POS</a></li>
-    <li><a href="#credential">Credential</a></li>
+	<li><a href="#preamble">Preamble</a></li>
+	<li><a href="#causes">Possible Causes</a></li>
+	<li><a href="#uvp">Unique Value Proposition</a></li>
+	<li><a href="#stakeholders">Stakeholders</a></li>
+	<li><a href="#otherdegreeprograms">Other Degree Programs</a></li>
+	<li><a href="#credential">Credential</a></li>
+	<li><a href="#pos">Imagined POS</a></li>
 	<li><a href="#links">Links</a></li>
 </ul>
-
 <hr>
-<h5>Downloads</h5>
+<h5>
+	Downloads
+</h5>
 <ul>
-{% for links in site.data.sitewide.asidelinks %}
+	{% for links in site.data.sitewide.asidelinks %} 
 	<li><a href="{{ links.url }}">{{ links.title }}</a></li>
-{% endfor %}
+	{% endfor %} 
 </ul>
