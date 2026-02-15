@@ -33,7 +33,9 @@ html
 	font-weight: 400;
 	line-height: 1.6;
 	color: var(--text-color);
+	scroll-behavior: smooth;
 }
+
 .sans { font-family: var(--sans); }
 .mono { font-family: var(--mono); }
 
