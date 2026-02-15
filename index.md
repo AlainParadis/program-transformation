@@ -27,3 +27,5 @@ order: 0
 {% include pos.html %}
 {% include links.html %}
 {% include top-link.html %}
+<hr>
+{% include questions.html %}
