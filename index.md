@@ -14,9 +14,6 @@ order: 0
 {% include stakeholders.html %}
 {% include degreeprograms.html %}
 {% include top-link.html %}
-<blockquote>
-	"With the increasing integration of A.I. in creative processes, designers will need to elevate their role. We're no longer editors. We're directors."
-</blockquote>
 {% include credential.html %}
 <blockquote>
 	"A.I. is not replacing creativity. It is amplifying it."
