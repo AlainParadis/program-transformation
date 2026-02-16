@@ -1,0 +1,8 @@
+<h4>
+	<a name="nextsteps">Possible Next Steps</a> 
+</h4>
+<ol>
+	{% for steps in site.data.sitewide.nextsteps %} 
+	<li><strong>{{ steps.title }}:</strong> {{ steps.description }}</li>
+	{% endfor %} 
+</ol>
