@@ -561,6 +561,34 @@ footer { font-family: var(--sans); }
 	padding: 1rem;
 }
 
+table {
+    table-layout: auto;
+    width: 95%;
+    white-space: nowrap;
+    border-spacing: .25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-family: var(--sans);
+}
+
+th
+{
+	background: #EBEBEB;
+	text-align: left;
+	font-style: normal;
+	font-weight: bold;
+	padding: .25rem;
+}
+
+td
+{
+	white-space: nowrap;
+	padding: .25rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid silver;
+}
+
 @media only screen and (min-width: 45rem)
 {
 	#container
