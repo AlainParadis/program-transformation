@@ -561,6 +561,13 @@ footer { font-family: var(--sans); }
 	padding: 1rem;
 }
 
+hr
+{
+	border: 2px solid #c0c0c0;
+	max-width: 33.333%;
+	margin: 1rem auto;
+}
+
 table {
     table-layout: auto;
     width: 95%;
