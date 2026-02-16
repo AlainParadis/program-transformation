@@ -21,7 +21,7 @@ order: 0
 <!-- {% include contacts.html %} -->
 {% include top-link.html %}
 {% include pos.html %}
+{% include nextsteps.html %}
+<hr>
 {% include links.html %}
 {% include top-link.html %}
-<hr>
-{% include questions.html %}
