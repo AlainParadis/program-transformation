@@ -9,7 +9,6 @@ order: 0
 <blockquote>
 	“The future of design is human-led, AI-enhanced.” 
 </blockquote>
-{% include causes.html %}
 {% include uvp.html %}
 {% include top-link.html %}
 {% include stakeholders.html %}
