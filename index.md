@@ -4,7 +4,7 @@ role: nav
 title: Home
 order: 0
 --- 
-{% include preamble.html %}
+{% include vision.html %}
 {% include top-link.html %}
 <blockquote>
 	“The future of design is human-led, AI-enhanced.” 
