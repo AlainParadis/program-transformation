@@ -158,6 +158,8 @@ peqab-standards:
     description: "Confirms the program is positioned at the appropriate credential level within the Ontario Qualifications Framework and the credential awarded is appropriate. "
 
 nextsteps:
+  - title: "Investigate PEQAB <i>Pre-Determination</i>"
+    description: "What are the required elements to be submitted to PEQAB for <i>Pre-Determination</i>? (See p.7 of manual.)"
   - title: "Document NOC Codes"
     description: "Log NOC codes graduates will occupy. Document their career prospects."
   - title: "Collect Tuition Data"
