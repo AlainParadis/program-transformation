@@ -158,12 +158,14 @@ peqab-standards:
     description: "Confirms the program is positioned at the appropriate credential level within the Ontario Qualifications Framework and the credential awarded is appropriate. "
 
 nextsteps:
+  - title: "Document NOC Codes"
+    description: "Document NOC codes graduates will occupy. What are the career prospects?"
   - title: "Collect Tuition Data"
     description: "Gather data on tuition rates for design degree programs."
   - title: "Explore Master's Pathways"
     description: "Investigate pathways to Master's of Design degrees."
   - title: "Research & Data"
-    description: "Research and data are important factors in a degree program curriculum."
+    description: "<i>Research</i> and <i>data</i> are important factors in a degree program curriculum."
 #   - title: "Dean approval to explore"
 #     description: "Permission to proceed with feasibility phase, including evidence gathering and stakeholder consultation."
 #   - title: "Form small working group"
