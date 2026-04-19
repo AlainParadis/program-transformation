@@ -1,0 +1,8 @@
+<h4>
+	<a id="downloads">Downloads</a>
+</h4>
+<ul>
+	{% for links in site.data.sitewide.asidelinks %} 
+	<li><a href="{{ links.url }}">{{ links.title }}</a></li>
+	{% endfor %} 
+</ul>

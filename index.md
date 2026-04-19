@@ -25,4 +25,5 @@ order: 0
 {% include nextsteps.html %}
 <hr>
 {% include links.html %}
+{% include downloads.html %}
 {% include top-link.html %}
