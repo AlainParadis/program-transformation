@@ -22,7 +22,6 @@ order: 0
 {% include top-link.html %}
 {% include pos.html %}
 {% include top-link.html %}
-{% include nextsteps.html %}
 <hr>
 {% include links.html %}
 {% include downloads.html %}
