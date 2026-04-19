@@ -1,13 +1,25 @@
-identification:
-  program-name: Graphic Design
-  site-title: Program Transformation
-  my-name: Alain Paradis
-  my-job-title: Coordinator, Professor
-  credentials: M.A., R.G.D.
-  prof-short-name: Alain
-  email: paradia@algonquincollege.com
-  phone: +1 613-727-4723,5878
-  mobile: +1 613-618-2138
+site-title: Program Transformation
+program-title: Bachelor of Applied Design (Design Studies)
+school: School of Media & Design
+department-chair: Abhay Sharma
+dean: Heather Ryall
+my-name: Alain Paradis
+my-job-title: Coordinator, Professor
+credentials: M.A., R.G.D.
+prof-short-name: Alain
+email: paradia@algonquincollege.com
+phone: +1 613-727-4723,5878
+mobile: +1 613-618-2138
+proposed-launch-date:
+credential:
+delivery:
+funding:
+tuition:
+reg-max:
+
+program-description: >
+
+rationale: >
 
 asidelinks:
   - title: "PEQAB 3-Year Degree Manual PDF"
@@ -168,3 +180,76 @@ nextsteps:
     description: "Investigate pathways to Master's of Design degrees."
   - title: "Research & Data"
     description: "<i>Research</i> and <i>data</i> are important factors in a degree program curriculum."
+
+strat-plan:
+  - goal: 01
+    description:
+  - goal: 02
+    description:
+
+algonquin-experience:
+  - experience: 01
+    title: Integrated
+    description: >
+
+  - experience: 02
+    title: Experiential
+    description: >
+
+  - experience: 03
+    title: Technologically Advanced
+    description: >    
+
+  - experience: 04
+    title: Connected
+    description: >    
+
+  - experience: 05
+    title: Global
+    description: >    
+
+  - experience: 06
+    title: Sustainable 
+    description: >    
+
+  - experience: 07
+    title: Flexible 
+    description: >
+
+Preliminary Environmental Scan:
+  - 
+  - 
+
+student-demand: >
+
+existing-programs:
+  - program-name:
+    institution:
+    program-url:
+  - program-name:
+    institution:
+    program-url:
+  - program-name:
+    institution:
+    program-url:
+
+potential-pathways:
+
+employment-opportunities:
+
+labour-market:
+
+resource-requirements:
+  - space:
+  - equipment:
+  - library:
+  - technology:
+  - other:
+
+courses:
+  - code:
+    name: 
+    description: 
+  - code:
+    name: 
+    description: 
