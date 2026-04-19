@@ -6,10 +6,11 @@
 	--medium: rgb(90, 90, 90);
 	--light: rgb(180, 180, 180);
 	--lightest: rgb(222, 222, 222);
+	--green: rgb(0, 99, 65);
 	--orange: rgb(255, 147, 0);
 	--orange50: rgba(255, 147, 0, 0.5);
-	--blue: rgba(0, 150, 255, 1);
-	--blue-light: rgba(179, 223, 255, 1);
+	--lime-green: rgb(67, 176, 42);
+	--lime-green-light: rgba(179, 223, 255, 1);
 	--serif: "IBM Plex Serif", serif;
 	--sans: "IBM Plex Sans", sans-serif;
 	--mono: "IBM Plex Mono", monospace;
@@ -159,7 +160,7 @@ aside hr
 
 .hamburger:focus
 {
-	outline: 2px solid var(--blue);
+	outline: 2px solid var(--green);
 	outline-offset: 4px;
 }
 
@@ -226,7 +227,7 @@ h4 { font-size: clamp(22px, 1.6vw, 24px); }
 h5
 {
 	font-size: clamp(18px, 1.35vw, 20px);
-	color: var(--blue);
+	color: var(--green);
 }
 
 h6 { font-size: clamp(16px, 1.2vw, 18px); }
@@ -239,7 +240,7 @@ h6 { font-size: clamp(16px, 1.2vw, 18px); }
 	text-decoration-color: transparent;
 }
 
-:is(h1, h2, h3, h4, h5, h6) a:hover { color: var(--orange); }
+:is(h1, h2, h3, h4, h5, h6) a:hover { color: var(--lime-green); }
 h1 + p,
 	h2 + p,
 	h3 + p,
@@ -259,18 +260,18 @@ a, a:link
 {
 	color: var(--text-color);
 	text-decoration: none;
-	border-bottom: 1px solid var(--orange);
-	text-decoration-color: var(--orange);
+	border-bottom: 1px solid var(--lime-green);
+	text-decoration-color: var(--lime-green);
 }
 
 a:focus, button:focus
 {
-	outline: 2px solid var(--blue);
+	outline: 2px solid var(--green);
 	outline-offset: 4px;
 }
 
 a:visited { color: var(--text-color); }
-a:active { color: var(--orange); }
+a:active { color: var(--lime-green); }
 
 a:hover
 {
@@ -282,8 +283,8 @@ a.current
 {
 	font-style: normal;
 	font-weight: 600;
-	color: var(--blue);
-	border-bottom: 2px solid var(--orange);
+	color: var(--green);
+	border-bottom: 2px solid var(--lime-green);
 }
 
 p
@@ -299,14 +300,14 @@ dt { font-family: var(--sans); }
 em
 {
 	font-style: italic;
-	color: var(--blue);
+	color: var(--green);
 }
 
 strong, bold, .bold
 {
 	font-weight: 600;
 	font-style: var(--font_style_normal);
-	color: var(--blue);
+	color: var(--green);
 }
 
 pre
@@ -320,7 +321,7 @@ pre
 
 a.btn
 {
-	background-color: var(--orange);
+	background-color: var(--lime-green);
 	color: var(--medium);
 	font-size: 1.25rem;
 	font-weight: bold;
@@ -338,7 +339,7 @@ a.btn
 
 a.btn-small
 {
-	background-color: var(--orange);
+	background-color: var(--lime-green);
 	color: var(--medium);
 	font-family: var(--sans);
 	font-size: 1rem;
@@ -357,13 +358,13 @@ a.btn-small
 
 .btn:hover
 {
-	background-color: var(--blue);
+	background-color: var(--green);
 	color: var(--dark);
 }
 
 .btn-small:hover
 {
-	background-color: var(--blue);
+	background-color: var(--green);
 	color: var(--dark);
 	border: 4px solid var(--dark);
 }
@@ -407,7 +408,7 @@ nav ul li
 
 .nav ul li a
 {
-	border-bottom: 1px solid var(--orange);
+	border-bottom: 1px solid var(--lime-green);
 	font-size: clamp(.8rem, 1vw, 1.25rem);
 	text-decoration: none;
 	text-transform: uppercase;
@@ -590,8 +591,8 @@ blockquote
 	margin: 2rem 0 2rem 0rem;
 	padding-left: 1.5rem;
 	text-indent: -0.5rem;
-	border-left: solid 6px var(--orange);
-	color: var(--blue);
+	border-left: solid 6px var(--lime-green);
+	color: var(--green);
 	font-size: 1.5rem;
 	font-style: italic;
 	hyphens: none;
@@ -607,7 +608,7 @@ blockquote.small
 	margin-bottom: 1rem;
 	padding-left: 1rem;
 	text-indent: -0.5rem;
-	color: var(--blue);
+	color: var(--lime-green);
 	font-size: 1rem;
 	font-style: italic;
 	hyphens: none;
@@ -763,7 +764,7 @@ td
 	margin-bottom: 2rem;
 	padding: 1.5rem;
 	background-color: var(--dark);
-	border-left: 3px solid var(--orange);
+	border-left: 3px solid var(--lime-green);
 	border-radius: 0.25rem;
 }
 
