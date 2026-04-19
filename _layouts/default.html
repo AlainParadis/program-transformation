@@ -5,6 +5,9 @@
 <ul class="skip-link">
 	<li><a href="#main-content" class="skip-link">Skip to main content</a> </li>
 </ul>
+<button class="hamburger" aria-label="Open navigation panel" aria-expanded="false" aria-controls="sidebar">
+	<img src="{{ site.baseurl }}/images/hamburger.svg" alt="">
+</button>
 <div id="container">
 <!-- 	{% include nav.html %}  -->
 	<header>
@@ -22,10 +25,8 @@
 		
 		{{ content }} 
 	</main>
-	<aside>
-	<div class="fixed">
-		{% include aside.html %} 
-		</div>
+	<aside id="sidebar" aria-label="Site navigation">
+		{% include aside.html %}
 	</aside>
 </div>
 <div class="footer-wrapper">
@@ -34,5 +35,14 @@
 			{% include footer.html %} 
 		</div>
 	</footer>
+</div>
+<script>
+  const btn = document.querySelector('.hamburger');
+  const sidebar = document.getElementById('sidebar');
+  btn.addEventListener('click', () => {
+    const open = sidebar.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open);
+  });
+</script>
 </body>
 </html>
