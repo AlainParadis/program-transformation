@@ -206,6 +206,25 @@ strat-plan:
     title: "Foundations: Financial resilience"
     response: "Degree-level tuition envelope, differentiated positioning, and a market segment Algonquin does not currently serve"
 
+differentiators-title: "What makes this program different from competitors"
+differentiators-intro: "Eleven Canadian institutions already offer design degrees. The proposed program differentiates on five points they do not own together."
+differentiators:
+  - differentiator: 01
+    differentiator-title: "AI-integrated, not AI-adjacent"
+    differentiator-desc: "AI is built into the curriculum strategy, not bolted on as one elective."
+  - differentiator: 02
+    differentiator-title: "Process portfolio, not artifact portfolio"
+    differentiator-desc: "Assessment rewards documented decision-making, not just polished final work. This proves to employers that graduates can be trusted with ambiguous problems."
+  - differentiator: 03
+    differentiator-title: "Cross-disciplinary breadth"
+    differentiator-desc: "Graphic, interactive, product, and service design taught as one practice, reflecting how the industry actually works."
+  - differentiator: 04
+    differentiator-title: "Three years, not four"
+    differentiator-desc: "Faster time to credential, lower total tuition, full degree recognition."
+  - differentiator: 05
+    differentiator-title: "College pedagogy with degree outcomes"
+    differentiator-desc: "Smaller class sizes, applied focus, and industry immersion paired with degree-level theory and research expectations."
+
 algonquin-experience:
   - experience: 01
     title: Integrated
