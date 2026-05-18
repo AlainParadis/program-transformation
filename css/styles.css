@@ -300,7 +300,6 @@ dt { font-family: var(--sans); }
 em
 {
 	font-style: italic;
-	color: var(--green);
 }
 
 strong, bold, .bold
