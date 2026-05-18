@@ -319,21 +319,19 @@ pre
 .external {
   position: relative;
   white-space: nowrap;
+  margin-right: 0.35rem;
 }
+a.external { vertical-align: super; border-bottom: 0; }
 
 .external::after {
   content: "⇱";
   display: inline-block;
-  margin-left: 0.35em;
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 1;
   transform: scaleX(-1);
   transform-origin: center;
   vertical-align: baseline;
-  text-decoration: none;
-  border-bottom: 0px;
   text-decoration-skip-ink: auto;
-  -webkit-text-decoration-skip: none;
 }
 
 .external::before {
@@ -348,7 +346,6 @@ pre
   white-space: nowrap;
   border: 0;
 }
-
 
 a.btn
 {
