@@ -321,14 +321,14 @@ pre
   white-space: nowrap;
   margin-right: 0.35rem;
 }
-a.external { vertical-align: super; border-bottom: 0; }
+a.external { border-bottom: 0; }
 
 .external::after {
   content: "⇱";
   display: inline-block;
   font-size: 0.8em;
   line-height: 1;
-  transform: scaleX(-1);
+  transform: scaleX(-1) translateY(-0.35em);
   transform-origin: center;
   vertical-align: baseline;
   text-decoration-skip-ink: auto;
