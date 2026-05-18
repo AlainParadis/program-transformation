@@ -321,11 +321,11 @@ pre
   white-space: nowrap;
   margin-right: 0.35rem;
 }
-a.external { border-bottom: 0; }
 
 .external::after {
   content: "⇱";
   display: inline-block;
+  margin-left: 0.2rem;
   font-size: 0.8em;
   line-height: 1;
   transform: scaleX(-1) translateY(-0.35em);
