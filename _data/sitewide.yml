@@ -225,6 +225,23 @@ differentiators:
     differentiator-title: "College pedagogy with degree outcomes"
     differentiator-desc: "Smaller class sizes, applied focus, and industry immersion paired with degree-level theory and research expectations."
 
+evidence-base:
+  - evidence-category: "Labour market signals"
+    evidence-items:
+      - evidence-item: "Canada-wide projection: 28,500 new job openings for NOC 52120 (Graphic Designers and Illustrators) against 43,700 new job seekers over 2024 to 2033. Employment in 2023 was 93,200 workers. Expected annual employment growth is 1.2%. <a href='https://occupations.esdc.gc.ca/sppc-cops/occupationsummarydetail.jsp?tid=249&amp;lang=eng' target='_blank' class='external'></a> The surplus signal is itself the strategic argument. The proposed program is designed to position graduates above the shrinking core, not within it. Traditional graphic design is in oversupply. Strategic, UX-oriented, and AI-enhanced design is where the growth lies."
+      - evidence-item: "Ontario 2024 to 2026 outlook for NOC 52120 is rated <em>limited</em>. Job Bank notes that UI/UX is the growth segment within the occupation. <a href='https://www.on.jobbank.gc.ca/marketreport/outlook-occupation/5747/ON' target='_blank' class='external'></a> The proposed program is designed around this growth pocket, not the shrinking core."
+      - evidence-item: "- Ontario's Immigrant Nominee Program (OINP) issued invitations to candidates with job offers in NOC 52120 under the International Student stream in early 2026 draws, signalling continued provincial demand for the occupation. <a href='https://www.ontario.ca/page/2026-ontario-immigrant-nominee-program-updates' target='_blank' class='external'></a>"
+      - evidence-item: "<em>Registered graphic designer</em> is a protected title in Ontario, supporting the credibility of degree-level education. <a href='https://www.ola.org/en/legislative-business/bills/parliament-36/session-1/bill-pr56' target='_blank' class='external'></a>"
+  - evidence-category: "Student demand signals"
+    evidence-items:
+      - evidence-item: "High school graduates increasingly weigh degree recognition. Eleven Canadian peer institutions now offer design degrees, indicating sustained demand for the credential category."
+      - evidence-item: "Algonquin's existing graphic design diploma applicant pool offers a natural source of qualified applicants and laddering opportunities."
+      - evidence-item: "OCAS application data for comparable Ontario programs will be commissioned during the Development phase per the standard process."
+  - evidence-category: "Stakeholder signals"
+    evidence-items:
+      - evidence-item: "Industry partners and the Program Advisory Committee have raised the AI shift in PAC discussions."
+      - evidence-item: "Faculty have signalled readiness to evolve curriculum beyond the current diploma framework."
+
 algonquin-experience:
   - experience: 01
     title: Integrated

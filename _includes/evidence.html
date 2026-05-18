@@ -1,0 +1,13 @@
+<h4>Evidence Base</h4>
+<ol>
+  {% for category in site.data.sitewide['evidence-base'] %}
+    <li class="bold sans">
+      {{ category['evidence-category'] }}
+      <ul>
+        {% for item in category['evidence-items'] %}
+          <li>{{ item['evidence-item'] }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ol>
