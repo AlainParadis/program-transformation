@@ -5,9 +5,6 @@ title: "Phase 1: <strong>Initial Scoping & Ideation</strong>"
 order: 0
 --- 
 {% include vision.html %}
-<blockquote>
-	“The future of design is human-led, AI-enhanced.” 
-</blockquote>
 {% include strat-plan.html %}
 {% include differentiation.html %}
 {% include evidence.html %}
