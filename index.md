@@ -8,6 +8,7 @@ order: 0
 {% include strat-plan.html %}
 {% include differentiation.html %}
 {% include evidence.html %}
+{% include risk-mitigation.html %}
 {% include top-link.html %}
 <blockquote>
 	“The future of design is human-led, AI-enhanced.” 

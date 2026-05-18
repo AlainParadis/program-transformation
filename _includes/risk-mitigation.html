@@ -1,0 +1,8 @@
+<h4>Risk Mitigation</h4>
+<ul>
+  {% for risk in site.data.sitewide['risk-mitigation'] %}
+    <li>
+      <strong>{{ risk['risk-item'] }}</strong>.<br>{{ risk['risk-item-desc'] }}
+    </li>
+  {% endfor %}
+</ul>
