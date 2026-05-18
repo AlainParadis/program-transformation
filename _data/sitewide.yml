@@ -187,11 +187,24 @@ nextsteps:
   - title: "Research & Data"
     description: "<i>Research</i> and <i>data</i> are important factors in a degree program curriculum."
 
+strat-plan-title: "Strategic alignment with Màmawe pinàshkàdà (2025-2030)"
+strat-plan-url: "https://www.algonquincollege.com/strategicplan/"
 strat-plan:
-  - goal: 01
-    description:
-  - goal: 02
-    description:
+  - priority: 01
+    title: "Career-focused, lifelong learning"
+    response: "Three-year applied degree with industry immersion, portfolio-based assessment, and pathways from existing diplomas"
+  - priority: 02
+    title: "Technology and intelligence"
+    response: "AI-integrated curriculum from semester one, with emphasis on the higher-order work that AI cannot replicate"
+  - priority: 03
+    title: "Partnering for prosperity"
+    response: "Studio-based learning with industry partners, hackathons, and capstones embedded throughout"
+  - priority: 04
+    title: "Foundations: Indigenization"
+    response: "Course on responsible design with explicit treatment of inclusive design, sustainability, and ethics"
+  - priority: 05
+    title: "Foundations: Financial resilience"
+    response: "Degree-level tuition envelope, differentiated positioning, and a market segment Algonquin does not currently serve"
 
 algonquin-experience:
   - experience: 01
