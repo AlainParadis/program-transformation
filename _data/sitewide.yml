@@ -99,17 +99,6 @@ messaging:
 -  "You’ll learn how to monetize your creativity while staying true to your artistic roots." 
 -  "Fieldwork and client-based projects introduce you to the business side of art—how to work with clients, meet deadlines, and present your work professionally."
 
-resourcing:
-  - title: "Team Building"
-    description: >
-      A cohesive faculty team, working in sync towards common goals is necessary for change to happen.
-  - title: "Workload"
-    description: >
-      Equitable workload distribution...
-  - title: "IT Resources"
-    description: >
-      We have the key IT resources to begin, with college issued laptops, creative tools and Microsoft cloud apps. We may need to interface with other departments, for which additional technologies may be needed.
-
 degree-programs:
   - title: "Bachelor of Design (Honours)"
     institution: "Conestoga"
