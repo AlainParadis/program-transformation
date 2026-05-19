@@ -208,7 +208,7 @@ strat-plan:
     response: "Degree-level tuition, differentiated positioning, and a market segment Algonquin does not currently serve."
   - priority: 06
     title: "Sustainability"
-    response: "Sustainable, inclusive, and ethical design are explicit curriculum content."
+    response: "Sustainable, inclusive, and ethical design are explicit <a href='#semester-6'>curriculum content</a>."
 
 differentiators-title: "Program Differentiators"
 differentiators-intro: "Eleven Canadian institutions already offer design degrees. The proposed program differentiates on five points they do not own together."
