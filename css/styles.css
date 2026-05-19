@@ -572,6 +572,15 @@ code
 	margin-bottom: 1rem;
 }
 
+.skip-links
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	list-style: none;
+}
+
 .skip-link
 {
 	position: absolute;
@@ -584,10 +593,12 @@ code
 
 .skip-link:focus
 {
-	position: static;
+	position: absolute;
+	left: 6px;
+	top: 6px;
 	width: auto;
 	height: auto;
-	margin: 1em;
+	overflow: visible;
 	padding: 0.5em 1em;
 	background: #000;
 	color: #fff;
