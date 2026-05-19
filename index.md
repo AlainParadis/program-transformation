@@ -5,14 +5,19 @@ title: "Phase 1: <strong>Initial Scoping & Ideation</strong>"
 order: 0
 --- 
 {% include vision.html %}
+{% include top-link.html %}
 {% include strat-plan.html %}
+{% include top-link.html %}
 {% include differentiation.html %}
+{% include top-link.html %}
 {% include evidence.html %}
+{% include top-link.html %}
 {% include risk-mitigation.html %}
 {% include top-link.html %}
 {% include uvp.html %}
 {% include top-link.html %}
 {% include stakeholders.html %}
+{% include top-link.html %}
 {% include degreeprograms.html %}
 {% include top-link.html %}
 {% include credential.html %}
