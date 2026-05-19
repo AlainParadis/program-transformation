@@ -1,7 +1,6 @@
 ---
 layout: default
 role: nav
-title: "Phase 1: <strong>Initial Scoping & Ideation</strong>"
 order: 0
 --- 
 {% include vision.html %}
