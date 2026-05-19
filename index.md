@@ -21,9 +21,6 @@ order: 0
 {% include degreeprograms.html %}
 {% include top-link.html %}
 {% include credential.html %}
-<blockquote>
-	"A.I. is not replacing creativity. It is amplifying it."
-</blockquote>
 <!-- {% include contacts.html %} -->
 {% include top-link.html %}
 {% include pos.html %}
