@@ -6,7 +6,7 @@
 </p>
 {% for item in site.data.pos.semesters %} 
 <h5>
-	{{ item.title }} 
+	<a name="{{ item.a-name }}">{{ item.title }}</a>
 </h5>
 <ul>
 	{% for course in item.courses %} 
