@@ -18,7 +18,7 @@ order: 0
 {% include top-link.html %}
 {% include degreeprograms.html %}
 {% include top-link.html %}
-{% include credential.html %}
+{% include peqab.html %}
 <!-- {% include contacts.html %} -->
 {% include top-link.html %}
 {% include pos.html %}
