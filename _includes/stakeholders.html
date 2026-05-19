@@ -2,15 +2,9 @@
 	<a name="stakeholders">Stakeholders</a> 
 </h4>
 <ul class="columns">
-	<li>Current Students</li>
-	<li>Alumni</li>
-	<li>Faculty</li>
-	<li>PAC members</li>
-	<li>Employers</li>
-	<li>Admissions/Recruitment</li>
-	<li>Registrar</li>
-	<li>Academic Development</li>
-	<li>Senior Leadership</li>
+	{% for person in site.data.sitewide.stakeholders %} 
+	<li>{{ person }}</li>
+	{% endfor %} 
 </ul>
 <h5>
 	Target Students 

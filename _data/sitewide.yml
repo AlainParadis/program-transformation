@@ -258,6 +258,16 @@ risk-mitigation:
   - risk-item: "Faculty credentials gap for degree teaching (PEQAB requires Master's for 50% of core)"
     risk-item-desc: "Identify gaps early. Plan hiring or up-skilling during Development phase. Existing Master's-credentialed faculty already on staff."
 
+stakeholders:
+  - "Current Students"
+  - "Alumni"
+  - "Faculty"
+  - "PAC members"
+  - "Employers"
+  - "Admissions/Recruitment"
+  - "Registrar"
+  - "Academic Development"
+  - "Senior Leadership"
 algonquin-experience:
   - experience: 01
     title: Integrated
