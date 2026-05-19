@@ -1,5 +1,6 @@
 semesters:
-  - title: Semester 1
+  - title: "Semester 1"
+    a-name: "semester-1"
     courses:
       - title: "Foundations of Human-Centred Design"
         description: >
@@ -20,7 +21,8 @@ semesters:
         description: >
           Build collaboration skills, effective critique methods, and communication strategies. Team-based collaboration exercises for peer feedback and iterative improvement.
 
-  - title: Semester 2
+  - title: "Semester 2"
+    a-name: "semester-2"
     courses:
       - title: "Digital Design Tools 2"
         description: >
@@ -41,7 +43,8 @@ semesters:
         description: >
           Complete one elective from approved topics for breadth.
 
-  - title: Semester 3
+  - title: "Semester 3"
+    a-name: "semester-3"
     courses:
       - title: "Motion & Interaction Design"
         description: >
@@ -62,7 +65,8 @@ semesters:
         description: >
           Complete one elective from approved topics for breadth.
 
-  - title: Semester 4
+  - title: "Semester 4"
+    a-name: "semester-4"
     courses:
       - title: "Design Systems & Brand Identity"
         description: >
@@ -83,7 +87,8 @@ semesters:
         description: >
           Complete one elective from approved topics for breadth.
 
-  - title: Semester 5
+  - title: "Semester 5"
+    a-name: "semester-5"
     courses:
       - title: "Generative Art & Experimental Techniques"
         description: >
@@ -104,7 +109,8 @@ semesters:
         description: >
           Complete one elective from approved topics for breadth.
 
-  - title: Semester 6
+  - title: "Semester 6"
+    a-name: "semester-1"
     courses:
       - title: "Industry Immersion: Collaborative Studio"
         description: >
