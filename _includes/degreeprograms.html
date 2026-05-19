@@ -1,9 +1,13 @@
 <h4>
   <a name="otherdegreeprograms">Other Degree Programs</a>
 </h4>
-
-<h6>Graphic Design</h6>
-{% assign graphic = site.data.sitewide["degree-programs"] | where: "category", "graphicdesign" %}
+<p>
+	The eleven programs below span a deliberately wide range of design education models. Three are graphic design programs in the classical sense. Three sit in the broader communication design space. One is UX-specific. Three take a generalist or interdisciplinary stance. One is positioned in fine arts. The proposed Bachelor of Applied Design (Design Studies) at Algonquin does not duplicate any of these. It is broader than the graphic design programs, more applied than the BFA, and more strategic and AI-integrated than the existing Ontario Bachelor of Design offerings at Humber and Conestoga. The closest Ontario analogues are Humber (narrower, UX-focused) and Conestoga (broader, four-year honours). Algonquin’s three-year applied degree sits between them in scope and below them in duration. It also is differentiated by its process-driven assessment model and its explicit AI-integrated curriculum. 
+</p>
+<h6>
+	Graphic Design
+</h6>
+{% assign graphic = site.data.sitewide["degree-programs"] | where: "category", "graphicdesign" %} 
 <ul>
   {% for p in graphic %}
     <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
