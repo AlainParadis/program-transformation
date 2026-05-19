@@ -189,22 +189,26 @@ nextsteps:
 
 strat-plan-title: "Strategic Alignment"
 strat-plan-url: "https://www.algonquincollege.com/strategicplan/"
+strat-plan-intro: "Algonquin's Màmawe pinàshkàdà strategic plan identifies three priorities, each grounded in our polytechnic positioning."
 strat-plan:
   - priority: 01
     title: "Career-focused, lifelong learning"
-    response: "Three-year applied degree with industry immersion, portfolio-based assessment, and pathways from existing diplomas"
+    response: "A degree credential opens labour market doors that diplomas do not, particularly for senior, strategic, and leadership roles in design. The applied focus, industry immersion, and portfolio-driven assessment match employer expectations directly."
   - priority: 02
     title: "Technology and intelligence"
-    response: "AI-integrated curriculum from semester one, with emphasis on the higher-order work that AI cannot replicate"
+    response: "AI-integrated curriculum from semester one. The program is AI-integrated by design rather than by retrofit. Curriculum emphasizes higher-order thinking, ambiguity navigation, and decision ownership above the layer AI automates. Graduates learn to pivot across design disciplines, work modalities, and emerging tools. Resilience and adaptability are taught as core competencies, not soft skills. This is a deliberate response to the technology disruption the strategic plan names as central."
   - priority: 03
     title: "Partnering for prosperity"
-    response: "Studio-based learning with industry partners, hackathons, and capstones embedded throughout"
+    response: "Industry partnerships are embedded throughout the curriculum through hackathons, collaborative studios, and capstone immersion. The program supplies talent matched to evolving labour market needs."
   - priority: 04
     title: "Foundations: Indigenization"
-    response: "Course on responsible design with explicit treatment of inclusive design, sustainability, and ethics"
+    response: "The Special Topics in Responsible Design course provides an entry point for Indigenous design perspectives, traditional knowledge in visual communication, and ethical practice grounded in relational accountability."
   - priority: 05
     title: "Foundations: Financial resilience"
-    response: "Degree-level tuition envelope, differentiated positioning, and a market segment Algonquin does not currently serve"
+    response: "Degree-level tuition, differentiated positioning, and a market segment Algonquin does not currently serve"
+  - priority: 06
+    title: "Sustainability"
+    response: "Sustainable, inclusive, and ethical design are explicit curriculum content."
 
 differentiators-title: "Program Differentiators"
 differentiators-intro: "Eleven Canadian institutions already offer design degrees. The proposed program differentiates on five points they do not own together."
