@@ -1,5 +1,5 @@
 <h4>
-  <a name="otherdegreeprograms">Other Degree Programs</a>
+	<a name="otherdegreeprograms">Other Degree Programs</a> 
 </h4>
 <p>
 	The eleven programs below span a deliberately wide range of design education models. Three are graphic design programs in the classical sense. Three sit in the broader communication design space. One is UX-specific. Three take a generalist or interdisciplinary stance. One is positioned in fine arts. The proposed Bachelor of Applied Design (Design Studies) at Algonquin does not duplicate any of these. It is broader than the graphic design programs, more applied than the BFA, and more strategic and AI-integrated than the existing Ontario Bachelor of Design offerings at Humber and Conestoga. The closest Ontario analogues are Humber (narrower, UX-focused) and Conestoga (broader, four-year honours). Algonquin’s three-year applied degree sits between them in scope and below them in duration. It also is differentiated by its process-driven assessment model and its explicit AI-integrated curriculum. 
@@ -9,39 +9,43 @@
 </h6>
 {% assign graphic = site.data.sitewide["degree-programs"] | where: "category", "graphicdesign" %} 
 <ul>
-  {% for p in graphic %}
-    <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
-  {% endfor %}
+	{% for p in graphic %} 
+	<li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
+	{% endfor %} 
 </ul>
-
-<h6>Communication Design</h6>
-{% assign comm = site.data.sitewide["degree-programs"] | where: "category", "communicationdesign" %}
+<h6>
+	Communication Design
+</h6>
+{% assign comm = site.data.sitewide["degree-programs"] | where: "category", "communicationdesign" %} 
 <ul>
-  {% for p in comm %}
-    <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
-  {% endfor %}
+	{% for p in comm %} 
+	<li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
+	{% endfor %} 
 </ul>
-
-<h6>User Experience Design</h6>
-{% assign ux = site.data.sitewide["degree-programs"] | where: "category", "userexperiencedesign" %}
+<h6>
+	User Experience Design
+</h6>
+{% assign ux = site.data.sitewide["degree-programs"] | where: "category", "userexperiencedesign" %} 
 <ul>
-  {% for p in ux %}
-    <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
-  {% endfor %}
+	{% for p in ux %} 
+	<li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
+	{% endfor %} 
 </ul>
-
-<h6>Interdisciplinary or General Design</h6>
-{% assign interdisc = site.data.sitewide["degree-programs"] | where: "category", "interdisciplinary" %}
+<h6>
+	Interdisciplinary or General Design
+</h6>
+{% assign interdisc = site.data.sitewide["degree-programs"] | where: "category", "interdisciplinary" %} 
 <ul>
-  {% for p in interdisc %}
-    <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
-  {% endfor %}
+	{% for p in interdisc %} 
+	<li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
+	{% endfor %} 
 </ul>
-
-<h6>Fine Arts</h6>
-{% assign fine = site.data.sitewide["degree-programs"] | where: "category", "finearts" %}
+<h6>
+	Fine Arts
+</h6>
+{% assign fine = site.data.sitewide["degree-programs"] | where: "category", "finearts" %} 
 <ul>
-  {% for p in fine %}
-    <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
-  {% endfor %}
+	{% for p in fine %} 
+	<li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
+	{% endfor %} 
 </ul>
