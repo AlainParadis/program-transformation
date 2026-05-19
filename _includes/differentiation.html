@@ -1,13 +1,18 @@
-<h4><a name="differentiation">{{ site.data.sitewide.differentiators-title }}</a></h4>
+<h4>
+	<a name="differentiation">{{ site.data.sitewide.differentiators-title }}</a>
+</h4>
 <p>
-{{ site.data.sitewide.differentiators-intro }}
+	{{ site.data.sitewide.differentiators-intro }} 
 </p>
-
-{% assign sorted = site.data.sitewide.differentiators | sort: "differentiator" %}
+{% assign sorted = site.data.sitewide.differentiators | sort: "differentiator" %} 
 <ol>
-  {% for item in sorted %}
-    <li>
-      <strong>{{ item.differentiator-title }}.</strong> {{ item.differentiator-desc }}
-    </li>
-  {% endfor %}
+	{% for item in sorted %} 
+	<li> <strong>{{ item.differentiator-title }}.</strong> {{ item.differentiator-desc }} </li>
+	{% endfor %} 
 </ol>
+<h6>
+	PEQAB Standard 13 (Non-Duplication)
+</h6>
+<p>
+	The combination of differentiation factors, the Ontario Eastern Region demand, and the absence of a directly comparable AI-integrated three-year applied design degree in Ontario provide a credible non-duplication position. This will be developed in detail during the Development phase. 
+</p>
