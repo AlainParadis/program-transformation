@@ -14,8 +14,6 @@ order: 0
 {% include top-link.html %}
 {% include risk-mitigation.html %}
 {% include top-link.html %}
-{% include uvp.html %}
-{% include top-link.html %}
 {% include stakeholders.html %}
 {% include top-link.html %}
 {% include degreeprograms.html %}
