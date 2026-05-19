@@ -1,8 +1,43 @@
 <h4>
 	<a name="otherdegreeprograms">Other Degree Programs</a> 
 </h4>
-<ol>
-	{% assign sorted-programs = site.data.sitewide.degree-programs | sort: "institution" %} {% for program in sorted-programs %} 
-	<li><a href="{{ program.url }}" target="_blank"><strong>{{ program.institution }}</strong></a>, {{ program.title }}</li>
-	{% endfor %} 
-</ol>
+
+<h6>Graphic Design</h6>
+{% assign graphic = site.data.sitewide["degree-programs"] | where: "category", "graphicdesign" %}
+<ul>
+  {% for p in graphic %}
+    <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
+  {% endfor %}
+</ul>
+
+<h6>Communication Design</h6>
+{% assign comm = site.data.sitewide["degree-programs"] | where: "category", "communicationdesign" %}
+<ul>
+  {% for p in comm %}
+    <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
+  {% endfor %}
+</ul>
+
+<h6>User Experience Design</h6>
+{% assign ux = site.data.sitewide["degree-programs"] | where: "category", "userexperiencedesign" %}
+<ul>
+  {% for p in ux %}
+    <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
+  {% endfor %}
+</ul>
+
+<h6>Interdisciplinary or General Design</h6>
+{% assign interdisc = site.data.sitewide["degree-programs"] | where: "category", "interdisciplinary" %}
+<ul>
+  {% for p in interdisc %}
+    <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
+  {% endfor %}
+</ul>
+
+<h6>Fine Arts</h6>
+{% assign fine = site.data.sitewide["degree-programs"] | where: "category", "finearts" %}
+<ul>
+  {% for p in fine %}
+    <li><a href="{{ p.url }}" class="external">{{ p.title }} — {{ p.institution }}</a></li>
+  {% endfor %}
+</ul>
