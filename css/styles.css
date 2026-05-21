@@ -687,7 +687,7 @@ hr
 
 table {
     table-layout: auto;
-    width: 95%;
+    max-width: 95%;
     white-space: nowrap;
     border-spacing: .25rem;
     margin-bottom: 2rem;
@@ -707,7 +707,7 @@ th
 td
 {
 	white-space: nowrap;
-	padding: .25rem;
+	padding: .25rem 1rem;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	border-bottom: 1px solid silver;
