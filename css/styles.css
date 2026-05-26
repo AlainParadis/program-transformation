@@ -73,6 +73,7 @@ header
 {
 	grid-area: header;
 	margin: 0 1rem;
+	min-width: 0;
 }
 
 nav
@@ -176,6 +177,8 @@ main
 {
 	grid-area: main;
 	margin: 0 1rem;
+	min-width: 0;
+	overflow-x: auto;
 }
 
 main h2 { margin-bottom: 1.5rem; }
@@ -669,7 +672,7 @@ main { grid-area: main; }
 	margin-top: 4rem;
 }
 
-footer { font-family: var(--sans); }
+footer { font-family: var(--sans); min-width: 0; }
 
 .footer-inner
 {
