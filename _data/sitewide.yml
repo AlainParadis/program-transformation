@@ -173,7 +173,7 @@ peqab-standards:
   - title: "Non-Duplication"
     description: "Shows that the program does not unnecessarily duplicate existing programs in Ontario, or demonstrates sufficient demand exists to justify additional capacity in the field."
   - title: "Credential Level"
-    description: "Confirms the program is positioned at the appropriate credential level within the Ontario Qualifications Framework and the credential awarded is appropriate. "
+    description: "Confirms the program is positioned at the appropriate credential level within the Ontario Qualifications Framework and the credential awarded is appropriate."
 
 nextsteps:
   - title: "Investigate PEQAB <i>Pre-Determination</i>"
@@ -186,6 +186,15 @@ nextsteps:
     description: "Investigate pathways to Master's of Design degrees."
   - title: "Research & Data"
     description: "<i>Research</i> and <i>data</i> are important factors in a degree program curriculum."
+
+grad-outcomes:
+  - "Strategic design thinking and problem framing capacity"
+  - "Cross-disciplinary fluency across graphic, interactive, product, and service design"
+  - "Technical competency with current and emerging design tools, including generative AI"
+  - "Process documentation and portfolio skills demonstrating decision-making"
+  - "Communication, collaboration, and creative leadership skills"
+  - "Adaptability and continuous learning orientation"
+  - "Awareness of ethical, sustainable, and inclusive design practice"
 
 strat-plan-title: "Strategic Alignment"
 strat-plan-url: "https://www.algonquincollege.com/strategicplan/"
@@ -277,15 +286,6 @@ stakeholders-target-students:
   - "Open to AI as a creative collaborator"
   - "Interested in design across disciplines, not just one specialty"
   
-stakeholders-grad-outcomes:
-  - "Strategic design thinking and problem framing capacity"
-  - "Cross-disciplinary fluency across graphic, interactive, product, and service design"
-  - "Technical competency with current and emerging design tools, including generative AI"
-  - "Process documentation and portfolio skills demonstrating decision-making"
-  - "Communication, collaboration, and creative leadership skills"
-  - "Adaptability and continuous learning orientation"
-  - "Awareness of ethical, sustainable, and inclusive design practice"
-
 algonquin-experience:
   - experience: 01
     title: Integrated
