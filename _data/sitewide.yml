@@ -100,6 +100,10 @@ messaging:
 -  "Fieldwork and client-based projects introduce you to the business side of art—how to work with clients, meet deadlines, and present your work professionally."
 
 degree-programs:
+  - title: "Media Production and Design (Journalism)"
+    institution: "Carleton University"
+    url: "https://calendar.carleton.ca/undergrad/undergradprograms/mediaproductionanddesign/"
+    category: "communicationdesign"
   - title: "Bachelor of Design (Honours)"
     institution: "Conestoga"
     url: "https://www.conestogac.on.ca/fulltime/bachelor-of-design-honours/courses?id=28649"
