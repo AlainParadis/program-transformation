@@ -3,23 +3,23 @@ semesters:
     a-name: "semester-1"
     courses:
       - title: "Foundations of Human-Centred Design"
-        core: true
+        core: "[Core]"
         description: >
           Introduces human-centred design as evidence-based practice. Students learn empathy, problem framing, and how to separate evidence from assumption.
       - title: "Design Thinking for Innovation"
-        core: true
+        core: "[Core]"
         description: >
           Teaches design thinking as a named method through ideation, prototyping, and critique. Students apply the method, then justify the approach they chose.
       - title: "Introduction to Digital Design Tools"
-        core: true
+        core: "[Core]"
         description: >
           Hands-on fundamentals of Photoshop, Illustrator, and InDesign through project-based work.
       - title: "Brand and Visual Strategy"
-        core: true
+        core: "[Core]"
         description: >
           Builds brand narrative and identity alongside colour, perception, and visual systems.
       - title: "Breadth Elective: Indigenous Studies"
-        core: false
+        core: "[Non-Core]"
         description: >
           A breadth course in First Nations, Metis, and Inuit knowledge and perspectives.
 
@@ -27,23 +27,23 @@ semesters:
     a-name: "semester-2"
     courses:
       - title: "Design Research Methods I: Discovery"
-        core: true
+        core: "[Core]"
         description: >
           Foundations of design research. Students learn qualitative and quantitative methods and when each one applies.
       - title: "Strategic Concept Development"
-        core: true
+        core: "[Core]"
         description: >
           Develops the ability to build and defend a creative direction as a sustained, evidence-backed argument.
       - title: "Digital Design Tools 2"
-        core: true
+        core: "[Core]"
         description: >
           Advances tool skills. Applies generative tools, Figma plugins, and automation for asset creation.
       - title: "Communication for Designers"
-        core: true
+        core: "[Core]"
         description: >
           Builds storytelling and visual rhetoric for non-specialist audiences.
       - title: "Breadth Elective: Humanities"
-        core: false
+        core: "[Non-Core]"
         description: >
           A breadth course in a humanities discipline outside design.
 
@@ -51,23 +51,23 @@ semesters:
     a-name: "semester-3"
     courses:
       - title: "Design Research Methods II: Evaluation and Testing"
-        core: true
+        core: "[Core]"
         description: >
           Teaches usability testing and comparative evaluation. Students choose between approaches on the evidence. They also learn to test AI-generated options rather than accept them.
       - title: "Web Foundations: HTML and CSS"
-        core: true
+        core: "[Core]"
         description: >
           Teaches HTML, CSS, accessibility, and responsive design through live projects.
       - title: "Iterative Prototyping Studio"
-        core: true
+        core: "[Core]"
         description: >
           Frames prototyping as inquiry. Each iteration tests a clear hypothesis against evidence.
       - title: "Motion and Interaction Design"
-        core: true
+        core: "[Core]"
         description: >
           Animation and interactive elements in After Effects and Figma, focused on audience impact.
       - title: "Breadth Elective: Social Sciences"
-        core: false
+        core: "[Non-Core]"
         description: >
           A breadth course in a social science discipline outside design.
 
@@ -75,23 +75,23 @@ semesters:
     a-name: "semester-4"
     courses:
       - title: "UX/UI Methods with Figma and Web"
-        core: true
+        core: "[Core]"
         description: >
           Deepens user-centred design as a disciplined method. Students run structured usability evaluation, then act on the findings.
       - title: "Design Across Media and Channels"
-        core: true
+        core: "[Core]"
         description: >
           Work across print, digital, and immersive media, plus multichannel campaigns. Includes a real-world hackathon intensive.
       - title: "Business of Creative Innovation"
-        core: true
+        core: "[Core]"
         description: >
           Finance, intellectual property, ethics, and the paths to employment or founding a practice.
       - title: "Design Systems and Brand Identity"
-        core: true
+        core: "[Core]"
         description: >
           Builds cohesive, adaptable visual identities through systems thinking.
       - title: "Breadth Elective: Science or Mathematics"
-        core: false
+        core: "[Non-Core]"
         description: >
           A breadth course in a science or mathematics discipline.
 
@@ -99,23 +99,23 @@ semesters:
     a-name: "semester-5"
     courses:
       - title: "Evidence Synthesis and Design Argumentation"
-        core: true
+        core: "[Core]"
         description: >
           Students synthesize research into defensible decisions. They make critical use of scholarly reviews and primary sources to sustain an argument.
       - title: "Advanced Image and Data Workflows"
-        core: true
+        core: "[Core]"
         description: >
           Advanced image and data work. Data is treated as evidence. Visualisation is treated as argument.
       - title: "Systems Thinking for Designers"
-        core: true
+        core: "[Core]"
         description: >
           Approaches problems holistically, integrating product, user, and social context.
       - title: "Emerging and Experimental Design Practice"
-        core: true
+        core: "[Core]"
         description: >
           Explores future tools, generative design, and experimental technique through creative risk-taking.
       - title: "Portfolio and Professional Practice 1"
-        core: true
+        core: "[Core]"
         description: >
           Builds a process-focused portfolio and professional foundations.
 
@@ -123,23 +123,23 @@ semesters:
     a-name: "semester-6"
     courses:
       - title: "Special Topics in Responsible Design"
-        core: true
+        core: "[Core]"
         description: >
           Studies sustainability, inclusive design, and ethics in practice.
       - title: "Team Leadership and Creative Project Management"
-        core: true
+        core: "[Core]"
         description: >
           Builds vision setting, influence, collaboration, and project management.
       - title: "Professional Practice and Career Launch"
-        core: true
+        core: "[Core]"
         description: >
           Refines portfolio and professional presentation alongside personal brand and career strategy.
       - title: "Research-Driven Showcase Capstone"
-        core: true
+        core: "[Core]"
         description: >
           Pairs original work with a defended methodology, from problem to outcome. The terminal demonstration of degree-level inquiry.
       - title: "Breadth Elective: Free Elective"
-        core: false
+        core: "[Non-Core]"
         description: >
           A degree-level course freely chosen by the student.
       # Work-integrated learning. Excluded from the core/non-core breadth calculation.
