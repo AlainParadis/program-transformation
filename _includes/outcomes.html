@@ -1,0 +1,11 @@
+<h4>
+	<a name="outcomes">Graduate Outcomes</a> 
+</h4>
+<p>
+	The Bachelor of Applied Design (Design Studies) prepares graduates for a design industry shaped by emerging technologies and shifting professional demands. The outcomes below reflect the degree-level expectations of the Ontario Qualifications Framework, spanning depth of knowledge, research competency, strategic thinking, and professional accountability. 
+</p>
+<ol>
+	{% for outcome in site.data.sitewide.grad-outcomes %} 
+	<li>{{ outcome }}</li>
+	{% endfor %} 
+</ol>

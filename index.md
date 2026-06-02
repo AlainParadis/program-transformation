@@ -17,6 +17,8 @@ order: 0
 {% include top-link.html %}
 {% include pos.html %}
 {% include top-link.html %}
+{% include outcomes.html %}
+{% include top-link.html %}
 {% include peqab.html %}
 {% include top-link.html %}
 <hr>
