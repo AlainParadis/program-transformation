@@ -1,9 +1,20 @@
 <h4>
 	<a name="pos">Reimagined Program of Study</a> 
 </h4>
+
 <p>
 	This program of study was created (with A.I. assistance). It's not meant for implementation. It's meant to demonstrate what is possible. 
 </p>
+<ul class="default">
+	<li>Six semesters. 30 courses, five per semester.</li>
+	<li>25 core courses. Core share: 83.3%, under the 85% cap.</li>
+	<li>5 non-core courses. Non-core share: 16.7%. This clears the 15% minimum.</li>
+	<li>Non-core must cover Indigenous knowledge plus at least two of: humanities, sciences, social sciences, global cultures, mathematics.</li>
+	<li>A work term of at least 300 hours, related to the field, in the final semester.</li>
+	<li>At least 15% of program hours in non-core (breadth) courses.</li>
+	<li>At least one freely chosen elective.</li>
+</ul>
+
 {% for item in site.data.pos.semesters %} 
 <h5>
 	<a name="{{ item.a-name }}">{{ item.title }}</a>
