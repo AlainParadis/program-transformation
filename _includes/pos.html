@@ -21,7 +21,7 @@
 </h5>
 <ul>
 	{% for course in item.courses %} 
-	<li> <strong>{{ course.title }}</strong><br> {{ course.description }} </li>
+	<li> <strong>{{ course.title }}</strong> <span class="text-small text-medium">{{ course.core }}</span><br> {{ course.description }} </li>
 	{% endfor %} 
 </ul>
 {% endfor %} 
