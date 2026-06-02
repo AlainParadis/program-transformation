@@ -1,5 +1,16 @@
+<h4>PEQAB</h4>
+{{ site.data.sitewide.peqab_intro }}
 <h5>
-	<a name="PEQAB">PEQAB’s 14 standards:</a>
+System Coordination Considerations
+</h5>
+<ol>
+	{% for standards in site.data.sitewide.system_coordination_considerations %} 
+	<li><strong>{{ standards.title }}:</strong> {{ standards.description }}</li>
+	{% endfor %} 
+</ol>
+
+<h5>
+	<a name="PEQAB">PEQAB’s 12 standards:</a>
 </h5>
 <ol>
 	{% for standards in site.data.sitewide.peqab-standards %} 
