@@ -32,38 +32,6 @@ asidelinks:
   - title: "Humber's Degree Application Document"
     url: "./downloads/humber-application.pdf"
 
-algonquin-contacts:
-  - lastname: Gill
-    firstname: Chris
-    title: Manager, Recruitment & Brand
-    email: "gillc@algonquincollege.com"
-  - lastname: Devries
-    firstname: Jessica
-    title: Academic Development
-    email: devriej1@algonquincollege.com
-  - lastname: McDonald
-    firstname: Alanna
-    title: Academic Development
-    email: macdona2@algonquincollege.com
-  - lastname: Ryall
-    firstname: Heather
-    title: Dean, School of Media & Design
-    email: ryallh@algonquincollege.com
-  - lastname: Sharma
-    firstname: Abhay
-    title: Chair, Acting, School of Media & Design
-    email: sharmaa@algonquincollege.com
-  - lastname: Norris
-    firstname: Tracy
-    title: Chair, Academic Access Centre
-    email: norrist@algonquincollege.com
-  - lastname: Smeal
-    firstname: Steven
-    title: Admissions Officer
-  - lastname: McDonell
-    firstname: Alanna
-    title: Marketing Director
-
 program-keywords:
   - Strategic thinking
   - Critical thinking
@@ -361,3 +329,35 @@ courses:
   - code:
     name: 
     description: 
+
+algonquin-contacts:
+  - lastname: Gill
+    firstname: Chris
+    title: Manager, Recruitment & Brand
+    email: "gillc@algonquincollege.com"
+  - lastname: Devries
+    firstname: Jessica
+    title: Academic Development
+    email: devriej1@algonquincollege.com
+  - lastname: McDonald
+    firstname: Alanna
+    title: Academic Development
+    email: macdona2@algonquincollege.com
+  - lastname: Ryall
+    firstname: Heather
+    title: Dean, School of Media & Design
+    email: ryallh@algonquincollege.com
+  - lastname: Sharma
+    firstname: Abhay
+    title: Chair, Acting, School of Media & Design
+    email: sharmaa@algonquincollege.com
+  - lastname: Norris
+    firstname: Tracy
+    title: Chair, Academic Access Centre
+    email: norrist@algonquincollege.com
+  - lastname: Smeal
+    firstname: Steven
+    title: Admissions Officer
+  - lastname: McDonell
+    firstname: Alanna
+    title: Marketing Director
