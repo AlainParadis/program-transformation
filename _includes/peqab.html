@@ -1,16 +1,17 @@
-<h4>PEQAB</h4>
-{{ site.data.sitewide.peqab_intro }}
+<h4>
+	<a name="PEQAB">PEQAB</a> 
+</h4>
+{{ site.data.sitewide.peqab_intro }} 
 <h5>
-System Coordination Considerations
+	System Coordination Considerations 
 </h5>
 <ol>
 	{% for standards in site.data.sitewide.system_coordination_considerations %} 
 	<li><strong>{{ standards.title }}:</strong> {{ standards.description }}</li>
 	{% endfor %} 
 </ol>
-
 <h5>
-	<a name="PEQAB">PEQAB’s 12 standards:</a>
+	PEQAB’s 12 standards: 
 </h5>
 <ol>
 	{% for standards in site.data.sitewide.peqab-standards %} 
@@ -27,4 +28,3 @@ System Coordination Considerations
 	<li>Alignment with Algonquin’s Program Quality Assurance Framework and strategic plan.</li>
 	<li>Impact on faculty workload, culture, and equity.</li>
 </ul>
-
