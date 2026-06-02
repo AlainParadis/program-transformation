@@ -459,6 +459,7 @@ main ol
 	counter-reset: li;
 	list-style: decimal;
 	margin-top: 1rem;
+	margin-left: 1rem;
 }
 
 main ol ul { padding-left: 0; }
