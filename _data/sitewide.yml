@@ -283,8 +283,8 @@ risk-mitigation:
     risk-item-desc: "Positioned as the right credential for applied practice. Honours pathway can be added later if demand warrants."
   - risk-item: "Tuition price sensitivity"
     risk-item-desc: "Three-year structure reduces total cost versus four-year alternatives, while still commanding degree-level tuition."
-  - risk-item: "Faculty credentials gap for degree teaching (PEQAB requires Master's for 50% of core)"
-    risk-item-desc: "Identify gaps early. Plan hiring or up-skilling during Development phase. Existing Master's-credentialed faculty already on staff."
+  - risk-item: "Faculty credentials for degree teaching"
+    risk-item-desc: "Core faculty require a Master’s. At least 40 percent of the total student experience requires terminal-credentialed faculty, normally a doctorate. Plan: confirm existing Master’s-qualified faculty, plan hiring and up-skilling during Development, and seek a PEQAB Pre-Determination on an acceptable terminal-credential package for design."
 
 stakeholders:
   - "Current Students"
