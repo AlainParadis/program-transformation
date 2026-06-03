@@ -210,7 +210,8 @@ elements:
 
 strat-plan-title: "Strategic Alignment"
 strat-plan-url: "https://www.algonquincollege.com/strategicplan/"
-strat-plan-intro: "Algonquin's Màmawe pinàshkàdà strategic plan identifies three priorities, each grounded in our polytechnic positioning."
+strat-plan-intro: "This is how the proposed program aligns with with Màmawe pinàshkàdà (2025-2030). <a href='{{ site.data.sitewide.strat-plan-url }}' target='_blank' class='external'></a> The plan sets three priorities. Each priority carries named objectives. The plan also rests on four Foundations for Success. The program advances all three priorities, maps to named objectives within each, and supports all four foundations."
+
 strat-plan:
   - priority: 01
     title: "Career-focused, lifelong learning"
