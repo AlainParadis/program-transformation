@@ -3,7 +3,7 @@
 {{ site.data.sitewide.strat-plan-intro }}
 </p>
 
-{% assign sorted = site.data.sitewide.strat-plan | sort: "priority" %}
+{% assign sorted = site.data.sitewide.strat-plan %}
 <ol>
   {% for item in sorted %}
     <li>
