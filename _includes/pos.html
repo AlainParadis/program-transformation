@@ -2,16 +2,19 @@
 	<a name="pos">Reimagined Program of Study</a> 
 </h4>
 <p>
-	This program of study was created (with A.I. assistance). It's not meant for implementation. It's meant to demonstrate what is possible. 
+	The program reserves non-core breadth across the manual’s categories. Humanities, sciences, social sciences, global cultures, and mathematics are all represented. At least one non-core course is a freely chosen elective. The exact non-core share is set by program hours. It will be confirmed against the 15% benchmark during Development. 
 </p>
-
+<p>
+	<em>This program of study was created (with A.I. assistance). It's not meant for implementation. It's meant to demonstrate what is possible. </em> 
+</p>
 {% for item in site.data.pos.semesters %} 
 <h5>
-	<a name="{{ item.a-name }}">{{ item.title }}</a>
+	<a name="{{ item.a-name }}">{{ item.title }}</a> 
 </h5>
 <ol>
 	{% for course in item.courses %} 
-	<li> <strong>{{ course.title }}</strong> <span class="text-small text-medium">{{ course.core }}</span><br> {{ course.description }} </li>
+	<li> <strong>{{ course.title }}</strong> <span class="text-small text-medium">{{ course.core }}</span><br>
+	{{ course.description }} </li>
 	{% endfor %} 
 </ol>
 {% endfor %} 
