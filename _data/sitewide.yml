@@ -238,25 +238,6 @@ strat-plan:
     title: "Polytechnic identity"
     response: "The program reflects the polytechnic advantage the plan places at its centre. It pairs applied learning with applied research through process-driven inquiry, the showcase capstone, and industry collaboration. This positions the program within the vision of polytechnic leadership in the nation’s capital."
 
-differentiators-title: "Points of Differentiation"
-differentiators-intro: "Multiple Canadian institutions already offer design degrees. The proposed program differentiates on five points they do not own together."
-differentiators:
-  - differentiator: 01
-    differentiator-title: "AI-integrated, not AI-adjacent"
-    differentiator-desc: "AI is built into the curriculum strategy, not bolted on as one elective. Generative AI tools are integrated from semester one as creative and production partners, with explicit attention to ethics, originality, and human direction."
-  - differentiator: 02
-    differentiator-title: "Process portfolio, not artifact portfolio"
-    differentiator-desc: "Assessment rewards documented decision-making, not just polished final work. This proves to employers that graduates can be trusted with ambiguous problems. Assessment shifts from polished final artifacts to documented decision-making processes. Portfolios demonstrate strategic capacity, not just visual output."
-  - differentiator: 03
-    differentiator-title: "Cross-disciplinary breadth"
-    differentiator-desc: "Graphic, interactive, product, and service design taught as one practice, reflecting how the industry actually works."
-  - differentiator: 04
-    differentiator-title: "Three years, not four"
-    differentiator-desc: "Faster time to credential, lower total tuition, full degree recognition."
-  - differentiator: 05
-    differentiator-title: "College pedagogy with degree outcomes"
-    differentiator-desc: "Smaller class sizes, applied focus, and industry immersion paired with degree-level theory and research expectations."
-
 evidence-base:
   - evidence-category: "Labour market signals"
     evidence-items:
@@ -276,6 +257,25 @@ evidence-base:
     evidence-items:
       - evidence-item: "Industry partners and the Program Advisory Committee have raised the AI shift in PAC discussions."
       - evidence-item: "Faculty have signalled readiness to evolve curriculum beyond the current diploma framework."
+
+differentiators-title: "Points of Differentiation"
+differentiators-intro: "Multiple Canadian institutions already offer design degrees. The proposed program differentiates on five points they do not own together."
+differentiators:
+  - differentiator: 01
+    differentiator-title: "AI-integrated, not AI-adjacent"
+    differentiator-desc: "AI is built into the curriculum strategy, not bolted on as one elective. Generative AI tools are integrated from semester one as creative and production partners, with explicit attention to ethics, originality, and human direction."
+  - differentiator: 02
+    differentiator-title: "Process portfolio, not artifact portfolio"
+    differentiator-desc: "Assessment rewards documented decision-making, not just polished final work. This proves to employers that graduates can be trusted with ambiguous problems. Assessment shifts from polished final artifacts to documented decision-making processes. Portfolios demonstrate strategic capacity, not just visual output."
+  - differentiator: 03
+    differentiator-title: "Cross-disciplinary breadth"
+    differentiator-desc: "Graphic, interactive, product, and service design taught as one practice, reflecting how the industry actually works."
+  - differentiator: 04
+    differentiator-title: "Three years, not four"
+    differentiator-desc: "Faster time to credential, lower total tuition, full degree recognition."
+  - differentiator: 05
+    differentiator-title: "College pedagogy with degree outcomes"
+    differentiator-desc: "Smaller class sizes, applied focus, and industry immersion paired with degree-level theory and research expectations."
 
 risk-mitigation:
   - risk-item: "3-year Applied Degree has little track record"
