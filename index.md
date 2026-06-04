@@ -24,6 +24,6 @@ order: 0
 {% include peqab.html %}
 {% include top-link.html %}
 <hr>
-{% include links.html %}
+<!-- {% include links.html %} -->
 {% include downloads.html %}
 {% include top-link.html %}
