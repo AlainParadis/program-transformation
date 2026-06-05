@@ -37,16 +37,15 @@ html
 	scroll-behavior: smooth;
 }
 
-.text-dark        { color: var(--dark) }
-.text-medium      { color: var(--medium) }
-.text-light       { color: var(--light) }
-.text-lightest    { color: var(--lightest) }
-.text-green       { color: var(--green) }
-.text-orange      { color: var(--orange) }
-.text-orange-50   { color: var(--orange50) }
-.text-lime-green  { color: var(--lime-green) }
-.text-lime-light  { color: var(--lime-green-light) }
-
+.text-dark { color: var(--dark); }
+.text-medium { color: var(--medium); }
+.text-light { color: var(--light); }
+.text-lightest { color: var(--lightest); }
+.text-green { color: var(--green); }
+.text-orange { color: var(--orange); }
+.text-orange-50 { color: var(--orange50); }
+.text-lime-green { color: var(--lime-green); }
+.text-lime-light { color: var(--lime-green-light); }
 .sans { font-family: var(--sans); }
 .mono { font-family: var(--mono); }
 
