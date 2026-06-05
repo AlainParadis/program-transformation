@@ -668,7 +668,7 @@ table
 	border-spacing: .25rem;
 	margin-bottom: 2rem;
 	margin-top: 2rem;
-	font-family: var(--sans);
+	font-family: var(--mono);
 }
 
 th
